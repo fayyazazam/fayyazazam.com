@@ -1,0 +1,40 @@
+body {
+  font-family: 'Lato';
+}
+
+.grid {
+  padding: 20px 0;
+}
+
+footer .row,
+.grid .row {
+  display: flex;
+  align-items: flex-end;
+}
+
+nav p {
+  display: flex;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("UnderConstruction.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  opacity: 0.95;
+  margin-top: 48px;
+}
+
+.jumbotron h2 {
+  font-family: 'Lato', serif;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 100;
+  margin: 0;
+  color: #fff;
+}
