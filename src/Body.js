@@ -11,9 +11,7 @@ export default class Body extends React.Component {
       <div>
         <Jumbotron>
           <Grid>
-            <Row>
               <h2>Site is under construction!</h2>
-            </Row>
           </Grid>
         </Jumbotron>
       </div>

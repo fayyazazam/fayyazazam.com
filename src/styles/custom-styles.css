@@ -2,20 +2,24 @@ body {
   font-family: 'Lato';
 }
 
-.grid {
-  padding: 20px 0;
+body h1 {
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.container {
+    padding: 20px 0;
 }
 
-footer .row,
-.grid .row {
-  display: flex;
-  align-items: flex-end;
+.container .row {
+    display: flex;
+    align-items: center;
 }
 
-nav p {
-  display: flex;
-  text-align: right;
-  padding: 0 20px;
+.col-sm-8 p {
+    padding: 0 20px;
+    margin: 0;
 }
 
 .jumbotron {
@@ -27,7 +31,6 @@ nav p {
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
   opacity: 0.95;
-  margin-top: 48px;
 }
 
 .jumbotron h2 {
@@ -37,4 +40,9 @@ nav p {
   font-weight: 100;
   margin: 0;
   color: #fff;
+}
+
+footer {
+    padding-top: 0;
+    font-size: 12px;
 }

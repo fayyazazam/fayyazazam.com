@@ -1,13 +1,13 @@
 {
-  "name": "thinkful-react-bootstrap-example",
-  "version": "0.0.0",
-  "description": "React-Bootstrap example for Thinkful",
+  "name": "fayyazazam.github.io",
+  "version": "0.0.1",
+  "description": "React version of website",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w"
   },
-  "author": "Matthew L Smith <mtscout6@gmail.com>",
+  "author": "Fayyaz Azam <fayyazazam@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel": "^5.8.23",
