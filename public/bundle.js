@@ -18708,7 +18708,7 @@
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"!!./../../node_modules/css-loader/index.js!./custom-styles.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var content = __webpack_require__(236);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(234)(content, {});
@@ -18728,8 +18728,26 @@
 	}
 
 /***/ },
-/* 236 */,
-/* 237 */,
+/* 236 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(228)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "body {\n    font-family: 'Lato', sans-serif;\n}\n\nbody h1 {\n    font-weight: 600;\n    margin: 0;\n    display: flex;\n    align-items: center;\n}\n.container {\n    padding: 20px 0;\n}\n\n.container .row {\n    display: flex;\n    align-items: center;\n}\n\n.col-sm-8 a,\n.col-sm-8 a:hover,\n.col-sm-8 a:visited {\n    padding: 0 20px;\n    margin: 0;\n    color: black;\n    text-decoration: none;\n}\n\n.jumbotron {\n  display: flex;\n  align-items: center;\n  background-image: url(" + __webpack_require__(237) + ");\n  background-size: cover;\n  color: #ffffff;\n  height: 500px;\n  text-shadow: 0.25px 0.25px 0.25px #000000;\n  opacity: 0.95;\n\n    /* Create the parallax scrolling effect */\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n}\n\n.jumbotron h2 {\n  font-family: 'Lato', serif;\n  text-align: center;\n  font-size: 55px;\n  font-weight: 100;\n  margin: 0;\n  color: #fff;\n}\n\n#About {\n    font-size: 50px;\n}\n\n#Skills {\n    font-size: 50px;\n}\n\n#Experiences {\n    font-size: 50px;\n}\n\nfooter {\n    padding-top: 0;\n    font-size: 12px;\n}", ""]);
+
+	// exports
+
+
+/***/ },
+/* 237 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "1ed5d9e6c69cfb4f33ef80ebd48b8e22.jpg";
+
+/***/ },
 /* 238 */
 /***/ function(module, exports, __webpack_require__) {
 
