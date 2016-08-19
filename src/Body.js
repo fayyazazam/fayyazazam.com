@@ -8,13 +8,21 @@ import Col from 'react-bootstrap/lib/Col';
 export default class Body extends React.Component {
   render() {
     return (
-      <div>
-        <Jumbotron>
-          <Grid>
+        <div>
+          <Jumbotron>
+            <Grid>
               <h2>Site is under construction!</h2>
-          </Grid>
-        </Jumbotron>
-      </div>
+            </Grid>
+          </Jumbotron>
+          <div>
+            <h3 id="About">Good morning</h3>
+            <p>Long paragraph</p>
+            <h3 id="Skills">Skills</h3>
+            <p>Table format</p>
+            <h3 id="Experiences">Experiences</h3>
+            <p>Paragraph (image)</p>
+          </div>
+        </div>
     );
   }
 }

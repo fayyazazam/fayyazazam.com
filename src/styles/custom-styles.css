@@ -1,5 +1,9 @@
 body {
+<<<<<<< Updated upstream
   font-family: 'Lato';
+=======
+    font-family: 'Lato', sans-serif;
+>>>>>>> Stashed changes
 }
 
 body h1 {
@@ -50,6 +54,18 @@ body h1 {
   font-weight: 100;
   margin: 0;
   color: #fff;
+}
+
+#About {
+    font-size: 50px;
+}
+
+#Skills {
+    font-size: 50px;
+}
+
+#Experiences {
+    font-size: 50px;
 }
 
 footer {
