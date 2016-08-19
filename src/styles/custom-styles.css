@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato';
+    font-family: 'Lato';
 }
 
 body h1 {
@@ -27,16 +27,15 @@ body h1 {
 }
 
 .jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url("UnderConstruction.jpg");
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-  opacity: 0.95;
+    display: flex;
+    align-items: center;
+    background-image: url("UnderConstruction.jpg");
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    opacity: 0.95;
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,12 +43,12 @@ body h1 {
 }
 
 .jumbotron h2 {
-  font-family: 'Lato', serif;
-  text-align: center;
-  font-size: 55px;
-  font-weight: 100;
-  margin: 0;
-  color: #fff;
+    font-family: 'Lato', serif;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 100;
+    margin: 0;
+    color: #fff;
 }
 
 footer {
