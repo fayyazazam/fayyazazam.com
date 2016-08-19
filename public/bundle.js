@@ -60,11 +60,11 @@
 
 	var _HeaderNavigation2 = _interopRequireDefault(_HeaderNavigation);
 
-	var _Body = __webpack_require__(308);
+	var _Body = __webpack_require__(307);
 
 	var _Body2 = _interopRequireDefault(_Body);
 
-	var _Footer = __webpack_require__(317);
+	var _Footer = __webpack_require__(316);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -18736,7 +18736,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  font-family: 'Lato';\n}\n\nbody h1 {\n    font-weight: 600;\n    margin: 0;\n    display: flex;\n    align-items: center;\n}\n.container {\n    padding: 20px 0;\n}\n\n.container .row {\n    display: flex;\n    align-items: center;\n}\n\n.col-sm-8 p {\n    padding: 0 20px;\n    margin: 0;\n}\n\n.jumbotron {\n  display: flex;\n  align-items: center;\n  background-image: url(" + __webpack_require__(237) + ");\n  background-size: cover;\n  color: #ffffff;\n  height: 500px;\n  text-shadow: 0.25px 0.25px 0.25px #000000;\n  opacity: 0.95;\n}\n\n.jumbotron h2 {\n  font-family: 'Lato', serif;\n  text-align: center;\n  font-size: 55px;\n  font-weight: 100;\n  margin: 0;\n  color: #fff;\n}\n\nfooter {\n    padding-top: 0;\n    font-size: 12px;\n}", ""]);
+	exports.push([module.id, "body {\n  font-family: 'Lato';\n}\n\nbody h1 {\n    font-weight: 600;\n    margin: 0;\n    display: flex;\n    align-items: center;\n}\n.container {\n    padding: 20px 0;\n}\n\n.container .row {\n    display: flex;\n    align-items: center;\n}\n\n.col-sm-8 a,\n.col-sm-8 a:hover,\n.col-sm-8 a:visited {\n    padding: 0 20px;\n    margin: 0;\n    color: black;\n    text-decoration: none;\n}\n\n.jumbotron {\n  display: flex;\n  align-items: center;\n  background-image: url(" + __webpack_require__(237) + ");\n  background-size: cover;\n  color: #ffffff;\n  height: 500px;\n  text-shadow: 0.25px 0.25px 0.25px #000000;\n  opacity: 0.95;\n\n    /* Create the parallax scrolling effect */\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n}\n\n.jumbotron h2 {\n  font-family: 'Lato', serif;\n  text-align: center;\n  font-size: 55px;\n  font-weight: 100;\n  margin: 0;\n  color: #fff;\n}\n\nfooter {\n    padding-top: 0;\n    font-size: 12px;\n}", ""]);
 
 	// exports
 
@@ -18823,23 +18823,23 @@
 	                        { sm: 8,
 	                            style: { display: 'flex', justifyContent: 'flex-end' } },
 	                        _react2['default'].createElement(
-	                            'p',
-	                            null,
+	                            'a',
+	                            { href: '#' },
 	                            'About Me'
 	                        ),
 	                        _react2['default'].createElement(
-	                            'p',
-	                            null,
+	                            'a',
+	                            { href: '#' },
 	                            'Skills'
 	                        ),
 	                        _react2['default'].createElement(
-	                            'p',
-	                            null,
+	                            'a',
+	                            { href: '#' },
 	                            'Experiences'
 	                        ),
 	                        _react2['default'].createElement(
-	                            'p',
-	                            null,
+	                            'a',
+	                            { href: '#' },
 	                            'Contact'
 	                        )
 	                    )
@@ -21970,8 +21970,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 307 */,
-/* 308 */
+/* 307 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -21994,7 +21993,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactBootstrapLibButton = __webpack_require__(309);
+	var _reactBootstrapLibButton = __webpack_require__(308);
 
 	var _reactBootstrapLibButton2 = _interopRequireDefault(_reactBootstrapLibButton);
 
@@ -22002,7 +22001,7 @@
 
 	var _reactBootstrapLibGrid2 = _interopRequireDefault(_reactBootstrapLibGrid);
 
-	var _reactBootstrapLibJumbotron = __webpack_require__(316);
+	var _reactBootstrapLibJumbotron = __webpack_require__(315);
 
 	var _reactBootstrapLibJumbotron2 = _interopRequireDefault(_reactBootstrapLibJumbotron);
 
@@ -22053,7 +22052,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 309 */
+/* 308 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22080,7 +22079,7 @@
 
 	var _utilsCustomPropTypes2 = _interopRequireDefault(_utilsCustomPropTypes);
 
-	var _ButtonInput = __webpack_require__(310);
+	var _ButtonInput = __webpack_require__(309);
 
 	var _ButtonInput2 = _interopRequireDefault(_ButtonInput);
 
@@ -22171,7 +22170,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 310 */
+/* 309 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22180,7 +22179,7 @@
 
 	var _classCallCheck = __webpack_require__(279)['default'];
 
-	var _objectWithoutProperties = __webpack_require__(311)['default'];
+	var _objectWithoutProperties = __webpack_require__(310)['default'];
 
 	var _extends = __webpack_require__(240)['default'];
 
@@ -22192,19 +22191,19 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _Button = __webpack_require__(309);
+	var _Button = __webpack_require__(308);
 
 	var _Button2 = _interopRequireDefault(_Button);
 
-	var _FormGroup = __webpack_require__(312);
+	var _FormGroup = __webpack_require__(311);
 
 	var _FormGroup2 = _interopRequireDefault(_FormGroup);
 
-	var _InputBase2 = __webpack_require__(313);
+	var _InputBase2 = __webpack_require__(312);
 
 	var _InputBase3 = _interopRequireDefault(_InputBase2);
 
-	var _utilsChildrenValueInputValidation = __webpack_require__(315);
+	var _utilsChildrenValueInputValidation = __webpack_require__(314);
 
 	var _utilsChildrenValueInputValidation2 = _interopRequireDefault(_utilsChildrenValueInputValidation);
 
@@ -22261,7 +22260,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 311 */
+/* 310 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -22281,7 +22280,7 @@
 	exports.__esModule = true;
 
 /***/ },
-/* 312 */
+/* 311 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22351,7 +22350,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 313 */
+/* 312 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22374,11 +22373,11 @@
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
-	var _FormGroup = __webpack_require__(312);
+	var _FormGroup = __webpack_require__(311);
 
 	var _FormGroup2 = _interopRequireDefault(_FormGroup);
 
-	var _Glyphicon = __webpack_require__(314);
+	var _Glyphicon = __webpack_require__(313);
 
 	var _Glyphicon2 = _interopRequireDefault(_Glyphicon);
 
@@ -22567,7 +22566,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 314 */
+/* 313 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22626,7 +22625,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 315 */
+/* 314 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22657,7 +22656,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 316 */
+/* 315 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22705,7 +22704,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 317 */
+/* 316 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';

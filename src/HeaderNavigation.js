@@ -17,10 +17,10 @@ export default class HeaderNavigation extends React.Component {
                     </Col>
                     <Col sm={8}
                          style={{display: 'flex', justifyContent: 'flex-end'}}>
-                        <p>About Me</p>
-                        <p>Skills</p>
-                        <p>Experiences</p>
-                        <p>Contact</p>
+                        <a href="#">About Me</a>
+                        <a href="#">Skills</a>
+                        <a href="#">Experiences</a>
+                        <a href="#">Contact</a>
                     </Col>
                 </Row>
             </Grid>

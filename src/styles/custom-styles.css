@@ -17,9 +17,13 @@ body h1 {
     align-items: center;
 }
 
-.col-sm-8 p {
+.col-sm-8 a,
+.col-sm-8 a:hover,
+.col-sm-8 a:visited {
     padding: 0 20px;
     margin: 0;
+    color: black;
+    text-decoration: none;
 }
 
 .jumbotron {
@@ -31,6 +35,12 @@ body h1 {
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
   opacity: 0.95;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumbotron h2 {
