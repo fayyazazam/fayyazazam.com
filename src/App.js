@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import 'bootstrap/less/bootstrap.less';
 import './styles/custom-styles.css';
 
@@ -8,7 +9,7 @@ import Footer from './Footer';
 
 global.React = React;
 
-React.render(
+ReactDOM.render(
   <div>
     <HeaderNavigation />
     <Body />

@@ -2,30 +2,38 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-body h1 {
+/** HeaderNavigation.js styling **/
+#TitleLogo {
     font-weight: 600;
     margin: 0;
     display: flex;
     align-items: center;
 }
-.container {
+#Container {
     padding: 20px 0;
 }
 
-.container .row {
+#Container-Row {
     display: flex;
     align-items: center;
 }
 
-.col-sm-8 a,
-.col-sm-8 a:hover,
-.col-sm-8 a:visited {
+#Nav-Buttons {
+  display: 'flex';
+  justify-content: 'flex-end';
+}
+
+#Nav-Buttons a,
+#Nav-Buttons a:hover,
+#Nav-Buttons a:visited {
     padding: 0 20px;
     margin: 0;
     color: black;
     text-decoration: none;
 }
 
+
+/** Body.js styling **/
 .jumbotron {
   display: flex;
   align-items: center;
@@ -36,11 +44,11 @@ body h1 {
   text-shadow: 0.25px 0.25px 0.25px #000000;
   opacity: 0.95;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron h2 {
@@ -52,19 +60,19 @@ body h1 {
   color: #fff;
 }
 
+#Sections {
+  padding-left: 15px;
+  margin-left: auto;
+}
+
+#Experiences,
+#Skills,
 #About {
     font-size: 50px;
 }
 
-#Skills {
-    font-size: 50px;
-}
-
-#Experiences {
-    font-size: 50px;
-}
-
+/** Footer.js styling **/
 footer {
-    padding-top: 0;
-    font-size: 12px;
+  padding-top: 500px;
+  font-size: 12px;
 }

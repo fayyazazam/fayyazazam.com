@@ -1,11 +1,24 @@
 import React from 'react';
-import Button from 'react-bootstrap/lib/Button';
+import Scroll from 'react-scroll'
 import Grid from 'react-bootstrap/lib/Grid';
 import Jumbotron from 'react-bootstrap/lib/Jumbotron';
-import Row from 'react-bootstrap/lib/Row';
-import Col from 'react-bootstrap/lib/Col';
 
 export default class Body extends React.Component {
+  getTimeofDay() {
+    var now = new Date();
+    var hour = now.getHours();
+
+    if(hour > 3 && hour < 12) {
+      return "Morning";
+    }
+    else if(hour > 12 && hour < 5) {
+      return "Afternoon";
+    }
+    else {
+      return "Evening";
+    }
+  }
+
   render() {
     return (
         <div>
@@ -14,14 +27,14 @@ export default class Body extends React.Component {
               <h2>Site is under construction!</h2>
             </Grid>
           </Jumbotron>
-          <div>
-            <h3 id="About">Good morning</h3>
-            <p>Long paragraph</p>
+          <Grid>
+            <h3 id="About">Good {this.getTimeofDay()}</h3>
+            <p>Based on users time</p>
             <h3 id="Skills">Skills</h3>
             <p>Table format</p>
             <h3 id="Experiences">Experiences</h3>
-            <p>Paragraph (image)</p>
-          </div>
+            <p>Paragraph : (image)</p>
+          </Grid>
         </div>
     );
   }
