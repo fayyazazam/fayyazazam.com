@@ -19,8 +19,8 @@ body {
 }
 
 #Nav-Buttons {
-  display: 'flex';
-  justify-content: 'flex-end';
+  display: flex;
+  justify-content: flex-end;
 }
 
 #Nav-Buttons a,

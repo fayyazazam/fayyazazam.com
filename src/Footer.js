@@ -7,6 +7,8 @@ export default class Footer extends React.Component {
       <Grid>
         <footer>
           <p>Created by: Fayyaz Azam</p>
+          /** How to include icons**/
+          <i className="fa fa-facebook-official"></i>
         </footer>
       </Grid>
     );

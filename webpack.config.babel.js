@@ -18,8 +18,8 @@ export default {
       { test: /\.css/, loader: 'style!css' },
       // Used for Bootstrap Glyphicon Fonts
       { test: /\.(woff2|woff|ttf|svg|eot)$/, loader: 'file' },
-      {test: /\.(jpe?g|png|gif|svg|ico)$/i, loader: 'file'
-  }
+      // Used for Images
+      { test: /\.(jpe?g|png|gif|svg|ico)$/i, loader: 'file'}
     ]
   }
 };
