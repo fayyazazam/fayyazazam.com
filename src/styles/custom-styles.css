@@ -22,7 +22,6 @@ body {
     text-shadow: 0.25px 0.25px 0.25px #000000;
     opacity: 0.95;
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -68,7 +68,7 @@
 
 	var _Body2 = _interopRequireDefault(_Body);
 
-	var _Footer = __webpack_require__(402);
+	var _Footer = __webpack_require__(397);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -21891,7 +21891,7 @@
 
 
 	// module
-	exports.push([module.id, "/** Global settings for items **/\nhtml {\n    position: relative;\n    min-height: 100%;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n}\n\n.navbar {\n    border: 0;\n}\n\n.jumbotron {\n    display: flex;\n    align-items: center;\n    background-image: url(" + __webpack_require__(252) + ");\n    background-size: cover;\n    color: #ffffff;\n    height: 500px;\n    text-shadow: 0.25px 0.25px 0.25px #000000;\n    opacity: 0.95;\n\n    /* Create the parallax scrolling effect */\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n.jumbotron h2 {\n    font-family: 'Lato', serif;\n    text-align: center;\n    font-size: 55px;\n    font-weight: 100;\n    margin: 0;\n    color: #fff;\n}\n\n/** HeaderNavigation.js styling **/\n#Header-Nav {\n    opacity: 0.9;\n    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));\n    text-shadow: 0.25px 0.25px 0.15px #000000;\n}\n\n/** Styling for header bar text **/\n.navbar-inverse .navbar-nav > li > a,\n.navbar-inverse .navbar-nav > li > a:link,\n.navbar-inverse .navbar-nav > li > a:visited {\n    color: #d9d9d9;\n}\n\n.navbar-inverse .navbar-nav > li > a:hover,\n.navbar-inverse .navbar-nav > li > a:active {\n    color: #ffffff;\n}\n\n/** Body.js styling **/\n#About,\n#Skills,\n#Experiences {\n    font-size: 50px;\n    padding-bottom: 300px;\n}\n\n.HeaderTransition {\n    opacity: 0.01;\n    -moz-transition: all 700ms ease-out;\n    -webkit-transition: all 700ms ease-out;\n    transition: all 700ms ease-out;\n    -moz-transform: translate3d(-200px, 0px, 0px);\n    -webkit-transform: translate3d(-200px, 0px, 0px);\n    transform: translate3d(-200px, 0px, 0px);\n    -webkit-backface-visibility: hidden;\n    -moz-backface-visibility: hidden;\n    backface-visibility: hidden;\n}\n\n.HeaderTransition--inViewport {\n    opacity: 1;\n    -moz-transform: translate3d(0px, 0px, 0px);\n    -webkit-transform: translate3d(0px, 0px, 0px);\n    transform: translate3d(0px, 0px, 0px);\n}\n\n/** Footer.js styling **/\n#Footer {\n    width: 100%;\n    position: absolute;\n    margin-bottom: 0;\n    color: #333333;\n}\n\n#Social-Links {\n    padding: 0 0 3px;\n}", ""]);
+	exports.push([module.id, "/** Global settings for items **/\nhtml {\n    position: relative;\n    min-height: 100%;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n}\n\n.navbar {\n    border: 0;\n}\n\n.jumbotron {\n    display: flex;\n    align-items: center;\n    background-image: url(" + __webpack_require__(252) + ");\n    background-size: cover;\n    color: #ffffff;\n    height: 500px;\n    text-shadow: 0.25px 0.25px 0.25px #000000;\n    opacity: 0.95;\n\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n.jumbotron h2 {\n    font-family: 'Lato', serif;\n    text-align: center;\n    font-size: 55px;\n    font-weight: 100;\n    margin: 0;\n    color: #fff;\n}\n\n/** HeaderNavigation.js styling **/\n#Header-Nav {\n    opacity: 0.9;\n    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));\n    text-shadow: 0.25px 0.25px 0.15px #000000;\n}\n\n/** Styling for header bar text **/\n.navbar-inverse .navbar-nav > li > a,\n.navbar-inverse .navbar-nav > li > a:link,\n.navbar-inverse .navbar-nav > li > a:visited {\n    color: #d9d9d9;\n}\n\n.navbar-inverse .navbar-nav > li > a:hover,\n.navbar-inverse .navbar-nav > li > a:active {\n    color: #ffffff;\n}\n\n/** Body.js styling **/\n#About,\n#Skills,\n#Experiences {\n    font-size: 50px;\n    padding-bottom: 300px;\n}\n\n.HeaderTransition {\n    opacity: 0.01;\n    -moz-transition: all 700ms ease-out;\n    -webkit-transition: all 700ms ease-out;\n    transition: all 700ms ease-out;\n    -moz-transform: translate3d(-200px, 0px, 0px);\n    -webkit-transform: translate3d(-200px, 0px, 0px);\n    transform: translate3d(-200px, 0px, 0px);\n    -webkit-backface-visibility: hidden;\n    -moz-backface-visibility: hidden;\n    backface-visibility: hidden;\n}\n\n.HeaderTransition--inViewport {\n    opacity: 1;\n    -moz-transform: translate3d(0px, 0px, 0px);\n    -webkit-transform: translate3d(0px, 0px, 0px);\n    transform: translate3d(0px, 0px, 0px);\n}\n\n/** Footer.js styling **/\n#Footer {\n    width: 100%;\n    position: absolute;\n    margin-bottom: 0;\n    color: #333333;\n}\n\n#Social-Links {\n    padding: 0 0 3px;\n}", ""]);
 
 	// exports
 
@@ -21973,8 +21973,8 @@
 	            var scroller = _reactScroll2['default'].scroller;
 
 	            scroller.scrollTo(name, {
-	                duration: 1500,
-	                delay: 100,
+	                duration: 1200,
+	                delay: 75,
 	                offset: -50,
 	                smooth: true
 	            });
@@ -28307,7 +28307,7 @@
 
 	var _reactBootstrapLibJumbotron2 = _interopRequireDefault(_reactBootstrapLibJumbotron);
 
-	var _reactAppear = __webpack_require__(405);
+	var _reactAppear = __webpack_require__(395);
 
 	var _reactAppear2 = _interopRequireDefault(_reactAppear);
 
@@ -28487,14 +28487,367 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 395 */,
-/* 396 */,
-/* 397 */,
-/* 398 */,
-/* 399 */,
-/* 400 */,
-/* 401 */,
-/* 402 */
+/* 395 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = (function () {
+	  function defineProperties(target, props) {
+	    for (var i = 0; i < props.length; i++) {
+	      var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);
+	    }
+	  }return function (Constructor, protoProps, staticProps) {
+	    if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;
+	  };
+	})();
+
+	var _react = __webpack_require__(70);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactDom = __webpack_require__(103);
+
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+
+	var _inViewport = __webpack_require__(396);
+
+	var _inViewport2 = _interopRequireDefault(_inViewport);
+
+	var _classnames = __webpack_require__(353);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	function _interopRequireDefault(obj) {
+	  return obj && obj.__esModule ? obj : { "default": obj };
+	}
+
+	function _classCallCheck(instance, Constructor) {
+	  if (!(instance instanceof Constructor)) {
+	    throw new TypeError("Cannot call a class as a function");
+	  }
+	}
+
+	function _possibleConstructorReturn(self, call) {
+	  if (!self) {
+	    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+	  }return call && (typeof call === "object" || typeof call === "function") ? call : self;
+	}
+
+	function _inherits(subClass, superClass) {
+	  if (typeof superClass !== "function" && superClass !== null) {
+	    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
+	  }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+	}
+
+	var Appear = (function (_Component) {
+	  _inherits(Appear, _Component);
+
+	  function Appear() {
+	    var _ref;
+
+	    var _temp, _this, _ret;
+
+	    _classCallCheck(this, Appear);
+
+	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+	      args[_key] = arguments[_key];
+	    }
+
+	    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Appear.__proto__ || Object.getPrototypeOf(Appear)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+	      inViewport: false
+	    }, _temp), _possibleConstructorReturn(_this, _ret);
+	  }
+
+	  _createClass(Appear, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      var _this2 = this;
+
+	      // watch for viewport entry
+	      var el = _reactDom2["default"].findDOMNode(this);
+	      this.watcher = (0, _inViewport2["default"])(el, function () {
+	        _this2.setState({
+	          inViewport: true
+	        });
+	      });
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      if (this.watcher) {
+	        this.watcher.dispose();
+	      }
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var className = (0, _classnames2["default"])(this.props.className, this.state.inViewport && this.props.className + '--inViewport');
+	      return _react2["default"].createElement('div', { className: className }, this.props.children);
+	    }
+	  }]);
+
+	  return Appear;
+	})(_react.Component);
+
+	Appear.defaultProps = {
+	  className: 'appear-example'
+	};
+	process.env.NODE_ENV !== "production" ? Appear.propTypes = {
+	  children: _react2["default"].PropTypes.object.isRequired,
+	  className: _react2["default"].PropTypes.string
+	} : void 0;
+	exports["default"] = Appear;
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
+
+/***/ },
+/* 396 */
+/***/ function(module, exports) {
+
+	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
+
+	module.exports = inViewport;
+
+	var instances = [];
+	var supportsMutationObserver = typeof global.MutationObserver === 'function';
+
+	function inViewport(elt, params, cb) {
+	  var opts = {
+	    container: global.document.body,
+	    offset: 0
+	  };
+
+	  if (params === undefined || typeof params === 'function') {
+	    cb = params;
+	    params = {};
+	  }
+
+	  var container = opts.container = params.container || opts.container;
+	  var offset = opts.offset = params.offset || opts.offset;
+
+	  for (var i = 0; i < instances.length; i++) {
+	    if (instances[i].container === container) {
+	      return instances[i].isInViewport(elt, offset, cb);
+	    }
+	  }
+
+	  return instances[instances.push(createInViewport(container)) - 1].isInViewport(elt, offset, cb);
+	}
+
+	function addEvent(el, type, fn) {
+	  if (el.attachEvent) {
+	    el.attachEvent('on' + type, fn);
+	  } else {
+	    el.addEventListener(type, fn, false);
+	  }
+	}
+
+	function debounce(func, wait, immediate) {
+	  var timeout;
+	  return function () {
+	    var context = this,
+	        args = arguments;
+	    var callNow = immediate && !timeout;
+	    clearTimeout(timeout);
+	    timeout = setTimeout(later, wait);
+	    if (callNow) func.apply(context, args);
+
+	    function later() {
+	      timeout = null;
+	      if (!immediate) func.apply(context, args);
+	    }
+	  };
+	}
+
+	// https://github.com/jquery/sizzle/blob/3136f48b90e3edc84cbaaa6f6f7734ef03775a07/sizzle.js#L708
+	var contains = global.document.documentElement.compareDocumentPosition ? function (a, b) {
+	  return !!(a.compareDocumentPosition(b) & 16);
+	} : global.document.documentElement.contains ? function (a, b) {
+	  return a !== b && (a.contains ? a.contains(b) : false);
+	} : function (a, b) {
+	  while (b = b.parentNode) {
+	    if (b === a) {
+	      return true;
+	    }
+	  }
+	  return false;
+	};
+
+	function createInViewport(container) {
+	  var watches = createWatches();
+
+	  var scrollContainer = container === global.document.body ? global : container;
+	  var debouncedCheck = debounce(watches.checkAll(watchInViewport), 15);
+
+	  addEvent(scrollContainer, 'scroll', debouncedCheck);
+
+	  if (scrollContainer === global) {
+	    addEvent(global, 'resize', debouncedCheck);
+	  }
+
+	  if (supportsMutationObserver) {
+	    observeDOM(watches, container, debouncedCheck);
+	  }
+
+	  // failsafe check, every 200ms we check for visible images
+	  // usecase: a hidden parent containing eleements
+	  // when the parent becomes visible, we have no event that the children
+	  // became visible
+	  setInterval(debouncedCheck, 150);
+
+	  function isInViewport(elt, offset, cb) {
+	    if (!cb) {
+	      return isVisible(elt, offset);
+	    }
+
+	    var remote = createRemote(elt, offset, cb);
+	    remote.watch();
+	    return remote;
+	  }
+
+	  function createRemote(elt, offset, cb) {
+	    function watch() {
+	      watches.add(elt, offset, cb);
+	    }
+
+	    function dispose() {
+	      watches.remove(elt);
+	    }
+
+	    return {
+	      watch: watch,
+	      dispose: dispose
+	    };
+	  }
+
+	  function watchInViewport(elt, offset, cb) {
+	    if (isVisible(elt, offset)) {
+	      watches.remove(elt);
+	      cb(elt);
+	    }
+	  }
+
+	  function isVisible(elt, offset) {
+	    if (!contains(global.document.documentElement, elt) || !contains(global.document.documentElement, container)) {
+	      return false;
+	    }
+
+	    // Check if the element is visible
+	    // https://github.com/jquery/jquery/blob/740e190223d19a114d5373758127285d14d6b71e/src/css/hiddenVisibleSelectors.js
+	    if (!elt.offsetWidth || !elt.offsetHeight) {
+	      return false;
+	    }
+
+	    var eltRect = elt.getBoundingClientRect();
+	    var viewport = {};
+
+	    if (container === global.document.body) {
+	      viewport = {
+	        top: -offset,
+	        left: -offset,
+	        right: global.document.documentElement.clientWidth + offset,
+	        bottom: global.document.documentElement.clientHeight + offset
+	      };
+	    } else {
+	      var containerRect = container.getBoundingClientRect();
+	      viewport = {
+	        top: containerRect.top - offset,
+	        left: containerRect.left - offset,
+	        right: containerRect.right + offset,
+	        bottom: containerRect.bottom + offset
+	      };
+	    }
+
+	    // The element must overlap with the visible part of the viewport
+	    var visible = eltRect.right >= viewport.left && eltRect.left <= viewport.right && eltRect.bottom >= viewport.top && eltRect.top <= viewport.bottom;
+
+	    return visible;
+	  }
+
+	  return {
+	    container: container,
+	    isInViewport: isInViewport
+	  };
+	}
+
+	function createWatches() {
+	  var watches = [];
+
+	  function add(elt, offset, cb) {
+	    if (!isWatched(elt)) {
+	      watches.push([elt, offset, cb]);
+	    }
+	  }
+
+	  function remove(elt) {
+	    var pos = indexOf(elt);
+	    if (pos !== -1) {
+	      watches.splice(pos, 1);
+	    }
+	  }
+
+	  function indexOf(elt) {
+	    for (var i = watches.length - 1; i >= 0; i--) {
+	      if (watches[i][0] === elt) {
+	        return i;
+	      }
+	    }
+	    return -1;
+	  }
+
+	  function isWatched(elt) {
+	    return indexOf(elt) !== -1;
+	  }
+
+	  function checkAll(cb) {
+	    return function () {
+	      for (var i = watches.length - 1; i >= 0; i--) {
+	        cb.apply(this, watches[i]);
+	      }
+	    };
+	  }
+
+	  return {
+	    add: add,
+	    remove: remove,
+	    isWatched: isWatched,
+	    checkAll: checkAll
+	  };
+	}
+
+	function observeDOM(watches, container, cb) {
+	  var observer = new MutationObserver(watch);
+	  var filter = Array.prototype.filter;
+	  var concat = Array.prototype.concat;
+
+	  observer.observe(container, {
+	    childList: true,
+	    subtree: true,
+	    // changes like style/width/height/display will be catched
+	    attributes: true
+	  });
+
+	  function watch(mutations) {
+	    // some new DOM nodes where previously watched
+	    // we should check their positions
+	    if (mutations.some(knownNodes) === true) {
+	      setTimeout(cb, 0);
+	    }
+	  }
+
+	  function knownNodes(mutation) {
+	    var nodes = concat.call([], Array.prototype.slice.call(mutation.addedNodes), mutation.target);
+	    return filter.call(nodes, watches.isWatched).length > 0;
+	  }
+	}
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
+
+/***/ },
+/* 397 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28525,11 +28878,11 @@
 
 	var _reactBootstrapLibGrid2 = _interopRequireDefault(_reactBootstrapLibGrid);
 
-	var _reactBootstrapLibRow = __webpack_require__(403);
+	var _reactBootstrapLibRow = __webpack_require__(398);
 
 	var _reactBootstrapLibRow2 = _interopRequireDefault(_reactBootstrapLibRow);
 
-	var _reactBootstrapLibCol = __webpack_require__(404);
+	var _reactBootstrapLibCol = __webpack_require__(399);
 
 	var _reactBootstrapLibCol2 = _interopRequireDefault(_reactBootstrapLibCol);
 
@@ -28561,23 +28914,23 @@
 	                    { pullRight: true, id: 'Social-Links' },
 	                    _react2['default'].createElement(
 	                        _reactBootstrapLibNavItem2['default'],
-	                        { href: '#' },
+	                        { href: 'https://github.com/fayyazazam/fayyazazam.github.io' },
 	                        _react2['default'].createElement('i', { id: 'Github-Icon', className: 'fa fa-github-square' })
 	                    ),
 	                    _react2['default'].createElement(
 	                        _reactBootstrapLibNavItem2['default'],
-	                        { href: '#' },
-	                        _react2['default'].createElement('i', { id: 'Facebook-Icon', className: 'fa fa-facebook-square' })
-	                    ),
-	                    _react2['default'].createElement(
-	                        _reactBootstrapLibNavItem2['default'],
-	                        { href: '#' },
+	                        { href: 'https://www.linkedin.com/in/7ayyaz' },
 	                        _react2['default'].createElement('i', { id: 'Linkedin-Icon', className: 'fa fa-linkedin-square' })
 	                    ),
 	                    _react2['default'].createElement(
 	                        _reactBootstrapLibNavItem2['default'],
-	                        { href: '#' },
+	                        { href: 'https://twitter.com/F7YY_' },
 	                        _react2['default'].createElement('i', { id: 'Twitter-Icon', className: 'fa fa-twitter-square' })
+	                    ),
+	                    _react2['default'].createElement(
+	                        _reactBootstrapLibNavItem2['default'],
+	                        { href: 'https://www.facebook.com/FayyazAzam7' },
+	                        _react2['default'].createElement('i', { id: 'Facebook-Icon', className: 'fa fa-facebook-square' })
 	                    )
 	                )
 	            );
@@ -28591,7 +28944,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 403 */
+/* 398 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28680,7 +29033,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 404 */
+/* 399 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28954,366 +29307,6 @@
 
 	exports['default'] = (0, _bootstrapUtils.bsClass)('col', Col);
 	module.exports = exports['default'];
-
-/***/ },
-/* 405 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = (function () {
-	  function defineProperties(target, props) {
-	    for (var i = 0; i < props.length; i++) {
-	      var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);
-	    }
-	  }return function (Constructor, protoProps, staticProps) {
-	    if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;
-	  };
-	})();
-
-	var _react = __webpack_require__(70);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactDom = __webpack_require__(103);
-
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-
-	var _inViewport = __webpack_require__(406);
-
-	var _inViewport2 = _interopRequireDefault(_inViewport);
-
-	var _classnames = __webpack_require__(353);
-
-	var _classnames2 = _interopRequireDefault(_classnames);
-
-	function _interopRequireDefault(obj) {
-	  return obj && obj.__esModule ? obj : { "default": obj };
-	}
-
-	function _classCallCheck(instance, Constructor) {
-	  if (!(instance instanceof Constructor)) {
-	    throw new TypeError("Cannot call a class as a function");
-	  }
-	}
-
-	function _possibleConstructorReturn(self, call) {
-	  if (!self) {
-	    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-	  }return call && (typeof call === "object" || typeof call === "function") ? call : self;
-	}
-
-	function _inherits(subClass, superClass) {
-	  if (typeof superClass !== "function" && superClass !== null) {
-	    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
-	  }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-	}
-
-	var Appear = (function (_Component) {
-	  _inherits(Appear, _Component);
-
-	  function Appear() {
-	    var _ref;
-
-	    var _temp, _this, _ret;
-
-	    _classCallCheck(this, Appear);
-
-	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-	      args[_key] = arguments[_key];
-	    }
-
-	    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Appear.__proto__ || Object.getPrototypeOf(Appear)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-	      inViewport: false
-	    }, _temp), _possibleConstructorReturn(_this, _ret);
-	  }
-
-	  _createClass(Appear, [{
-	    key: 'componentDidMount',
-	    value: function componentDidMount() {
-	      var _this2 = this;
-
-	      // watch for viewport entry
-	      var el = _reactDom2["default"].findDOMNode(this);
-	      this.watcher = (0, _inViewport2["default"])(el, function () {
-	        _this2.setState({
-	          inViewport: true
-	        });
-	      });
-	    }
-	  }, {
-	    key: 'componentWillUnmount',
-	    value: function componentWillUnmount() {
-	      if (this.watcher) {
-	        this.watcher.dispose();
-	      }
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var className = (0, _classnames2["default"])(this.props.className, this.state.inViewport && this.props.className + '--inViewport');
-	      return _react2["default"].createElement('div', { className: className }, this.props.children);
-	    }
-	  }]);
-
-	  return Appear;
-	})(_react.Component);
-
-	Appear.defaultProps = {
-	  className: 'appear-example'
-	};
-	process.env.NODE_ENV !== "production" ? Appear.propTypes = {
-	  children: _react2["default"].PropTypes.object.isRequired,
-	  className: _react2["default"].PropTypes.string
-	} : void 0;
-	exports["default"] = Appear;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
-
-/***/ },
-/* 406 */
-/***/ function(module, exports) {
-
-	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
-
-	module.exports = inViewport;
-
-	var instances = [];
-	var supportsMutationObserver = typeof global.MutationObserver === 'function';
-
-	function inViewport(elt, params, cb) {
-	  var opts = {
-	    container: global.document.body,
-	    offset: 0
-	  };
-
-	  if (params === undefined || typeof params === 'function') {
-	    cb = params;
-	    params = {};
-	  }
-
-	  var container = opts.container = params.container || opts.container;
-	  var offset = opts.offset = params.offset || opts.offset;
-
-	  for (var i = 0; i < instances.length; i++) {
-	    if (instances[i].container === container) {
-	      return instances[i].isInViewport(elt, offset, cb);
-	    }
-	  }
-
-	  return instances[instances.push(createInViewport(container)) - 1].isInViewport(elt, offset, cb);
-	}
-
-	function addEvent(el, type, fn) {
-	  if (el.attachEvent) {
-	    el.attachEvent('on' + type, fn);
-	  } else {
-	    el.addEventListener(type, fn, false);
-	  }
-	}
-
-	function debounce(func, wait, immediate) {
-	  var timeout;
-	  return function () {
-	    var context = this,
-	        args = arguments;
-	    var callNow = immediate && !timeout;
-	    clearTimeout(timeout);
-	    timeout = setTimeout(later, wait);
-	    if (callNow) func.apply(context, args);
-
-	    function later() {
-	      timeout = null;
-	      if (!immediate) func.apply(context, args);
-	    }
-	  };
-	}
-
-	// https://github.com/jquery/sizzle/blob/3136f48b90e3edc84cbaaa6f6f7734ef03775a07/sizzle.js#L708
-	var contains = global.document.documentElement.compareDocumentPosition ? function (a, b) {
-	  return !!(a.compareDocumentPosition(b) & 16);
-	} : global.document.documentElement.contains ? function (a, b) {
-	  return a !== b && (a.contains ? a.contains(b) : false);
-	} : function (a, b) {
-	  while (b = b.parentNode) {
-	    if (b === a) {
-	      return true;
-	    }
-	  }
-	  return false;
-	};
-
-	function createInViewport(container) {
-	  var watches = createWatches();
-
-	  var scrollContainer = container === global.document.body ? global : container;
-	  var debouncedCheck = debounce(watches.checkAll(watchInViewport), 15);
-
-	  addEvent(scrollContainer, 'scroll', debouncedCheck);
-
-	  if (scrollContainer === global) {
-	    addEvent(global, 'resize', debouncedCheck);
-	  }
-
-	  if (supportsMutationObserver) {
-	    observeDOM(watches, container, debouncedCheck);
-	  }
-
-	  // failsafe check, every 200ms we check for visible images
-	  // usecase: a hidden parent containing eleements
-	  // when the parent becomes visible, we have no event that the children
-	  // became visible
-	  setInterval(debouncedCheck, 150);
-
-	  function isInViewport(elt, offset, cb) {
-	    if (!cb) {
-	      return isVisible(elt, offset);
-	    }
-
-	    var remote = createRemote(elt, offset, cb);
-	    remote.watch();
-	    return remote;
-	  }
-
-	  function createRemote(elt, offset, cb) {
-	    function watch() {
-	      watches.add(elt, offset, cb);
-	    }
-
-	    function dispose() {
-	      watches.remove(elt);
-	    }
-
-	    return {
-	      watch: watch,
-	      dispose: dispose
-	    };
-	  }
-
-	  function watchInViewport(elt, offset, cb) {
-	    if (isVisible(elt, offset)) {
-	      watches.remove(elt);
-	      cb(elt);
-	    }
-	  }
-
-	  function isVisible(elt, offset) {
-	    if (!contains(global.document.documentElement, elt) || !contains(global.document.documentElement, container)) {
-	      return false;
-	    }
-
-	    // Check if the element is visible
-	    // https://github.com/jquery/jquery/blob/740e190223d19a114d5373758127285d14d6b71e/src/css/hiddenVisibleSelectors.js
-	    if (!elt.offsetWidth || !elt.offsetHeight) {
-	      return false;
-	    }
-
-	    var eltRect = elt.getBoundingClientRect();
-	    var viewport = {};
-
-	    if (container === global.document.body) {
-	      viewport = {
-	        top: -offset,
-	        left: -offset,
-	        right: global.document.documentElement.clientWidth + offset,
-	        bottom: global.document.documentElement.clientHeight + offset
-	      };
-	    } else {
-	      var containerRect = container.getBoundingClientRect();
-	      viewport = {
-	        top: containerRect.top - offset,
-	        left: containerRect.left - offset,
-	        right: containerRect.right + offset,
-	        bottom: containerRect.bottom + offset
-	      };
-	    }
-
-	    // The element must overlap with the visible part of the viewport
-	    var visible = eltRect.right >= viewport.left && eltRect.left <= viewport.right && eltRect.bottom >= viewport.top && eltRect.top <= viewport.bottom;
-
-	    return visible;
-	  }
-
-	  return {
-	    container: container,
-	    isInViewport: isInViewport
-	  };
-	}
-
-	function createWatches() {
-	  var watches = [];
-
-	  function add(elt, offset, cb) {
-	    if (!isWatched(elt)) {
-	      watches.push([elt, offset, cb]);
-	    }
-	  }
-
-	  function remove(elt) {
-	    var pos = indexOf(elt);
-	    if (pos !== -1) {
-	      watches.splice(pos, 1);
-	    }
-	  }
-
-	  function indexOf(elt) {
-	    for (var i = watches.length - 1; i >= 0; i--) {
-	      if (watches[i][0] === elt) {
-	        return i;
-	      }
-	    }
-	    return -1;
-	  }
-
-	  function isWatched(elt) {
-	    return indexOf(elt) !== -1;
-	  }
-
-	  function checkAll(cb) {
-	    return function () {
-	      for (var i = watches.length - 1; i >= 0; i--) {
-	        cb.apply(this, watches[i]);
-	      }
-	    };
-	  }
-
-	  return {
-	    add: add,
-	    remove: remove,
-	    isWatched: isWatched,
-	    checkAll: checkAll
-	  };
-	}
-
-	function observeDOM(watches, container, cb) {
-	  var observer = new MutationObserver(watch);
-	  var filter = Array.prototype.filter;
-	  var concat = Array.prototype.concat;
-
-	  observer.observe(container, {
-	    childList: true,
-	    subtree: true,
-	    // changes like style/width/height/display will be catched
-	    attributes: true
-	  });
-
-	  function watch(mutations) {
-	    // some new DOM nodes where previously watched
-	    // we should check their positions
-	    if (mutations.some(knownNodes) === true) {
-	      setTimeout(cb, 0);
-	    }
-	  }
-
-	  function knownNodes(mutation) {
-	    var nodes = concat.call([], Array.prototype.slice.call(mutation.addedNodes), mutation.target);
-	    return filter.call(nodes, watches.isWatched).length > 0;
-	  }
-	}
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }
 /******/ ]);
