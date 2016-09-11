@@ -1,20 +1,45 @@
 import React from 'react';
-import Button from 'react-bootstrap/lib/Button';
 import Grid from 'react-bootstrap/lib/Grid';
 import Jumbotron from 'react-bootstrap/lib/Jumbotron';
-import Row from 'react-bootstrap/lib/Row';
-import Col from 'react-bootstrap/lib/Col';
+import Appear from 'react-appear';
 
 export default class Body extends React.Component {
+  getTimeofDay() {
+    var now = new Date();
+    var hour = now.getHours();
+
+    //24-hour hour format
+    if(hour > 3 && hour < 12) {
+      return "Morning";
+    }
+    if(hour >= 12 && hour < 17) {
+      return "Afternoon";
+    }
+    else {
+      return "Evening";
+    }
+  }
+
   render() {
     return (
-      <div>
-        <Jumbotron>
-          <Grid>
+        <div>
+          <Jumbotron>
+            <Grid>
               <h2>Site is under construction!</h2>
+            </Grid>
+          </Jumbotron>
+          <Grid id="info">
+            <Appear className="HeaderTransition">
+              <h3 id="About">Good {this.getTimeofDay()}</h3>
+            </Appear>
+            <Appear className="HeaderTransition">
+              <h3 id="Skills">Skills</h3>
+            </Appear>
+            <Appear className="HeaderTransition">
+              <h3 id="Experiences">Experiences</h3>
+            </Appear>
           </Grid>
-        </Jumbotron>
-      </div>
+        </div>
     );
   }
 }
