@@ -1,67 +1,43 @@
 import React from 'react';
 import Scroll from 'react-scroll';
-import Row from 'react-bootstrap/lib/Row';
-import Col from 'react-bootstrap/lib/Col';
-import Grid from 'react-bootstrap/lib/Grid';
+import Nav from 'react-bootstrap/lib/Nav';
+import Navbar from 'react-bootstrap/lib/Navbar';
+import NavItem from 'react-bootstrap/lib/NavItem';
+import NavbarBrand from 'react-bootstrap/lib/NavbarBrand';
+import NavbarCollapse from 'react-bootstrap/lib/NavbarCollapse';
+import NavbarToggle from 'react-bootstrap/lib/NavbarToggle';
+import NavbarHeader from 'react-bootstrap/lib/NavbarHeader';
 
 export default class HeaderNavigation extends React.Component {
-    //TO-DO: Create one function to take to element
-    scrollToBottom() {
-        var scroll  = Scroll.animateScroll;
-        scroll.scrollToBottom();
-     }
-
-     scrollToSkills() {
+    scrollTo(name) {
         var scroller = Scroll.scroller;
 
-        scroller.scrollTo("Skills", {
-          duration: 1500,
-          delay: 100,
-          smooth: true,
+        scroller.scrollTo(name, {
+            duration: 1500,
+            delay: 100,
+            offset: -50,
+            smooth: true
         })
-     }
-
-     scrollToAbout() {
-        var scroller = Scroll.scroller;
-
-        scroller.scrollTo("About", {
-          duration: 1500,
-          delay: 100,
-          smooth: true,
-        })
-     }
-     
-     scrollToExperiences() {
-        var scroller = Scroll.scroller;
-
-        scroller.scrollTo("Experiences", {
-          duration: 1500,
-          delay: 100,
-          smooth: true,
-        })
-     }
-
+    }
 
     render() {
         return (
-            <Grid id="Container">
-                <Row id="Container-Row">
-                    <Col sm={4}>
-                        <h1 id="TitleLogo">
-                            MyFutureLogo.png
-                        </h1>
-                    </Col>
-                    <Col sm={8}
-                         style={{display: 'flex', justifyContent: 'flex-end'}}>
-                         <div id="Nav-Buttons">
-                            <a href="#" onClick={this.scrollToAbout}>About</a>
-                            <a href="#" onClick={this.scrollToSkills}>Skills</a>
-                            <a href="#" onClick={this.scrollToExperiences}>Experiences</a>
-                            <a href="#" onClick={this.scrollToBottom}>Contact</a>
-                        </div>
-                    </Col>
-                </Row>
-            </Grid>
+            <Navbar inverse fixedTop id="Header-Nav">
+                <NavbarHeader>
+                    <NavbarBrand>
+                        <a style={{color: '#d9d9d9'}} href="#">FutureLogo.png</a>
+                    </NavbarBrand>
+                    <NavbarToggle />
+                </NavbarHeader>
+                <NavbarCollapse>
+                    <Nav pullRight>
+                        <NavItem onClick={()=>this.scrollTo('About')} href="#">About</NavItem>
+                        <NavItem onClick={()=>this.scrollTo('Skills')} href="#">Skills</NavItem>
+                        <NavItem onClick={()=>this.scrollTo('Experiences')} href="#">Experiences</NavItem>
+                        <NavItem onClick={()=>this.scrollTo('Footer')} href="#">Contact</NavItem>
+                    </Nav>
+                </NavbarCollapse>
+            </Navbar>
         );
     }
 }

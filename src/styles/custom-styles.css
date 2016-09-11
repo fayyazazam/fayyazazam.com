@@ -1,78 +1,97 @@
+/** Global settings for items **/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     font-family: 'Lato', sans-serif;
 }
 
-/** HeaderNavigation.js styling **/
-#TitleLogo {
-    font-weight: 600;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-#Container {
-    padding: 20px 0;
+.navbar {
+    border: 0;
 }
 
-#Container-Row {
-    display: flex;
-    align-items: center;
-}
-
-#Nav-Buttons {
-  display: flex;
-  justify-content: flex-end;
-}
-
-#Nav-Buttons a,
-#Nav-Buttons a:hover,
-#Nav-Buttons a:visited {
-    padding: 0 20px;
-    margin: 0;
-    color: black;
-    text-decoration: none;
-}
-
-
-/** Body.js styling **/
 .jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url("UnderConstruction.jpg");
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-  opacity: 0.95;
+    display: flex;
+    align-items: center;
+    background-image: url("UnderConstruction.jpg");
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    opacity: 0.95;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .jumbotron h2 {
-  font-family: 'Lato', serif;
-  text-align: center;
-  font-size: 55px;
-  font-weight: 100;
-  margin: 0;
-  color: #fff;
+    font-family: 'Lato', serif;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 100;
+    margin: 0;
+    color: #fff;
 }
 
-#Sections {
-  padding-left: 15px;
-  margin-left: auto;
+/** HeaderNavigation.js styling **/
+#Header-Nav {
+    opacity: 0.9;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+    text-shadow: 0.25px 0.25px 0.15px #000000;
 }
 
-#Experiences,
+/** Styling for header bar text **/
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:link,
+.navbar-inverse .navbar-nav > li > a:visited {
+    color: #d9d9d9;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:active {
+    color: #ffffff;
+}
+
+/** Body.js styling **/
+#About,
 #Skills,
-#About {
+#Experiences {
     font-size: 50px;
+    padding-bottom: 300px;
+}
+
+.HeaderTransition {
+    opacity: 0.01;
+    -moz-transition: all 700ms ease-out;
+    -webkit-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;
+    -moz-transform: translate3d(-200px, 0px, 0px);
+    -webkit-transform: translate3d(-200px, 0px, 0px);
+    transform: translate3d(-200px, 0px, 0px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.HeaderTransition--inViewport {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
 }
 
 /** Footer.js styling **/
-footer {
-  padding-top: 500px;
-  font-size: 12px;
+#Footer {
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0;
+    color: #333333;
+}
+
+#Social-Links {
+    padding: 0 0 3px;
 }
