@@ -13,8 +13,8 @@ export default class HeaderNavigation extends React.Component {
         var scroller = Scroll.scroller;
 
         scroller.scrollTo(name, {
-            duration: 1500,
-            delay: 100,
+            duration: 1200,
+            delay: 75,
             offset: -50,
             smooth: true
         })

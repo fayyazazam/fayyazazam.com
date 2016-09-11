@@ -21973,8 +21973,8 @@
 	            var scroller = _reactScroll2['default'].scroller;
 
 	            scroller.scrollTo(name, {
-	                duration: 1500,
-	                delay: 100,
+	                duration: 1200,
+	                delay: 75,
 	                offset: -50,
 	                smooth: true
 	            });
@@ -28914,23 +28914,23 @@
 	                    { pullRight: true, id: 'Social-Links' },
 	                    _react2['default'].createElement(
 	                        _reactBootstrapLibNavItem2['default'],
-	                        { href: '#' },
+	                        { href: 'https://github.com/fayyazazam/fayyazazam.github.io' },
 	                        _react2['default'].createElement('i', { id: 'Github-Icon', className: 'fa fa-github-square' })
 	                    ),
 	                    _react2['default'].createElement(
 	                        _reactBootstrapLibNavItem2['default'],
-	                        { href: '#' },
-	                        _react2['default'].createElement('i', { id: 'Facebook-Icon', className: 'fa fa-facebook-square' })
-	                    ),
-	                    _react2['default'].createElement(
-	                        _reactBootstrapLibNavItem2['default'],
-	                        { href: '#' },
+	                        { href: 'https://www.linkedin.com/in/7ayyaz' },
 	                        _react2['default'].createElement('i', { id: 'Linkedin-Icon', className: 'fa fa-linkedin-square' })
 	                    ),
 	                    _react2['default'].createElement(
 	                        _reactBootstrapLibNavItem2['default'],
-	                        { href: '#' },
+	                        { href: 'https://twitter.com/F7YY_' },
 	                        _react2['default'].createElement('i', { id: 'Twitter-Icon', className: 'fa fa-twitter-square' })
+	                    ),
+	                    _react2['default'].createElement(
+	                        _reactBootstrapLibNavItem2['default'],
+	                        { href: 'https://www.facebook.com/FayyazAzam7' },
+	                        _react2['default'].createElement('i', { id: 'Facebook-Icon', className: 'fa fa-facebook-square' })
 	                    )
 	                )
 	            );

@@ -11,10 +11,14 @@ export default class Footer extends React.Component {
         return (
             <Navbar inverse id="Footer">
                 <Nav pullRight id="Social-Links">
-                    <NavItem href="#"><i id="Github-Icon" className="fa fa-github-square"></i></NavItem>
-                    <NavItem href="#"><i id="Facebook-Icon" className="fa fa-facebook-square"></i></NavItem>
-                    <NavItem href="#"><i id="Linkedin-Icon" className="fa fa-linkedin-square"></i></NavItem>
-                    <NavItem href="#"><i id="Twitter-Icon" className="fa fa-twitter-square"></i></NavItem>
+                    <NavItem href="https://github.com/fayyazazam/fayyazazam.github.io">
+                        <i id="Github-Icon" className="fa fa-github-square"></i></NavItem>
+                    <NavItem href="https://www.linkedin.com/in/7ayyaz">
+                        <i id="Linkedin-Icon" className="fa fa-linkedin-square"></i></NavItem>
+                    <NavItem href="https://twitter.com/F7YY_">
+                        <i id="Twitter-Icon" className="fa fa-twitter-square"></i></NavItem>
+                    <NavItem href="https://www.facebook.com/FayyazAzam7">
+                        <i id="Facebook-Icon" className="fa fa-facebook-square"></i></NavItem>
                 </Nav>
             </Navbar>
         );
