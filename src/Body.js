@@ -3,6 +3,8 @@ import Grid from 'react-bootstrap/lib/Grid';
 import Jumbotron from 'react-bootstrap/lib/Jumbotron';
 import Appear from 'react-appear';
 
+var DoughnutChart = require("react-chartjs").Doughnut;
+
 export default class Body extends React.Component {
   getTimeofDay() {
     var now = new Date();
@@ -35,6 +37,7 @@ export default class Body extends React.Component {
             <Appear className="HeaderTransition">
               <h3 id="Skills">Skills</h3>
             </Appear>
+            <DoughnutChart data={[300, 50, 100]} width="600" height="250"/>
             <Appear className="HeaderTransition">
               <h3 id="Experiences">Experiences</h3>
             </Appear>
