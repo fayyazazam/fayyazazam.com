@@ -68,7 +68,7 @@
 
 	var _Body2 = _interopRequireDefault(_Body);
 
-	var _Footer = __webpack_require__(442);
+	var _Footer = __webpack_require__(444);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -21904,7 +21904,7 @@
 
 
 	// module
-	exports.push([module.id, "/** Global settings for items **/\nhtml {\n    position: relative;\n    min-height: 100%;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n}\n\n.navbar {\n    border: 0;\n}\n\n.jumbotron {\n    display: flex;\n    align-items: center;\n    background-image: url(" + __webpack_require__(252) + ");\n    background-size: cover;\n    color: #ffffff;\n    height: 500px;\n    text-shadow: 0.25px 0.25px 0.25px #000000;\n    opacity: 0.95;\n\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n.jumbotron h2 {\n    font-family: 'Lato', serif;\n    text-align: center;\n    font-size: 55px;\n    font-weight: 100;\n    margin: 0;\n    color: #fff;\n}\n\n/** HeaderNavigation.js styling **/\n#Header-Nav {\n    opacity: 0.9;\n    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));\n    text-shadow: 0.25px 0.25px 0.15px #000000;\n}\n\n/** Styling for header bar text **/\n.navbar-inverse .navbar-nav > li > a,\n.navbar-inverse .navbar-nav > li > a:link,\n.navbar-inverse .navbar-nav > li > a:visited {\n    color: #d9d9d9;\n}\n\n.navbar-inverse .navbar-nav > li > a:hover,\n.navbar-inverse .navbar-nav > li > a:active {\n    color: #ffffff;\n}\n\n/** Body.js styling **/\n#About {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Experiences {\n    font-size: 50px;\n    padding-bottom: 300px;\n}\n\n.HeaderTransition {\n    opacity: 0.01;\n    -moz-transition: all 700ms ease-out;\n    -webkit-transition: all 700ms ease-out;\n    transition: all 700ms ease-out;\n    -moz-transform: translate3d(-200px, 0px, 0px);\n    -webkit-transform: translate3d(-200px, 0px, 0px);\n    transform: translate3d(-200px, 0px, 0px);\n    -webkit-backface-visibility: hidden;\n    -moz-backface-visibility: hidden;\n    backface-visibility: hidden;\n}\n\n.HeaderTransition--inViewport {\n    opacity: 1;\n    -moz-transform: translate3d(0px, 0px, 0px);\n    -webkit-transform: translate3d(0px, 0px, 0px);\n    transform: translate3d(0px, 0px, 0px);\n}\n\n/** Footer.js styling **/\n#Footer {\n    width: 100%;\n    position: absolute;\n    margin-bottom: 0;\n    color: #333333;\n}\n\n#Social-Links {\n    padding: 0 0 3px;\n}", ""]);
+	exports.push([module.id, "/** Global settings for items **/\nhtml {\n    position: relative;\n    min-height: 100%;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n}\n\n.navbar {\n    border: 0;\n}\n\n.jumbotron {\n    display: flex;\n    align-items: center;\n    background-image: url(" + __webpack_require__(252) + ");\n    background-size: cover;\n    color: #ffffff;\n    height: 500px;\n    text-shadow: 0.25px 0.25px 0.25px #000000;\n    opacity: 0.95;\n\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n.jumbotron h2 {\n    font-family: 'Lato', serif;\n    text-align: center;\n    font-size: 55px;\n    font-weight: 100;\n    margin: 0;\n    color: #fff;\n}\n\n/** HeaderNavigation.js styling **/\n#Header-Nav {\n    opacity: 0.9;\n    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));\n    text-shadow: 0.25px 0.25px 0.15px #000000;\n}\n\n/** Styling for header bar text **/\n.navbar-inverse .navbar-nav > li > a,\n.navbar-inverse .navbar-nav > li > a:link,\n.navbar-inverse .navbar-nav > li > a:visited {\n    color: #d9d9d9;\n}\n\n.navbar-inverse .navbar-nav > li > a:hover,\n.navbar-inverse .navbar-nav > li > a:active {\n    color: #ffffff;\n}\n\n/** Body.js styling **/\n#About {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n\n.HeaderTransition {\n    opacity: 0.01;\n    -moz-transition: all 700ms ease-out;\n    -webkit-transition: all 700ms ease-out;\n    transition: all 700ms ease-out;\n    -moz-transform: translate3d(-200px, 0px, 0px);\n    -webkit-transform: translate3d(-200px, 0px, 0px);\n    transform: translate3d(-200px, 0px, 0px);\n    -webkit-backface-visibility: hidden;\n    -moz-backface-visibility: hidden;\n    backface-visibility: hidden;\n}\n\n.HeaderTransition--inViewport {\n    opacity: 1;\n    -moz-transform: translate3d(0px, 0px, 0px);\n    -webkit-transform: translate3d(0px, 0px, 0px);\n    transform: translate3d(0px, 0px, 0px);\n}\n\n/** WorkExperience.js styling **/\n#Experiences-Header {\n    font-size: 50px;\n    padding-top: 100px;\n    padding-bottom: 30px;\n}\n\n#Experiences-Row {\n    padding-bottom: 100px;\n}\n\n\n/** Footer.js styling **/\n#Footer {\n    width: 100%;\n    position: absolute;\n    margin-bottom: 0;\n    color: #333333;\n}\n\n#Social-Links {\n    padding: 0 0 3px;\n}", ""]);
 
 	// exports
 
@@ -22033,16 +22033,16 @@
 	                        _react2['default'].createElement(
 	                            _reactBootstrapLibNavItem2['default'],
 	                            { onClick: function () {
-	                                    return _this.scrollTo('Skills');
+	                                    return _this.scrollTo('Experiences');
 	                                }, href: '#' },
-	                            'Skills'
+	                            'Experiences'
 	                        ),
 	                        _react2['default'].createElement(
 	                            _reactBootstrapLibNavItem2['default'],
 	                            { onClick: function () {
-	                                    return _this.scrollTo('Experiences');
+	                                    return _this.scrollTo('Projects');
 	                                }, href: '#' },
-	                            'Experiences'
+	                            'Projects'
 	                        ),
 	                        _react2['default'].createElement(
 	                            _reactBootstrapLibNavItem2['default'],
@@ -28073,36 +28073,58 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _WorkExperience = __webpack_require__(445);
+
+	var _WorkExperience2 = _interopRequireDefault(_WorkExperience);
+
+	var _reactBootstrapLibCol = __webpack_require__(392);
+
+	var _reactBootstrapLibCol2 = _interopRequireDefault(_reactBootstrapLibCol);
+
+	var _reactBootstrapLibRow = __webpack_require__(393);
+
+	var _reactBootstrapLibRow2 = _interopRequireDefault(_reactBootstrapLibRow);
+
 	var _reactBootstrapLibGrid = __webpack_require__(370);
 
 	var _reactBootstrapLibGrid2 = _interopRequireDefault(_reactBootstrapLibGrid);
 
-	var _reactBootstrapLibJumbotron = __webpack_require__(392);
+	var _reactBootstrapLibJumbotron = __webpack_require__(394);
 
 	var _reactBootstrapLibJumbotron2 = _interopRequireDefault(_reactBootstrapLibJumbotron);
 
-	var _reactAppear = __webpack_require__(393);
+	var _reactAppear = __webpack_require__(395);
 
 	var _reactAppear2 = _interopRequireDefault(_reactAppear);
 
-	var _reactChartjs2 = __webpack_require__(395);
+	var _reactChartjs2 = __webpack_require__(397);
 
-	var data = {
-	  labels: ["Java", "HTML / CSS", "Javascript / Coffeescript / JSX"],
+	//Colors picked from http://www.w3schools.com/colors/colors_picker.asp
+	//hover background colour 5% darker than background color
+	var chartData = {
+	  labels: ["Java", "Javascript / Coffeescript", "HTML / CSS"],
 	  datasets: [{
-	    data: [50, 15, 35],
-	    backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
-	    hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"]
+	    data: [50, 35, 15],
+	    backgroundColor: ["#595959", "#8c8c8c", "#d9d9d9"],
+	    hoverBackgroundColor: ["#4d4d4d", "#808080", "#cccccc"]
 	  }]
 	};
 
-	var options = {
+	var chartOptions = {
 	  animation: {
 	    animateScale: true
 	  },
-	  tooltips: {
-	    enabled: false
-	  }
+	  legend: {
+	    labels: {
+	      fontColor: "#808080",
+	      fontFamily: "Lato"
+	    }
+	  },
+	  hover: {
+	    mode: "label"
+	  },
+	  responsive: true,
+	  cutoutPercentage: 70
 	};
 
 	var Body = (function (_React$Component) {
@@ -28153,26 +28175,52 @@
 	          _reactBootstrapLibGrid2['default'],
 	          { id: 'info' },
 	          _react2['default'].createElement(
-	            _reactAppear2['default'],
-	            { className: 'HeaderTransition' },
+	            _reactBootstrapLibRow2['default'],
+	            null,
 	            _react2['default'].createElement(
-	              'h3',
-	              { id: 'About' },
-	              'Good ',
-	              this.getTimeofDay(),
-	              '!'
+	              _reactAppear2['default'],
+	              { className: 'HeaderTransition' },
+	              _react2['default'].createElement(
+	                'h3',
+	                { id: 'About' },
+	                'Good ',
+	                this.getTimeofDay(),
+	                '!'
+	              )
 	            )
 	          ),
-	          _react2['default'].createElement(_reactChartjs2.Doughnut, { data: data, options: options }),
 	          _react2['default'].createElement(
-	            _reactAppear2['default'],
-	            { className: 'HeaderTransition' },
+	            _reactBootstrapLibRow2['default'],
+	            null,
 	            _react2['default'].createElement(
-	              'h3',
-	              { id: 'Experiences' },
-	              'Experiences'
+	              _reactBootstrapLibCol2['default'],
+	              { xs: 4 },
+	              _react2['default'].createElement(
+	                'h4',
+	                null,
+	                'big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text'
+	              )
+	            ),
+	            _react2['default'].createElement(
+	              _reactBootstrapLibCol2['default'],
+	              { xs: 8 },
+	              _react2['default'].createElement(_reactChartjs2.Doughnut, { data: chartData, options: chartOptions })
 	            )
-	          )
+	          ),
+	          _react2['default'].createElement(
+	            _reactBootstrapLibRow2['default'],
+	            null,
+	            _react2['default'].createElement(
+	              _reactAppear2['default'],
+	              { className: 'HeaderTransition' },
+	              _react2['default'].createElement(
+	                'h3',
+	                { id: 'Experiences-Header' },
+	                'Work Experience'
+	              )
+	            )
+	          ),
+	          _react2['default'].createElement(_WorkExperience2['default'], null)
 	        )
 	      );
 	    }
@@ -28183,9 +28231,373 @@
 
 	exports['default'] = Body;
 	module.exports = exports['default'];
+	/*Jumbotron and text on it*/ /*The grid container which has the main body*/ /*Header for about. Should say Good Morning/Evening/Night*/ /*About me text*/ /*Doughnut chart*/ /*Row for work experience header title*/ /*Work Experience component that holds all my information*/ /*TODO: Project list will be a component of its own*/
 
 /***/ },
 /* 392 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	exports.__esModule = true;
+
+	var _extends2 = __webpack_require__(267);
+
+	var _extends3 = _interopRequireDefault(_extends2);
+
+	var _objectWithoutProperties2 = __webpack_require__(305);
+
+	var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
+
+	var _classCallCheck2 = __webpack_require__(306);
+
+	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+	var _possibleConstructorReturn2 = __webpack_require__(307);
+
+	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+	var _inherits2 = __webpack_require__(343);
+
+	var _inherits3 = _interopRequireDefault(_inherits2);
+
+	var _classnames = __webpack_require__(351);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _react = __webpack_require__(70);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _elementType = __webpack_require__(366);
+
+	var _elementType2 = _interopRequireDefault(_elementType);
+
+	var _bootstrapUtils = __webpack_require__(356);
+
+	var _StyleConfig = __webpack_require__(362);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var propTypes = {
+	  componentClass: _elementType2['default'],
+
+	  /**
+	   * The number of columns you wish to span
+	   *
+	   * for Extra small devices Phones (<768px)
+	   *
+	   * class-prefix `col-xs-`
+	   */
+	  xs: _react2['default'].PropTypes.number,
+	  /**
+	   * The number of columns you wish to span
+	   *
+	   * for Small devices Tablets (≥768px)
+	   *
+	   * class-prefix `col-sm-`
+	   */
+	  sm: _react2['default'].PropTypes.number,
+	  /**
+	   * The number of columns you wish to span
+	   *
+	   * for Medium devices Desktops (≥992px)
+	   *
+	   * class-prefix `col-md-`
+	   */
+	  md: _react2['default'].PropTypes.number,
+	  /**
+	   * The number of columns you wish to span
+	   *
+	   * for Large devices Desktops (≥1200px)
+	   *
+	   * class-prefix `col-lg-`
+	   */
+	  lg: _react2['default'].PropTypes.number,
+	  /**
+	   * Hide column
+	   *
+	   * on Extra small devices Phones
+	   *
+	   * adds class `hidden-xs`
+	   */
+	  xsHidden: _react2['default'].PropTypes.bool,
+	  /**
+	   * Hide column
+	   *
+	   * on Small devices Tablets
+	   *
+	   * adds class `hidden-sm`
+	   */
+	  smHidden: _react2['default'].PropTypes.bool,
+	  /**
+	   * Hide column
+	   *
+	   * on Medium devices Desktops
+	   *
+	   * adds class `hidden-md`
+	   */
+	  mdHidden: _react2['default'].PropTypes.bool,
+	  /**
+	   * Hide column
+	   *
+	   * on Large devices Desktops
+	   *
+	   * adds class `hidden-lg`
+	   */
+	  lgHidden: _react2['default'].PropTypes.bool,
+	  /**
+	   * Move columns to the right
+	   *
+	   * for Extra small devices Phones
+	   *
+	   * class-prefix `col-xs-offset-`
+	   */
+	  xsOffset: _react2['default'].PropTypes.number,
+	  /**
+	   * Move columns to the right
+	   *
+	   * for Small devices Tablets
+	   *
+	   * class-prefix `col-sm-offset-`
+	   */
+	  smOffset: _react2['default'].PropTypes.number,
+	  /**
+	   * Move columns to the right
+	   *
+	   * for Medium devices Desktops
+	   *
+	   * class-prefix `col-md-offset-`
+	   */
+	  mdOffset: _react2['default'].PropTypes.number,
+	  /**
+	   * Move columns to the right
+	   *
+	   * for Large devices Desktops
+	   *
+	   * class-prefix `col-lg-offset-`
+	   */
+	  lgOffset: _react2['default'].PropTypes.number,
+	  /**
+	   * Change the order of grid columns to the right
+	   *
+	   * for Extra small devices Phones
+	   *
+	   * class-prefix `col-xs-push-`
+	   */
+	  xsPush: _react2['default'].PropTypes.number,
+	  /**
+	   * Change the order of grid columns to the right
+	   *
+	   * for Small devices Tablets
+	   *
+	   * class-prefix `col-sm-push-`
+	   */
+	  smPush: _react2['default'].PropTypes.number,
+	  /**
+	   * Change the order of grid columns to the right
+	   *
+	   * for Medium devices Desktops
+	   *
+	   * class-prefix `col-md-push-`
+	   */
+	  mdPush: _react2['default'].PropTypes.number,
+	  /**
+	   * Change the order of grid columns to the right
+	   *
+	   * for Large devices Desktops
+	   *
+	   * class-prefix `col-lg-push-`
+	   */
+	  lgPush: _react2['default'].PropTypes.number,
+	  /**
+	   * Change the order of grid columns to the left
+	   *
+	   * for Extra small devices Phones
+	   *
+	   * class-prefix `col-xs-pull-`
+	   */
+	  xsPull: _react2['default'].PropTypes.number,
+	  /**
+	   * Change the order of grid columns to the left
+	   *
+	   * for Small devices Tablets
+	   *
+	   * class-prefix `col-sm-pull-`
+	   */
+	  smPull: _react2['default'].PropTypes.number,
+	  /**
+	   * Change the order of grid columns to the left
+	   *
+	   * for Medium devices Desktops
+	   *
+	   * class-prefix `col-md-pull-`
+	   */
+	  mdPull: _react2['default'].PropTypes.number,
+	  /**
+	   * Change the order of grid columns to the left
+	   *
+	   * for Large devices Desktops
+	   *
+	   * class-prefix `col-lg-pull-`
+	   */
+	  lgPull: _react2['default'].PropTypes.number
+	};
+
+	var defaultProps = {
+	  componentClass: 'div'
+	};
+
+	var Col = function (_React$Component) {
+	  (0, _inherits3['default'])(Col, _React$Component);
+
+	  function Col() {
+	    (0, _classCallCheck3['default'])(this, Col);
+	    return (0, _possibleConstructorReturn3['default'])(this, _React$Component.apply(this, arguments));
+	  }
+
+	  Col.prototype.render = function render() {
+	    var _props = this.props;
+	    var Component = _props.componentClass;
+	    var className = _props.className;
+	    var props = (0, _objectWithoutProperties3['default'])(_props, ['componentClass', 'className']);
+
+	    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props);
+
+	    var bsProps = _splitBsProps[0];
+	    var elementProps = _splitBsProps[1];
+
+
+	    var classes = [];
+
+	    _StyleConfig.DEVICE_SIZES.forEach(function (size) {
+	      function popProp(propSuffix, modifier) {
+	        var propName = '' + size + propSuffix;
+	        var propValue = elementProps[propName];
+
+	        if (propValue != null) {
+	          classes.push((0, _bootstrapUtils.prefix)(bsProps, '' + size + modifier + '-' + propValue));
+	        }
+
+	        delete elementProps[propName];
+	      }
+
+	      popProp('', '');
+	      popProp('Offset', '-offset');
+	      popProp('Push', '-push');
+	      popProp('Pull', '-pull');
+
+	      var hiddenPropName = size + 'Hidden';
+	      if (elementProps[hiddenPropName]) {
+	        classes.push('hidden-' + size);
+	      }
+	      delete elementProps[hiddenPropName];
+	    });
+
+	    return _react2['default'].createElement(Component, (0, _extends3['default'])({}, elementProps, {
+	      className: (0, _classnames2['default'])(className, classes)
+	    }));
+	  };
+
+	  return Col;
+	}(_react2['default'].Component);
+
+	Col.propTypes = propTypes;
+	Col.defaultProps = defaultProps;
+
+	exports['default'] = (0, _bootstrapUtils.bsClass)('col', Col);
+	module.exports = exports['default'];
+
+/***/ },
+/* 393 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	exports.__esModule = true;
+
+	var _extends2 = __webpack_require__(267);
+
+	var _extends3 = _interopRequireDefault(_extends2);
+
+	var _objectWithoutProperties2 = __webpack_require__(305);
+
+	var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
+
+	var _classCallCheck2 = __webpack_require__(306);
+
+	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+	var _possibleConstructorReturn2 = __webpack_require__(307);
+
+	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+	var _inherits2 = __webpack_require__(343);
+
+	var _inherits3 = _interopRequireDefault(_inherits2);
+
+	var _classnames = __webpack_require__(351);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _react = __webpack_require__(70);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _elementType = __webpack_require__(366);
+
+	var _elementType2 = _interopRequireDefault(_elementType);
+
+	var _bootstrapUtils = __webpack_require__(356);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var propTypes = {
+	  componentClass: _elementType2['default']
+	};
+
+	var defaultProps = {
+	  componentClass: 'div'
+	};
+
+	var Row = function (_React$Component) {
+	  (0, _inherits3['default'])(Row, _React$Component);
+
+	  function Row() {
+	    (0, _classCallCheck3['default'])(this, Row);
+	    return (0, _possibleConstructorReturn3['default'])(this, _React$Component.apply(this, arguments));
+	  }
+
+	  Row.prototype.render = function render() {
+	    var _props = this.props;
+	    var Component = _props.componentClass;
+	    var className = _props.className;
+	    var props = (0, _objectWithoutProperties3['default'])(_props, ['componentClass', 'className']);
+
+	    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props);
+
+	    var bsProps = _splitBsProps[0];
+	    var elementProps = _splitBsProps[1];
+
+
+	    var classes = (0, _bootstrapUtils.getClassSet)(bsProps);
+
+	    return _react2['default'].createElement(Component, (0, _extends3['default'])({}, elementProps, {
+	      className: (0, _classnames2['default'])(className, classes)
+	    }));
+	  };
+
+	  return Row;
+	}(_react2['default'].Component);
+
+	Row.propTypes = propTypes;
+	Row.defaultProps = defaultProps;
+
+	exports['default'] = (0, _bootstrapUtils.bsClass)('row', Row);
+	module.exports = exports['default'];
+
+/***/ },
+/* 394 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28273,7 +28685,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 393 */
+/* 395 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -28292,7 +28704,7 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _inViewport = __webpack_require__(394);
+	var _inViewport = __webpack_require__(396);
 
 	var _inViewport2 = _interopRequireDefault(_inViewport);
 
@@ -28373,7 +28785,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
 
 /***/ },
-/* 394 */
+/* 396 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {module.exports = inViewport;
@@ -28628,7 +29040,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 395 */
+/* 397 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28650,11 +29062,11 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _chart = __webpack_require__(396);
+	var _chart = __webpack_require__(398);
 
 	var _chart2 = _interopRequireDefault(_chart);
 
-	var _deepEqual = __webpack_require__(441);
+	var _deepEqual = __webpack_require__(443);
 
 	var _deepEqual2 = _interopRequireDefault(_deepEqual);
 
@@ -28964,17 +29376,15 @@
 	}(_react2.default.Component);
 
 /***/ },
-/* 396 */
+/* 398 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
 	 * @namespace Chart
 	 */
-	var Chart = __webpack_require__(397)();
+	var Chart = __webpack_require__(399)();
 
-	__webpack_require__(398)(Chart);
-	__webpack_require__(404)(Chart);
-	__webpack_require__(405)(Chart);
+	__webpack_require__(400)(Chart);
 	__webpack_require__(406)(Chart);
 	__webpack_require__(407)(Chart);
 	__webpack_require__(408)(Chart);
@@ -28985,41 +29395,43 @@
 	__webpack_require__(413)(Chart);
 	__webpack_require__(414)(Chart);
 	__webpack_require__(415)(Chart);
-
 	__webpack_require__(416)(Chart);
 	__webpack_require__(417)(Chart);
+
 	__webpack_require__(418)(Chart);
 	__webpack_require__(419)(Chart);
-
 	__webpack_require__(420)(Chart);
 	__webpack_require__(421)(Chart);
+
 	__webpack_require__(422)(Chart);
 	__webpack_require__(423)(Chart);
 	__webpack_require__(424)(Chart);
 	__webpack_require__(425)(Chart);
+	__webpack_require__(426)(Chart);
+	__webpack_require__(427)(Chart);
 
 	// Controllers must be loaded after elements
 	// See Chart.core.datasetController.dataElementType
-	__webpack_require__(428)(Chart);
-	__webpack_require__(429)(Chart);
 	__webpack_require__(430)(Chart);
 	__webpack_require__(431)(Chart);
 	__webpack_require__(432)(Chart);
 	__webpack_require__(433)(Chart);
-
 	__webpack_require__(434)(Chart);
 	__webpack_require__(435)(Chart);
+
 	__webpack_require__(436)(Chart);
 	__webpack_require__(437)(Chart);
 	__webpack_require__(438)(Chart);
 	__webpack_require__(439)(Chart);
 	__webpack_require__(440)(Chart);
+	__webpack_require__(441)(Chart);
+	__webpack_require__(442)(Chart);
 
 	window.Chart = module.exports = Chart;
 
 
 /***/ },
-/* 397 */
+/* 399 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -29135,14 +29547,14 @@
 
 
 /***/ },
-/* 398 */
+/* 400 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*global window: false */
 	/*global document: false */
 	"use strict";
 
-	var color = __webpack_require__(399);
+	var color = __webpack_require__(401);
 
 	module.exports = function(Chart) {
 		//Global Chart helpers object for utility methods and classes
@@ -30160,12 +30572,12 @@
 
 
 /***/ },
-/* 399 */
+/* 401 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* MIT license */
-	var convert = __webpack_require__(400);
-	var string = __webpack_require__(402);
+	var convert = __webpack_require__(402);
+	var string = __webpack_require__(404);
 
 	var Color = function (obj) {
 		if (obj instanceof Color) {
@@ -30649,10 +31061,10 @@
 
 
 /***/ },
-/* 400 */
+/* 402 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var conversions = __webpack_require__(401);
+	var conversions = __webpack_require__(403);
 
 	var convert = function() {
 	   return new Converter();
@@ -30746,7 +31158,7 @@
 	module.exports = convert;
 
 /***/ },
-/* 401 */
+/* 403 */
 /***/ function(module, exports) {
 
 	/* MIT license */
@@ -31450,11 +31862,11 @@
 
 
 /***/ },
-/* 402 */
+/* 404 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* MIT license */
-	var colorNames = __webpack_require__(403);
+	var colorNames = __webpack_require__(405);
 
 	module.exports = {
 	   getRgba: getRgba,
@@ -31677,7 +32089,7 @@
 
 
 /***/ },
-/* 403 */
+/* 405 */
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -31832,7 +32244,7 @@
 	};
 
 /***/ },
-/* 404 */
+/* 406 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -31941,7 +32353,7 @@
 	};
 
 /***/ },
-/* 405 */
+/* 407 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -32051,7 +32463,7 @@
 
 
 /***/ },
-/* 406 */
+/* 408 */
 /***/ function(module, exports) {
 
 	/*global window: false */
@@ -32187,7 +32599,7 @@
 	};
 
 /***/ },
-/* 407 */
+/* 409 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -32879,7 +33291,7 @@
 
 
 /***/ },
-/* 408 */
+/* 410 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -33049,7 +33461,7 @@
 	};
 
 /***/ },
-/* 409 */
+/* 411 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -33376,7 +33788,7 @@
 
 
 /***/ },
-/* 410 */
+/* 412 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -33421,7 +33833,7 @@
 	};
 
 /***/ },
-/* 411 */
+/* 413 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -33556,7 +33968,7 @@
 
 
 /***/ },
-/* 412 */
+/* 414 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -34324,7 +34736,7 @@
 
 
 /***/ },
-/* 413 */
+/* 415 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -34534,7 +34946,7 @@
 
 
 /***/ },
-/* 414 */
+/* 416 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -35005,7 +35417,7 @@
 
 
 /***/ },
-/* 415 */
+/* 417 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -35727,7 +36139,7 @@
 
 
 /***/ },
-/* 416 */
+/* 418 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -35826,7 +36238,7 @@
 
 
 /***/ },
-/* 417 */
+/* 419 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -36008,7 +36420,7 @@
 	};
 
 /***/ },
-/* 418 */
+/* 420 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -36071,7 +36483,7 @@
 
 
 /***/ },
-/* 419 */
+/* 421 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -36169,7 +36581,7 @@
 	};
 
 /***/ },
-/* 420 */
+/* 422 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -36299,7 +36711,7 @@
 	};
 
 /***/ },
-/* 421 */
+/* 423 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -36427,7 +36839,7 @@
 	};
 
 /***/ },
-/* 422 */
+/* 424 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -36631,7 +37043,7 @@
 	};
 
 /***/ },
-/* 423 */
+/* 425 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -36903,7 +37315,7 @@
 	};
 
 /***/ },
-/* 424 */
+/* 426 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -37326,13 +37738,13 @@
 
 
 /***/ },
-/* 425 */
+/* 427 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*global window: false */
 	"use strict";
 
-	var moment = __webpack_require__(426);
+	var moment = __webpack_require__(428);
 	moment = typeof(moment) === 'function' ? moment : window.moment;
 
 	module.exports = function(Chart) {
@@ -37724,7 +38136,7 @@
 
 
 /***/ },
-/* 426 */
+/* 428 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {//! moment.js
@@ -41961,10 +42373,10 @@
 	    return _moment;
 
 	}));
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(427)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(429)(module)))
 
 /***/ },
-/* 427 */
+/* 429 */
 /***/ function(module, exports) {
 
 	module.exports = function(module) {
@@ -41980,7 +42392,7 @@
 
 
 /***/ },
-/* 428 */
+/* 430 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -42559,7 +42971,7 @@
 
 
 /***/ },
-/* 429 */
+/* 431 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -42687,7 +43099,7 @@
 
 
 /***/ },
-/* 430 */
+/* 432 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -42983,7 +43395,7 @@
 
 
 /***/ },
-/* 431 */
+/* 433 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43338,7 +43750,7 @@
 
 
 /***/ },
-/* 432 */
+/* 434 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43561,7 +43973,7 @@
 
 
 /***/ },
-/* 433 */
+/* 435 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43755,7 +44167,7 @@
 
 
 /***/ },
-/* 434 */
+/* 436 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43771,7 +44183,7 @@
 	};
 
 /***/ },
-/* 435 */
+/* 437 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43786,7 +44198,7 @@
 	};
 
 /***/ },
-/* 436 */
+/* 438 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43802,7 +44214,7 @@
 	};
 
 /***/ },
-/* 437 */
+/* 439 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43818,7 +44230,7 @@
 	};
 
 /***/ },
-/* 438 */
+/* 440 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43834,7 +44246,7 @@
 	};
 
 /***/ },
-/* 439 */
+/* 441 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43852,7 +44264,7 @@
 
 
 /***/ },
-/* 440 */
+/* 442 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43904,7 +44316,7 @@
 	};
 
 /***/ },
-/* 441 */
+/* 443 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -43963,7 +44375,7 @@
 	exports.default = deepEqual;
 
 /***/ },
-/* 442 */
+/* 444 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43994,11 +44406,11 @@
 
 	var _reactBootstrapLibGrid2 = _interopRequireDefault(_reactBootstrapLibGrid);
 
-	var _reactBootstrapLibRow = __webpack_require__(443);
+	var _reactBootstrapLibRow = __webpack_require__(393);
 
 	var _reactBootstrapLibRow2 = _interopRequireDefault(_reactBootstrapLibRow);
 
-	var _reactBootstrapLibCol = __webpack_require__(444);
+	var _reactBootstrapLibCol = __webpack_require__(392);
 
 	var _reactBootstrapLibCol2 = _interopRequireDefault(_reactBootstrapLibCol);
 
@@ -44065,367 +44477,150 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 443 */
+/* 445 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/**
+	 * Created by Fay on 2016-09-22.
+	 */
 	'use strict';
 
-	exports.__esModule = true;
+	Object.defineProperty(exports, '__esModule', {
+	    value: true
+	});
 
-	var _extends2 = __webpack_require__(267);
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-	var _extends3 = _interopRequireDefault(_extends2);
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 
-	var _objectWithoutProperties2 = __webpack_require__(305);
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-	var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var _classCallCheck2 = __webpack_require__(306);
-
-	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-	var _possibleConstructorReturn2 = __webpack_require__(307);
-
-	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-	var _inherits2 = __webpack_require__(343);
-
-	var _inherits3 = _interopRequireDefault(_inherits2);
-
-	var _classnames = __webpack_require__(351);
-
-	var _classnames2 = _interopRequireDefault(_classnames);
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 	var _react = __webpack_require__(70);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _elementType = __webpack_require__(366);
+	var _reactBootstrapLibCol = __webpack_require__(392);
 
-	var _elementType2 = _interopRequireDefault(_elementType);
+	var _reactBootstrapLibCol2 = _interopRequireDefault(_reactBootstrapLibCol);
 
-	var _bootstrapUtils = __webpack_require__(356);
+	var _reactBootstrapLibRow = __webpack_require__(393);
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	var _reactBootstrapLibRow2 = _interopRequireDefault(_reactBootstrapLibRow);
 
-	var propTypes = {
-	  componentClass: _elementType2['default']
-	};
+	var _reactAppear = __webpack_require__(395);
 
-	var defaultProps = {
-	  componentClass: 'div'
-	};
+	var _reactAppear2 = _interopRequireDefault(_reactAppear);
 
-	var Row = function (_React$Component) {
-	  (0, _inherits3['default'])(Row, _React$Component);
+	var WorkExperience = (function (_React$Component) {
+	    _inherits(WorkExperience, _React$Component);
 
-	  function Row() {
-	    (0, _classCallCheck3['default'])(this, Row);
-	    return (0, _possibleConstructorReturn3['default'])(this, _React$Component.apply(this, arguments));
-	  }
+	    function WorkExperience() {
+	        _classCallCheck(this, WorkExperience);
 
-	  Row.prototype.render = function render() {
-	    var _props = this.props;
-	    var Component = _props.componentClass;
-	    var className = _props.className;
-	    var props = (0, _objectWithoutProperties3['default'])(_props, ['componentClass', 'className']);
+	        _get(Object.getPrototypeOf(WorkExperience.prototype), 'constructor', this).apply(this, arguments);
+	    }
 
-	    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props);
-
-	    var bsProps = _splitBsProps[0];
-	    var elementProps = _splitBsProps[1];
-
-
-	    var classes = (0, _bootstrapUtils.getClassSet)(bsProps);
-
-	    return _react2['default'].createElement(Component, (0, _extends3['default'])({}, elementProps, {
-	      className: (0, _classnames2['default'])(className, classes)
-	    }));
-	  };
-
-	  return Row;
-	}(_react2['default'].Component);
-
-	Row.propTypes = propTypes;
-	Row.defaultProps = defaultProps;
-
-	exports['default'] = (0, _bootstrapUtils.bsClass)('row', Row);
-	module.exports = exports['default'];
-
-/***/ },
-/* 444 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	exports.__esModule = true;
-
-	var _extends2 = __webpack_require__(267);
-
-	var _extends3 = _interopRequireDefault(_extends2);
-
-	var _objectWithoutProperties2 = __webpack_require__(305);
-
-	var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
-
-	var _classCallCheck2 = __webpack_require__(306);
-
-	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-	var _possibleConstructorReturn2 = __webpack_require__(307);
-
-	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-	var _inherits2 = __webpack_require__(343);
-
-	var _inherits3 = _interopRequireDefault(_inherits2);
-
-	var _classnames = __webpack_require__(351);
-
-	var _classnames2 = _interopRequireDefault(_classnames);
-
-	var _react = __webpack_require__(70);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _elementType = __webpack_require__(366);
-
-	var _elementType2 = _interopRequireDefault(_elementType);
-
-	var _bootstrapUtils = __webpack_require__(356);
-
-	var _StyleConfig = __webpack_require__(362);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	var propTypes = {
-	  componentClass: _elementType2['default'],
-
-	  /**
-	   * The number of columns you wish to span
-	   *
-	   * for Extra small devices Phones (<768px)
-	   *
-	   * class-prefix `col-xs-`
-	   */
-	  xs: _react2['default'].PropTypes.number,
-	  /**
-	   * The number of columns you wish to span
-	   *
-	   * for Small devices Tablets (≥768px)
-	   *
-	   * class-prefix `col-sm-`
-	   */
-	  sm: _react2['default'].PropTypes.number,
-	  /**
-	   * The number of columns you wish to span
-	   *
-	   * for Medium devices Desktops (≥992px)
-	   *
-	   * class-prefix `col-md-`
-	   */
-	  md: _react2['default'].PropTypes.number,
-	  /**
-	   * The number of columns you wish to span
-	   *
-	   * for Large devices Desktops (≥1200px)
-	   *
-	   * class-prefix `col-lg-`
-	   */
-	  lg: _react2['default'].PropTypes.number,
-	  /**
-	   * Hide column
-	   *
-	   * on Extra small devices Phones
-	   *
-	   * adds class `hidden-xs`
-	   */
-	  xsHidden: _react2['default'].PropTypes.bool,
-	  /**
-	   * Hide column
-	   *
-	   * on Small devices Tablets
-	   *
-	   * adds class `hidden-sm`
-	   */
-	  smHidden: _react2['default'].PropTypes.bool,
-	  /**
-	   * Hide column
-	   *
-	   * on Medium devices Desktops
-	   *
-	   * adds class `hidden-md`
-	   */
-	  mdHidden: _react2['default'].PropTypes.bool,
-	  /**
-	   * Hide column
-	   *
-	   * on Large devices Desktops
-	   *
-	   * adds class `hidden-lg`
-	   */
-	  lgHidden: _react2['default'].PropTypes.bool,
-	  /**
-	   * Move columns to the right
-	   *
-	   * for Extra small devices Phones
-	   *
-	   * class-prefix `col-xs-offset-`
-	   */
-	  xsOffset: _react2['default'].PropTypes.number,
-	  /**
-	   * Move columns to the right
-	   *
-	   * for Small devices Tablets
-	   *
-	   * class-prefix `col-sm-offset-`
-	   */
-	  smOffset: _react2['default'].PropTypes.number,
-	  /**
-	   * Move columns to the right
-	   *
-	   * for Medium devices Desktops
-	   *
-	   * class-prefix `col-md-offset-`
-	   */
-	  mdOffset: _react2['default'].PropTypes.number,
-	  /**
-	   * Move columns to the right
-	   *
-	   * for Large devices Desktops
-	   *
-	   * class-prefix `col-lg-offset-`
-	   */
-	  lgOffset: _react2['default'].PropTypes.number,
-	  /**
-	   * Change the order of grid columns to the right
-	   *
-	   * for Extra small devices Phones
-	   *
-	   * class-prefix `col-xs-push-`
-	   */
-	  xsPush: _react2['default'].PropTypes.number,
-	  /**
-	   * Change the order of grid columns to the right
-	   *
-	   * for Small devices Tablets
-	   *
-	   * class-prefix `col-sm-push-`
-	   */
-	  smPush: _react2['default'].PropTypes.number,
-	  /**
-	   * Change the order of grid columns to the right
-	   *
-	   * for Medium devices Desktops
-	   *
-	   * class-prefix `col-md-push-`
-	   */
-	  mdPush: _react2['default'].PropTypes.number,
-	  /**
-	   * Change the order of grid columns to the right
-	   *
-	   * for Large devices Desktops
-	   *
-	   * class-prefix `col-lg-push-`
-	   */
-	  lgPush: _react2['default'].PropTypes.number,
-	  /**
-	   * Change the order of grid columns to the left
-	   *
-	   * for Extra small devices Phones
-	   *
-	   * class-prefix `col-xs-pull-`
-	   */
-	  xsPull: _react2['default'].PropTypes.number,
-	  /**
-	   * Change the order of grid columns to the left
-	   *
-	   * for Small devices Tablets
-	   *
-	   * class-prefix `col-sm-pull-`
-	   */
-	  smPull: _react2['default'].PropTypes.number,
-	  /**
-	   * Change the order of grid columns to the left
-	   *
-	   * for Medium devices Desktops
-	   *
-	   * class-prefix `col-md-pull-`
-	   */
-	  mdPull: _react2['default'].PropTypes.number,
-	  /**
-	   * Change the order of grid columns to the left
-	   *
-	   * for Large devices Desktops
-	   *
-	   * class-prefix `col-lg-pull-`
-	   */
-	  lgPull: _react2['default'].PropTypes.number
-	};
-
-	var defaultProps = {
-	  componentClass: 'div'
-	};
-
-	var Col = function (_React$Component) {
-	  (0, _inherits3['default'])(Col, _React$Component);
-
-	  function Col() {
-	    (0, _classCallCheck3['default'])(this, Col);
-	    return (0, _possibleConstructorReturn3['default'])(this, _React$Component.apply(this, arguments));
-	  }
-
-	  Col.prototype.render = function render() {
-	    var _props = this.props;
-	    var Component = _props.componentClass;
-	    var className = _props.className;
-	    var props = (0, _objectWithoutProperties3['default'])(_props, ['componentClass', 'className']);
-
-	    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props);
-
-	    var bsProps = _splitBsProps[0];
-	    var elementProps = _splitBsProps[1];
-
-
-	    var classes = [];
-
-	    _StyleConfig.DEVICE_SIZES.forEach(function (size) {
-	      function popProp(propSuffix, modifier) {
-	        var propName = '' + size + propSuffix;
-	        var propValue = elementProps[propName];
-
-	        if (propValue != null) {
-	          classes.push((0, _bootstrapUtils.prefix)(bsProps, '' + size + modifier + '-' + propValue));
+	    _createClass(WorkExperience, [{
+	        key: 'render',
+	        value: function render() {
+	            return _react2['default'].createElement(
+	                'div',
+	                null,
+	                _react2['default'].createElement(
+	                    _reactBootstrapLibRow2['default'],
+	                    null,
+	                    _react2['default'].createElement(
+	                        _reactBootstrapLibCol2['default'],
+	                        { xs: 4 },
+	                        _react2['default'].createElement(
+	                            'h4',
+	                            null,
+	                            'Experience 1'
+	                        )
+	                    )
+	                ),
+	                _react2['default'].createElement(
+	                    _reactBootstrapLibRow2['default'],
+	                    { id: 'Experiences-Row' },
+	                    _react2['default'].createElement(
+	                        _reactBootstrapLibCol2['default'],
+	                        { xs: 6 },
+	                        _react2['default'].createElement(
+	                            'h5',
+	                            null,
+	                            'big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text'
+	                        )
+	                    ),
+	                    _react2['default'].createElement(_reactBootstrapLibCol2['default'], { xs: 6 })
+	                ),
+	                _react2['default'].createElement(
+	                    _reactBootstrapLibRow2['default'],
+	                    null,
+	                    _react2['default'].createElement(
+	                        _reactBootstrapLibCol2['default'],
+	                        { xs: 4 },
+	                        _react2['default'].createElement(
+	                            'h4',
+	                            null,
+	                            'Experience 2'
+	                        )
+	                    )
+	                ),
+	                _react2['default'].createElement(
+	                    _reactBootstrapLibRow2['default'],
+	                    { id: 'Experiences-Row' },
+	                    _react2['default'].createElement(_reactBootstrapLibCol2['default'], { xs: 6 }),
+	                    _react2['default'].createElement(
+	                        _reactBootstrapLibCol2['default'],
+	                        { xs: 6, pullRight: true, textRight: true },
+	                        _react2['default'].createElement(
+	                            'h5',
+	                            null,
+	                            'big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text'
+	                        )
+	                    )
+	                ),
+	                _react2['default'].createElement(
+	                    _reactBootstrapLibRow2['default'],
+	                    null,
+	                    _react2['default'].createElement(
+	                        _reactBootstrapLibCol2['default'],
+	                        { xs: 4 },
+	                        _react2['default'].createElement(
+	                            'h4',
+	                            null,
+	                            'Experience 3'
+	                        )
+	                    )
+	                ),
+	                _react2['default'].createElement(
+	                    _reactBootstrapLibRow2['default'],
+	                    { id: 'Experiences-Row' },
+	                    _react2['default'].createElement(
+	                        _reactBootstrapLibCol2['default'],
+	                        { xs: 6 },
+	                        _react2['default'].createElement(
+	                            'h5',
+	                            null,
+	                            'big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text big body of text'
+	                        )
+	                    ),
+	                    _react2['default'].createElement(_reactBootstrapLibCol2['default'], { xs: 6 })
+	                )
+	            );
 	        }
+	    }]);
 
-	        delete elementProps[propName];
-	      }
+	    return WorkExperience;
+	})(_react2['default'].Component);
 
-	      popProp('', '');
-	      popProp('Offset', '-offset');
-	      popProp('Push', '-push');
-	      popProp('Pull', '-pull');
-
-	      var hiddenPropName = size + 'Hidden';
-	      if (elementProps[hiddenPropName]) {
-	        classes.push('hidden-' + size);
-	      }
-	      delete elementProps[hiddenPropName];
-	    });
-
-	    return _react2['default'].createElement(Component, (0, _extends3['default'])({}, elementProps, {
-	      className: (0, _classnames2['default'])(className, classes)
-	    }));
-	  };
-
-	  return Col;
-	}(_react2['default'].Component);
-
-	Col.propTypes = propTypes;
-	Col.defaultProps = defaultProps;
-
-	exports['default'] = (0, _bootstrapUtils.bsClass)('col', Col);
+	exports['default'] = WorkExperience;
 	module.exports = exports['default'];
+	/*Experience # 1*/ /*Small overview about Experience 1*/ /*Picture/Icon of company + Icons of tools/languages I learnt from here*/ /*Experience # 2*/ /*Picture/Icon of company + Icons of tools/languages I learnt from here*/ /*Small overview about Experience 2*/ /*Experience # 3*/ /*Small overview about Experience 3*/ /*Picture/Icon of company + Icons of tools/languages I learnt from here*/
 
 /***/ }
 /******/ ]);

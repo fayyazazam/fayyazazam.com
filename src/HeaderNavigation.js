@@ -33,8 +33,8 @@ export default class HeaderNavigation extends React.Component {
                 <NavbarCollapse>
                     <Nav pullRight>
                         <NavItem onClick={()=>this.scrollTo('About')} href="#">About</NavItem>
-                        <NavItem onClick={()=>this.scrollTo('Skills')} href="#">Skills</NavItem>
                         <NavItem onClick={()=>this.scrollTo('Experiences')} href="#">Experiences</NavItem>
+                        <NavItem onClick={()=>this.scrollTo('Projects')} href="#">Projects</NavItem>
                         <NavItem onClick={()=>this.scrollTo('Footer')} href="#">Contact</NavItem>
                     </Nav>
                 </NavbarCollapse>
