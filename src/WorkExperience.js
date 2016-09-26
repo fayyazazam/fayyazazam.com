@@ -10,7 +10,7 @@ export default class WorkExperience extends React.Component {
     render() {
         return (
             <div>
-                {/*Experience # 1*/}
+                {/* Experience # 1 */}
                 <Row>
                     <Col xs={4}>
                         <h4>
@@ -20,9 +20,15 @@ export default class WorkExperience extends React.Component {
                 </Row>
 
                 <Row id="Experiences-Row">
-                    {/*Small overview about Experience 1*/}
+                    {/* Small overview about Experience 1 */}
                     <Col xs={6}>
                         <h5>
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
                             big body of text big body of text
                             big body of text big body of text
                             big body of text big body of text
@@ -32,15 +38,15 @@ export default class WorkExperience extends React.Component {
                         </h5>
                     </Col>
 
-                    {/*Picture/Icon of company + Icons of tools/languages I learnt from here*/}
+                    {/* Picture/Icon of company + Icons of tools/languages I learnt from here */}
                     <Col xs={6}>
 
                     </Col>
                 </Row>
 
-                {/*Experience # 2*/}
+                {/* Experience # 2 */}
                 <Row>
-                    <Col xs={4}>
+                    <Col xs={4} xsOffset={6}>
                         <h4>
                             Experience 2
                         </h4>
@@ -48,14 +54,20 @@ export default class WorkExperience extends React.Component {
                 </Row>
 
                 <Row id="Experiences-Row">
-                    {/*Picture/Icon of company + Icons of tools/languages I learnt from here*/}
+                    {/* Picture/Icon of company + Icons of tools/languages I learnt from here */}
                     <Col xs={6}>
 
                     </Col>
 
-                    {/*Small overview about Experience 2*/}
-                    <Col xs={6} pullRight textRight>
+                    {/* Small overview about Experience 2 */}
+                    <Col xs={6}>
                         <h5>
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
                             big body of text big body of text
                             big body of text big body of text
                             big body of text big body of text
@@ -66,7 +78,7 @@ export default class WorkExperience extends React.Component {
                     </Col>
                 </Row>
 
-                {/*Experience # 3*/}
+                {/* Experience # 3 */}
                 <Row>
                     <Col xs={4}>
                         <h4>
@@ -76,9 +88,15 @@ export default class WorkExperience extends React.Component {
                 </Row>
 
                 <Row id="Experiences-Row">
-                    {/*Small overview about Experience 3*/}
+                    {/* Small overview about Experience 3 */}
                     <Col xs={6}>
                         <h5>
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
+                            big body of text big body of text
                             big body of text big body of text
                             big body of text big body of text
                             big body of text big body of text
@@ -88,7 +106,7 @@ export default class WorkExperience extends React.Component {
                         </h5>
                     </Col>
 
-                    {/*Picture/Icon of company + Icons of tools/languages I learnt from here*/}
+                    {/* Picture/Icon of company + Icons of tools/languages I learnt from here */}
                     <Col xs={6}>
 
                     </Col>
