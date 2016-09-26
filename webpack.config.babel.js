@@ -11,7 +11,7 @@ export default {
   module: {
     loaders: [
       // Used for compiling ES2015 JavaScript
-      { test: /\.js/, loader: 'babel' },
+      { test: /\.js/, loader: 'babel', exclude: /(node_modules)/},
       // Used for Bootstrap Less Source Files
       { test: /\.less/, loader: 'style!css!less' },
       // Used for Bootstrap Less Source Files

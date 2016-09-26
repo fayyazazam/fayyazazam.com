@@ -25,15 +25,16 @@ export default class HeaderNavigation extends React.Component {
             <Navbar inverse fixedTop id="Header-Nav">
                 <NavbarHeader>
                     <NavbarBrand>
-                        <a style={{color: '#d9d9d9'}} href="#">FutureLogo.png</a>
+                        <a onClick={()=>this.scrollTo('Jumbotron')} style={{color: '#d9d9d9'}}
+                                 href="#">Fayyaz Azam</a>
                     </NavbarBrand>
                     <NavbarToggle />
                 </NavbarHeader>
                 <NavbarCollapse>
                     <Nav pullRight>
                         <NavItem onClick={()=>this.scrollTo('About')} href="#">About</NavItem>
-                        <NavItem onClick={()=>this.scrollTo('Skills')} href="#">Skills</NavItem>
                         <NavItem onClick={()=>this.scrollTo('Experiences')} href="#">Experiences</NavItem>
+                        <NavItem onClick={()=>this.scrollTo('Projects')} href="#">Projects</NavItem>
                         <NavItem onClick={()=>this.scrollTo('Footer')} href="#">Contact</NavItem>
                     </Nav>
                 </NavbarCollapse>

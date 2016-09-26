@@ -15,10 +15,11 @@ body {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url("UnderConstruction.jpg");
+    background-image: url("morning1.jpg");
     background-size: cover;
     color: #ffffff;
-    height: 500px;
+    min-height: 540px;
+    height: 100vh;
     text-shadow: 0.25px 0.25px 0.25px #000000;
     opacity: 0.95;
 
@@ -56,11 +57,20 @@ body {
 }
 
 /** Body.js styling **/
-#About,
-#Skills,
+#About {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
 #Experiences {
     font-size: 50px;
-    padding-bottom: 300px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#Projects {
+    font-size: 50px;
+    padding-bottom: 30px;
 }
 
 .HeaderTransition {
@@ -82,6 +92,12 @@ body {
     -webkit-transform: translate3d(0px, 0px, 0px);
     transform: translate3d(0px, 0px, 0px);
 }
+
+/** WorkExperience.js styling **/
+#Experiences-Row {
+    padding-bottom: 100px;
+}
+
 
 /** Footer.js styling **/
 #Footer {
