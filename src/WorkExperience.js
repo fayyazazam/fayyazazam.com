@@ -10,12 +10,15 @@ export default class WorkExperience extends React.Component {
     render() {
         return (
             <div>
-                {/* Experience # 1 */}
+                {/* Experience # 1*/}
                 <Row>
-                    <Col xs={4}>
-                        <h4>
-                            Experience 1
+                    <Col xs={6}>
+                        <h4 id="Company">
+                            Mojio
                         </h4>
+                        <h5 id="Company-Position">
+                            - Software Developer
+                        </h5>
                     </Col>
                 </Row>
 
@@ -44,12 +47,15 @@ export default class WorkExperience extends React.Component {
                     </Col>
                 </Row>
 
-                {/* Experience # 2 */}
+                {/* Experience # 2*/}
                 <Row>
-                    <Col xs={4} xsOffset={6}>
-                        <h4>
-                            Experience 2
+                    <Col xs={6} xsOffset={6}>
+                        <h4 id="Company">
+                            ABB
                         </h4>
+                        <h5 id="Company-Position">
+                            - Software Developer
+                        </h5>
                     </Col>
                 </Row>
 
@@ -80,10 +86,13 @@ export default class WorkExperience extends React.Component {
 
                 {/* Experience # 3 */}
                 <Row>
-                    <Col xs={4}>
-                        <h4>
-                            Experience 3
+                    <Col xs={6}>
+                        <h4 id="Company">
+                            Global Relay
                         </h4>
+                        <h5 id="Company-Position">
+                            - QA Analyst
+                        </h5>
                     </Col>
                 </Row>
 

@@ -21904,7 +21904,7 @@
 
 
 	// module
-	exports.push([module.id, "/** Global settings for items **/\nhtml {\n    position: relative;\n    min-height: 100%;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n}\n\n.navbar {\n    border: 0;\n}\n\n.jumbotron {\n    display: flex;\n    align-items: center;\n    background-image: url(" + __webpack_require__(252) + ");\n    background-size: cover;\n    color: #ffffff;\n    min-height: 540px;\n    height: 100vh;\n    text-shadow: 0.25px 0.25px 0.25px #000000;\n    opacity: 0.95;\n\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n.jumbotron h2 {\n    font-family: 'Lato', serif;\n    text-align: center;\n    font-size: 55px;\n    font-weight: 100;\n    margin: 0;\n    color: #fff;\n}\n\n/** HeaderNavigation.js styling **/\n#Header-Nav {\n    opacity: 0.9;\n    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));\n    text-shadow: 0.25px 0.25px 0.15px #000000;\n}\n\n/** Styling for header bar text **/\n.navbar-inverse .navbar-nav > li > a,\n.navbar-inverse .navbar-nav > li > a:link,\n.navbar-inverse .navbar-nav > li > a:visited {\n    color: #d9d9d9;\n}\n\n.navbar-inverse .navbar-nav > li > a:hover,\n.navbar-inverse .navbar-nav > li > a:active {\n    color: #ffffff;\n}\n\n/** Body.js styling **/\n#About {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Experiences {\n    font-size: 50px;\n    padding-top: 70px;\n    padding-bottom: 30px;\n}\n\n#Projects {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n.HeaderTransition {\n    opacity: 0.01;\n    -moz-transition: all 700ms ease-out;\n    -webkit-transition: all 700ms ease-out;\n    transition: all 700ms ease-out;\n    -moz-transform: translate3d(-200px, 0px, 0px);\n    -webkit-transform: translate3d(-200px, 0px, 0px);\n    transform: translate3d(-200px, 0px, 0px);\n    -webkit-backface-visibility: hidden;\n    -moz-backface-visibility: hidden;\n    backface-visibility: hidden;\n}\n\n.HeaderTransition--inViewport {\n    opacity: 1;\n    -moz-transform: translate3d(0px, 0px, 0px);\n    -webkit-transform: translate3d(0px, 0px, 0px);\n    transform: translate3d(0px, 0px, 0px);\n}\n\n/** WorkExperience.js styling **/\n#Experiences-Row {\n    padding-bottom: 100px;\n}\n\n\n/** Footer.js styling **/\n#Footer {\n    width: 100%;\n    position: absolute;\n    margin-bottom: 0;\n    color: #333333;\n}\n\n#Social-Links {\n    padding: 0 0 3px;\n}", ""]);
+	exports.push([module.id, "/** Global settings for items **/\nhtml {\n    position: relative;\n    min-height: 100%;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n}\n\n.navbar {\n    border: 0;\n}\n\n.jumbotron {\n    display: flex;\n    align-items: center;\n    background-image: url(" + __webpack_require__(252) + ");\n    background-size: cover;\n    color: #ffffff;\n    min-height: 540px;\n    height: 100vh;\n    text-shadow: 0.25px 0.25px 0.25px #000000;\n    opacity: 0.95;\n\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n.jumbotron h2 {\n    font-family: 'Lato', serif;\n    text-align: center;\n    font-size: 55px;\n    font-weight: 100;\n    margin: 0;\n    color: #fff;\n}\n\n/** HeaderNavigation.js styling **/\n#Header-Nav {\n    opacity: 0.9;\n    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));\n    text-shadow: 0.25px 0.25px 0.15px #000000;\n}\n\n/** Styling for header bar text **/\n.navbar-inverse .navbar-nav > li > a,\n.navbar-inverse .navbar-nav > li > a:link,\n.navbar-inverse .navbar-nav > li > a:visited {\n    color: #d9d9d9;\n}\n\n.navbar-inverse .navbar-nav > li > a:hover,\n.navbar-inverse .navbar-nav > li > a:active {\n    color: #ffffff;\n}\n\n/** Body.js styling **/\n#About {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Experiences {\n    font-size: 50px;\n    padding-top: 70px;\n    padding-bottom: 30px;\n}\n\n#Projects {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Language-Overview {\n    border-left-style: solid;\n    border-left-width: thin;\n    border-left-color: black;\n    padding-left: 25px;\n}\n\n#Company {\n    display: inline;\n}\n\n#Company-Position {\n    padding-left: 3.5px;\n    display: inline;\n}\n\n.HeaderTransition {\n    opacity: 0.01;\n    -moz-transition: all 700ms ease-out;\n    -webkit-transition: all 700ms ease-out;\n    transition: all 700ms ease-out;\n    -moz-transform: translate3d(-200px, 0px, 0px);\n    -webkit-transform: translate3d(-200px, 0px, 0px);\n    transform: translate3d(-200px, 0px, 0px);\n    -webkit-backface-visibility: hidden;\n    -moz-backface-visibility: hidden;\n    backface-visibility: hidden;\n}\n\n.HeaderTransition--inViewport {\n    opacity: 1;\n    -moz-transform: translate3d(0px, 0px, 0px);\n    -webkit-transform: translate3d(0px, 0px, 0px);\n    transform: translate3d(0px, 0px, 0px);\n}\n\n/** WorkExperience.js styling **/\n#Experiences-Row {\n    padding-bottom: 100px;\n}\n\n\n/** Footer.js styling **/\n#Footer {\n    width: 100%;\n    position: absolute;\n    margin-bottom: 0;\n    color: #333333;\n}\n\n#Social-Links {\n    padding: 0 0 3px;\n}", ""]);
 
 	// exports
 
@@ -28164,7 +28164,7 @@
 	            null,
 	            _react2['default'].createElement(
 	              _reactBootstrapLibCol2['default'],
-	              { xs: 4 },
+	              { xs: 5 },
 	              _react2['default'].createElement(
 	                'h4',
 	                null,
@@ -28173,7 +28173,7 @@
 	            ),
 	            _react2['default'].createElement(
 	              _reactBootstrapLibCol2['default'],
-	              { xs: 6, xsOffset: 2 },
+	              { xs: 5, xsOffset: 1, id: 'Language-Overview' },
 	              '// Java',
 	              _react2['default'].createElement('br', null),
 	              'System.out.println("I definitely know this very well!")',
@@ -28233,7 +28233,7 @@
 
 	exports['default'] = Body;
 	module.exports = exports['default'];
-	/* Jumbotron and text on it */ /* The grid container which has the main body */ /* Header for about. Should say Good Morning/Evening/Night */ /* About me text */ /* Doughnut chart */ /* Row for work experience header title */ /* Work Experience component that holds all my information */ /* TODO: Project list will be a component of its own */
+	/* Jumbotron and text on it */ /* The grid container which has the main body */ /* Header for about. Should say Good Morning/Evening/Night */ /* About me text */ /* Languages Overview */ /* Row for work experience header title */ /* Work Experience component that holds all my information */ /* TODO: Project list will be a component of its own */
 
 /***/ },
 /* 392 */
@@ -28294,11 +28294,16 @@
 	                    null,
 	                    _react2['default'].createElement(
 	                        _reactBootstrapLibCol2['default'],
-	                        { xs: 4 },
+	                        { xs: 6 },
 	                        _react2['default'].createElement(
 	                            'h4',
-	                            null,
-	                            'Experience 1'
+	                            { id: 'Company' },
+	                            'Mojio'
+	                        ),
+	                        _react2['default'].createElement(
+	                            'h5',
+	                            { id: 'Company-Position' },
+	                            '- Software Developer'
 	                        )
 	                    )
 	                ),
@@ -28321,11 +28326,16 @@
 	                    null,
 	                    _react2['default'].createElement(
 	                        _reactBootstrapLibCol2['default'],
-	                        { xs: 4, xsOffset: 6 },
+	                        { xs: 6, xsOffset: 6 },
 	                        _react2['default'].createElement(
 	                            'h4',
-	                            null,
-	                            'Experience 2'
+	                            { id: 'Company' },
+	                            'ABB'
+	                        ),
+	                        _react2['default'].createElement(
+	                            'h5',
+	                            { id: 'Company-Position' },
+	                            '- Software Developer'
 	                        )
 	                    )
 	                ),
@@ -28348,11 +28358,16 @@
 	                    null,
 	                    _react2['default'].createElement(
 	                        _reactBootstrapLibCol2['default'],
-	                        { xs: 4 },
+	                        { xs: 6 },
 	                        _react2['default'].createElement(
 	                            'h4',
-	                            null,
-	                            'Experience 3'
+	                            { id: 'Company' },
+	                            'Global Relay'
+	                        ),
+	                        _react2['default'].createElement(
+	                            'h5',
+	                            { id: 'Company-Position' },
+	                            '- QA Analyst'
 	                        )
 	                    )
 	                ),
@@ -28379,7 +28394,7 @@
 
 	exports['default'] = WorkExperience;
 	module.exports = exports['default'];
-	/* Experience # 1 */ /* Small overview about Experience 1 */ /* Picture/Icon of company + Icons of tools/languages I learnt from here */ /* Experience # 2 */ /* Picture/Icon of company + Icons of tools/languages I learnt from here */ /* Small overview about Experience 2 */ /* Experience # 3 */ /* Small overview about Experience 3 */ /* Picture/Icon of company + Icons of tools/languages I learnt from here */
+	/* Experience # 1*/ /* Small overview about Experience 1 */ /* Picture/Icon of company + Icons of tools/languages I learnt from here */ /* Experience # 2*/ /* Picture/Icon of company + Icons of tools/languages I learnt from here */ /* Small overview about Experience 2 */ /* Experience # 3 */ /* Small overview about Experience 3 */ /* Picture/Icon of company + Icons of tools/languages I learnt from here */
 
 /***/ },
 /* 393 */

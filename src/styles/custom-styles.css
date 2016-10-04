@@ -73,6 +73,22 @@ body {
     padding-bottom: 30px;
 }
 
+#Language-Overview {
+    border-left-style: solid;
+    border-left-width: thin;
+    border-left-color: black;
+    padding-left: 25px;
+}
+
+#Company {
+    display: inline;
+}
+
+#Company-Position {
+    padding-left: 3.5px;
+    display: inline;
+}
+
 .HeaderTransition {
     opacity: 0.01;
     -moz-transition: all 700ms ease-out;
