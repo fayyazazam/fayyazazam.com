@@ -4,13 +4,12 @@
 import React from 'react';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
-import Appear from 'react-appear';
 
 export default class WorkExperience extends React.Component {
     render() {
         return (
             <div>
-                {/* Experience # 1*/}
+                {/* Experience # 1 */}
                 <Row>
                     <Col xs={6}>
                         <h4 id="Company">
@@ -47,7 +46,7 @@ export default class WorkExperience extends React.Component {
                     </Col>
                 </Row>
 
-                {/* Experience # 2*/}
+                {/* Experience # 2 */}
                 <Row>
                     <Col xs={6} xsOffset={6}>
                         <h4 id="Company">

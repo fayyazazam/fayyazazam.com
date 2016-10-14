@@ -68,7 +68,7 @@
 
 	var _Body2 = _interopRequireDefault(_Body);
 
-	var _Footer = __webpack_require__(398);
+	var _Footer = __webpack_require__(399);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -21904,7 +21904,7 @@
 
 
 	// module
-	exports.push([module.id, "/** Global settings for items **/\nhtml {\n    position: relative;\n    min-height: 100%;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n}\n\n.navbar {\n    border: 0;\n}\n\n.jumbotron {\n    display: flex;\n    align-items: center;\n    background-image: url(" + __webpack_require__(252) + ");\n    background-size: cover;\n    color: #ffffff;\n    min-height: 540px;\n    height: 100vh;\n    text-shadow: 0.25px 0.25px 0.25px #000000;\n    opacity: 0.95;\n\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n.jumbotron h2 {\n    font-family: 'Lato', serif;\n    text-align: center;\n    font-size: 55px;\n    font-weight: 100;\n    margin: 0;\n    color: #fff;\n}\n\n/** HeaderNavigation.js styling **/\n#Header-Nav {\n    opacity: 0.9;\n    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));\n    text-shadow: 0.25px 0.25px 0.15px #000000;\n}\n\n/** Styling for header bar text **/\n.navbar-inverse .navbar-nav > li > a,\n.navbar-inverse .navbar-nav > li > a:link,\n.navbar-inverse .navbar-nav > li > a:visited {\n    color: #d9d9d9;\n}\n\n.navbar-inverse .navbar-nav > li > a:hover,\n.navbar-inverse .navbar-nav > li > a:active {\n    color: #ffffff;\n}\n\n/** Body.js styling **/\n#About {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Experiences {\n    font-size: 50px;\n    padding-top: 70px;\n    padding-bottom: 30px;\n}\n\n#Projects {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Language-Overview {\n    border-left-style: solid;\n    border-left-width: thin;\n    border-left-color: black;\n    padding-left: 25px;\n}\n\n#Company {\n    display: inline;\n}\n\n#Company-Position {\n    padding-left: 3.5px;\n    display: inline;\n}\n\n.HeaderTransition {\n    opacity: 0.01;\n    -moz-transition: all 700ms ease-out;\n    -webkit-transition: all 700ms ease-out;\n    transition: all 700ms ease-out;\n    -moz-transform: translate3d(-200px, 0px, 0px);\n    -webkit-transform: translate3d(-200px, 0px, 0px);\n    transform: translate3d(-200px, 0px, 0px);\n    -webkit-backface-visibility: hidden;\n    -moz-backface-visibility: hidden;\n    backface-visibility: hidden;\n}\n\n.HeaderTransition--inViewport {\n    opacity: 1;\n    -moz-transform: translate3d(0px, 0px, 0px);\n    -webkit-transform: translate3d(0px, 0px, 0px);\n    transform: translate3d(0px, 0px, 0px);\n}\n\n/** WorkExperience.js styling **/\n#Experiences-Row {\n    padding-bottom: 100px;\n}\n\n\n/** Footer.js styling **/\n#Footer {\n    width: 100%;\n    position: absolute;\n    margin-bottom: 0;\n    color: #333333;\n}\n\n#Social-Links {\n    padding: 0 0 3px;\n}", ""]);
+	exports.push([module.id, "/** Global settings for items **/\nhtml {\n    position: relative;\n    min-height: 100%;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n}\n\n.navbar {\n    border: 0;\n}\n\n.jumbotron {\n    display: flex;\n    align-items: center;\n    background-image: url(" + __webpack_require__(252) + ");\n    background-size: cover;\n    color: #ffffff;\n    min-height: 540px;\n    height: 100vh;\n    text-shadow: 0.25px 0.25px 0.25px #000000;\n    opacity: 0.95;\n\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n.jumbotron h2 {\n    font-family: 'Lato', serif;\n    text-align: center;\n    font-size: 55px;\n    font-weight: 100;\n    margin: 0;\n    color: #fff;\n}\n\n/** HeaderNavigation.js styling **/\n#Header-Nav {\n    opacity: 0.9;\n    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));\n    text-shadow: 0.25px 0.25px 0.15px #000000;\n}\n\n/** Styling for header bar text **/\n.navbar-inverse .navbar-nav > li > a,\n.navbar-inverse .navbar-nav > li > a:link,\n.navbar-inverse .navbar-nav > li > a:visited {\n    color: #d9d9d9;\n}\n\n.navbar-inverse .navbar-nav > li > a:hover,\n.navbar-inverse .navbar-nav > li > a:active {\n    color: #ffffff;\n}\n\n/** Body.js styling **/\n#About {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Experiences {\n    font-size: 50px;\n    padding-top: 70px;\n    padding-bottom: 30px;\n}\n\n#Projects {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Language-Overview {\n    border-left-style: solid;\n    border-left-width: thin;\n    border-left-color: black;\n    padding-left: 25px;\n}\n\n#Company {\n    display: inline;\n}\n\n#Company-Position {\n    padding-left: 3.5px;\n    display: inline;\n}\n\n.HeaderTransition {\n    opacity: 0.01;\n    -moz-transition: all 700ms ease-out;\n    -webkit-transition: all 700ms ease-out;\n    transition: all 700ms ease-out;\n    -moz-transform: translate3d(-200px, 0px, 0px);\n    -webkit-transform: translate3d(-200px, 0px, 0px);\n    transform: translate3d(-200px, 0px, 0px);\n    -webkit-backface-visibility: hidden;\n    -moz-backface-visibility: hidden;\n    backface-visibility: hidden;\n}\n\n.HeaderTransition--inViewport {\n    opacity: 1;\n    -moz-transform: translate3d(0px, 0px, 0px);\n    -webkit-transform: translate3d(0px, 0px, 0px);\n    transform: translate3d(0px, 0px, 0px);\n}\n\n/** WorkExperience.js styling **/\n#Experiences-Row {\n    padding-bottom: 40px;\n}\n\n\n/** Footer.js styling **/\n#Footer {\n    width: 100%;\n    position: absolute;\n    margin-bottom: 0;\n    color: #333333;\n}\n\n#Social-Links {\n    padding: 0 0 3px;\n}", ""]);
 
 	// exports
 
@@ -28077,6 +28077,10 @@
 
 	var _WorkExperience2 = _interopRequireDefault(_WorkExperience);
 
+	var _PersonalProjects = __webpack_require__(395);
+
+	var _PersonalProjects2 = _interopRequireDefault(_PersonalProjects);
+
 	var _reactBootstrapLibCol = __webpack_require__(393);
 
 	var _reactBootstrapLibCol2 = _interopRequireDefault(_reactBootstrapLibCol);
@@ -28089,11 +28093,11 @@
 
 	var _reactBootstrapLibGrid2 = _interopRequireDefault(_reactBootstrapLibGrid);
 
-	var _reactBootstrapLibJumbotron = __webpack_require__(397);
+	var _reactBootstrapLibJumbotron = __webpack_require__(396);
 
 	var _reactBootstrapLibJumbotron2 = _interopRequireDefault(_reactBootstrapLibJumbotron);
 
-	var _reactAppear = __webpack_require__(395);
+	var _reactAppear = __webpack_require__(397);
 
 	var _reactAppear2 = _interopRequireDefault(_reactAppear);
 
@@ -28173,7 +28177,7 @@
 	            ),
 	            _react2['default'].createElement(
 	              _reactBootstrapLibCol2['default'],
-	              { xs: 5, xsOffset: 1, id: 'Language-Overview' },
+	              { xs: 6, xsOffset: 1, id: 'Language-Overview' },
 	              '// Java',
 	              _react2['default'].createElement('br', null),
 	              'System.out.println("I definitely know this very well!")',
@@ -28222,7 +28226,8 @@
 	                'What have I done?'
 	              )
 	            )
-	          )
+	          ),
+	          _react2['default'].createElement(_PersonalProjects2['default'], null)
 	        )
 	      );
 	    }
@@ -28233,7 +28238,7 @@
 
 	exports['default'] = Body;
 	module.exports = exports['default'];
-	/* Jumbotron and text on it */ /* The grid container which has the main body */ /* Header for about. Should say Good Morning/Evening/Night */ /* About me text */ /* Languages Overview */ /* Row for work experience header title */ /* Work Experience component that holds all my information */ /* TODO: Project list will be a component of its own */
+	/* Jumbotron and text on it */ /* The grid container which has the main body */ /* Header for about. Should say Good Morning/Evening/Night */ /* About me text */ /* Languages Overview */ /* Row for work experience header title */ /* Work Experience component that holds all my information */ /* Header for Personal Projects */ /* Personal Project component will go here*/
 
 /***/ },
 /* 392 */
@@ -28269,10 +28274,6 @@
 	var _reactBootstrapLibRow = __webpack_require__(394);
 
 	var _reactBootstrapLibRow2 = _interopRequireDefault(_reactBootstrapLibRow);
-
-	var _reactAppear = __webpack_require__(395);
-
-	var _reactAppear2 = _interopRequireDefault(_reactAppear);
 
 	var WorkExperience = (function (_React$Component) {
 	    _inherits(WorkExperience, _React$Component);
@@ -28394,7 +28395,7 @@
 
 	exports['default'] = WorkExperience;
 	module.exports = exports['default'];
-	/* Experience # 1*/ /* Small overview about Experience 1 */ /* Picture/Icon of company + Icons of tools/languages I learnt from here */ /* Experience # 2*/ /* Picture/Icon of company + Icons of tools/languages I learnt from here */ /* Small overview about Experience 2 */ /* Experience # 3 */ /* Small overview about Experience 3 */ /* Picture/Icon of company + Icons of tools/languages I learnt from here */
+	/* Experience # 1 */ /* Small overview about Experience 1 */ /* Picture/Icon of company + Icons of tools/languages I learnt from here */ /* Experience # 2 */ /* Picture/Icon of company + Icons of tools/languages I learnt from here */ /* Small overview about Experience 2 */ /* Experience # 3 */ /* Small overview about Experience 3 */ /* Picture/Icon of company + Icons of tools/languages I learnt from here */
 
 /***/ },
 /* 393 */
@@ -28763,6 +28764,147 @@
 /* 395 */
 /***/ function(module, exports, __webpack_require__) {
 
+	/**
+	 * Created by Fay on 2016-10-04.
+	 */
+	'use strict';
+
+	Object.defineProperty(exports, '__esModule', {
+	    value: true
+	});
+
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var _react = __webpack_require__(70);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var PersonalProjects = (function (_React$Component) {
+	    _inherits(PersonalProjects, _React$Component);
+
+	    function PersonalProjects() {
+	        _classCallCheck(this, PersonalProjects);
+
+	        _get(Object.getPrototypeOf(PersonalProjects.prototype), 'constructor', this).apply(this, arguments);
+	    }
+
+	    _createClass(PersonalProjects, [{
+	        key: 'render',
+	        value: function render() {
+	            return _react2['default'].createElement(
+	                'h6',
+	                null,
+	                'Stub'
+	            );
+	        }
+	    }]);
+
+	    return PersonalProjects;
+	})(_react2['default'].Component);
+
+	exports['default'] = PersonalProjects;
+	module.exports = exports['default'];
+
+/***/ },
+/* 396 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	exports.__esModule = true;
+
+	var _extends2 = __webpack_require__(267);
+
+	var _extends3 = _interopRequireDefault(_extends2);
+
+	var _objectWithoutProperties2 = __webpack_require__(305);
+
+	var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
+
+	var _classCallCheck2 = __webpack_require__(306);
+
+	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+	var _possibleConstructorReturn2 = __webpack_require__(307);
+
+	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+	var _inherits2 = __webpack_require__(343);
+
+	var _inherits3 = _interopRequireDefault(_inherits2);
+
+	var _react = __webpack_require__(70);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _classnames = __webpack_require__(351);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	var _elementType = __webpack_require__(366);
+
+	var _elementType2 = _interopRequireDefault(_elementType);
+
+	var _bootstrapUtils = __webpack_require__(356);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+	var propTypes = {
+	  componentClass: _elementType2['default']
+	};
+
+	var defaultProps = {
+	  componentClass: 'div'
+	};
+
+	var Jumbotron = function (_React$Component) {
+	  (0, _inherits3['default'])(Jumbotron, _React$Component);
+
+	  function Jumbotron() {
+	    (0, _classCallCheck3['default'])(this, Jumbotron);
+	    return (0, _possibleConstructorReturn3['default'])(this, _React$Component.apply(this, arguments));
+	  }
+
+	  Jumbotron.prototype.render = function render() {
+	    var _props = this.props;
+	    var Component = _props.componentClass;
+	    var className = _props.className;
+	    var props = (0, _objectWithoutProperties3['default'])(_props, ['componentClass', 'className']);
+
+	    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props);
+
+	    var bsProps = _splitBsProps[0];
+	    var elementProps = _splitBsProps[1];
+
+
+	    var classes = (0, _bootstrapUtils.getClassSet)(bsProps);
+
+	    return _react2['default'].createElement(Component, (0, _extends3['default'])({}, elementProps, {
+	      className: (0, _classnames2['default'])(className, classes)
+	    }));
+	  };
+
+	  return Jumbotron;
+	}(_react2['default'].Component);
+
+	Jumbotron.propTypes = propTypes;
+	Jumbotron.defaultProps = defaultProps;
+
+	exports['default'] = (0, _bootstrapUtils.bsClass)('jumbotron', Jumbotron);
+	module.exports = exports['default'];
+
+/***/ },
+/* 397 */
+/***/ function(module, exports, __webpack_require__) {
+
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
@@ -28779,7 +28921,7 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _inViewport = __webpack_require__(396);
+	var _inViewport = __webpack_require__(398);
 
 	var _inViewport2 = _interopRequireDefault(_inViewport);
 
@@ -28860,7 +29002,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
 
 /***/ },
-/* 396 */
+/* 398 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {module.exports = inViewport;
@@ -29115,95 +29257,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 397 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	exports.__esModule = true;
-
-	var _extends2 = __webpack_require__(267);
-
-	var _extends3 = _interopRequireDefault(_extends2);
-
-	var _objectWithoutProperties2 = __webpack_require__(305);
-
-	var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
-
-	var _classCallCheck2 = __webpack_require__(306);
-
-	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-	var _possibleConstructorReturn2 = __webpack_require__(307);
-
-	var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-	var _inherits2 = __webpack_require__(343);
-
-	var _inherits3 = _interopRequireDefault(_inherits2);
-
-	var _react = __webpack_require__(70);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _classnames = __webpack_require__(351);
-
-	var _classnames2 = _interopRequireDefault(_classnames);
-
-	var _elementType = __webpack_require__(366);
-
-	var _elementType2 = _interopRequireDefault(_elementType);
-
-	var _bootstrapUtils = __webpack_require__(356);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-	var propTypes = {
-	  componentClass: _elementType2['default']
-	};
-
-	var defaultProps = {
-	  componentClass: 'div'
-	};
-
-	var Jumbotron = function (_React$Component) {
-	  (0, _inherits3['default'])(Jumbotron, _React$Component);
-
-	  function Jumbotron() {
-	    (0, _classCallCheck3['default'])(this, Jumbotron);
-	    return (0, _possibleConstructorReturn3['default'])(this, _React$Component.apply(this, arguments));
-	  }
-
-	  Jumbotron.prototype.render = function render() {
-	    var _props = this.props;
-	    var Component = _props.componentClass;
-	    var className = _props.className;
-	    var props = (0, _objectWithoutProperties3['default'])(_props, ['componentClass', 'className']);
-
-	    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props);
-
-	    var bsProps = _splitBsProps[0];
-	    var elementProps = _splitBsProps[1];
-
-
-	    var classes = (0, _bootstrapUtils.getClassSet)(bsProps);
-
-	    return _react2['default'].createElement(Component, (0, _extends3['default'])({}, elementProps, {
-	      className: (0, _classnames2['default'])(className, classes)
-	    }));
-	  };
-
-	  return Jumbotron;
-	}(_react2['default'].Component);
-
-	Jumbotron.propTypes = propTypes;
-	Jumbotron.defaultProps = defaultProps;
-
-	exports['default'] = (0, _bootstrapUtils.bsClass)('jumbotron', Jumbotron);
-	module.exports = exports['default'];
-
-/***/ },
-/* 398 */
+/* 399 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
