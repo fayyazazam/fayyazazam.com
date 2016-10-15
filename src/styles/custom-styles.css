@@ -114,6 +114,57 @@ body {
     padding-bottom: 40px;
 }
 
+#Language-Row {
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#Framework-Row {
+    margin-left: 5px;
+}
+
+#Language-Button {
+    cursor: default;
+    opacity: 1;
+    margin-right: 10px;
+    border-color: black;
+    color: black;
+}
+
+
+#Framework-Button {
+    cursor: default;
+    opacity: 1;
+    margin-right: 10px;
+}
+
+/**Style the ones that sre aligned-right but on the left side **/
+#Language-Row-Left {
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#Framework-Row-Left {
+    margin-right: 5px;
+}
+
+#Language-Button-Left {
+    cursor: default;
+    opacity: 1;
+    margin-left: 10px;
+    border-color: black;
+    color: black;
+    float: right;
+}
+
+#Framework-Button-Left {
+    cursor: default;
+    opacity: 1;
+    margin-left: 10px;
+    float: right;
+}
 
 /** Footer.js styling **/
 #Footer {
