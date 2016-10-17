@@ -15,7 +15,9 @@ body {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url("morning1.jpg");
+    /**background-image: url("morning1.jpg");**/
+    background-image: url("morning1-supermin.jpg");
+    /**background-image: url("morning1-min.jpg");**/
     background-size: cover;
     color: #ffffff;
     min-height: 540px;
