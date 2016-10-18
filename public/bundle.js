@@ -16119,7 +16119,8 @@
 	  if (x === y) {
 	    // Steps 1-5, 7-10
 	    // Steps 6.b-6.e: +0 != -0
-	    return x !== 0 || 1 / x === 1 / y;
+	    // Added the nonzero y check to make Flow happy, but it is redundant
+	    return x !== 0 || y !== 0 || 1 / x === 1 / y;
 	  } else {
 	    // Step 6.a: NaN == NaN
 	    return x !== x && y !== y;
@@ -21904,13 +21905,18 @@
 
 
 	// module
-	exports.push([module.id, "/** Global settings for items **/\nhtml {\n    position: relative;\n    min-height: 100%;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n}\n\n.navbar {\n    border: 0;\n}\n\n.jumbotron {\n    display: flex;\n    align-items: center;\n    /**background-image: url(\"morning1.jpg\");**/\n    background-image: url(" + __webpack_require__(404) + ");\n    /**background-image: url(\"morning1-min.jpg\");**/\n    background-size: cover;\n    color: #ffffff;\n    min-height: 540px;\n    height: 100vh;\n    text-shadow: 0.25px 0.25px 0.25px #000000;\n    opacity: 0.95;\n\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n.jumbotron h2 {\n    font-family: 'Lato', serif;\n    text-align: center;\n    font-size: 55px;\n    font-weight: 100;\n    margin: 0;\n    color: #fff;\n}\n\n/** HeaderNavigation.js styling **/\n#Header-Nav {\n    opacity: 0.9;\n    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));\n    text-shadow: 0.25px 0.25px 0.15px #000000;\n}\n\n/** Styling for header bar text **/\n.navbar-inverse .navbar-nav > li > a,\n.navbar-inverse .navbar-nav > li > a:link,\n.navbar-inverse .navbar-nav > li > a:visited {\n    color: #d9d9d9;\n}\n\n.navbar-inverse .navbar-nav > li > a:hover,\n.navbar-inverse .navbar-nav > li > a:active {\n    color: #ffffff;\n}\n\n/** Body.js styling **/\n#About {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Experiences {\n    font-size: 50px;\n    padding-top: 70px;\n    padding-bottom: 30px;\n}\n\n#Projects {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Language-Overview {\n    border-left-style: solid;\n    border-left-width: thin;\n    border-left-color: black;\n    padding-left: 25px;\n}\n\n#Company {\n    display: inline;\n}\n\n#Company-Position {\n    padding-left: 3.5px;\n    display: inline;\n}\n\n.HeaderTransition {\n    opacity: 0.01;\n    -moz-transition: all 700ms ease-out;\n    -webkit-transition: all 700ms ease-out;\n    transition: all 700ms ease-out;\n    -moz-transform: translate3d(-200px, 0px, 0px);\n    -webkit-transform: translate3d(-200px, 0px, 0px);\n    transform: translate3d(-200px, 0px, 0px);\n    -webkit-backface-visibility: hidden;\n    -moz-backface-visibility: hidden;\n    backface-visibility: hidden;\n}\n\n.HeaderTransition--inViewport {\n    opacity: 1;\n    -moz-transform: translate3d(0px, 0px, 0px);\n    -webkit-transform: translate3d(0px, 0px, 0px);\n    transform: translate3d(0px, 0px, 0px);\n}\n\n/** WorkExperience.js styling **/\n#Experiences-Row {\n    padding-bottom: 40px;\n}\n\n#Language-Row {\n    margin-left: 5px;\n    padding-top: 10px;\n    padding-bottom: 5px;\n}\n\n#Framework-Row {\n    margin-left: 5px;\n}\n\n#Language-Button {\n    cursor: default;\n    opacity: 1;\n    margin-right: 10px;\n    border-color: black;\n    color: black;\n}\n\n\n#Framework-Button {\n    cursor: default;\n    opacity: 1;\n    margin-right: 10px;\n}\n\n/**Style the ones that sre aligned-right but on the left side **/\n#Language-Row-Left {\n    margin-right: 5px;\n    padding-top: 10px;\n    padding-bottom: 5px;\n}\n\n#Framework-Row-Left {\n    margin-right: 5px;\n}\n\n#Language-Button-Left {\n    cursor: default;\n    opacity: 1;\n    margin-left: 10px;\n    border-color: black;\n    color: black;\n    float: right;\n}\n\n#Framework-Button-Left {\n    cursor: default;\n    opacity: 1;\n    margin-left: 10px;\n    float: right;\n}\n\n/** Footer.js styling **/\n#Footer {\n    width: 100%;\n    position: absolute;\n    margin-bottom: 0;\n    color: #333333;\n}\n\n#Social-Links {\n    padding: 0 0 3px;\n}", ""]);
+	exports.push([module.id, "/** Global settings for items **/\nhtml {\n    position: relative;\n    min-height: 100%;\n}\n\nbody {\n    font-family: 'Lato', sans-serif;\n}\n\n.navbar {\n    border: 0;\n}\n\n.jumbotron {\n    display: flex;\n    align-items: center;\n    /**background-image: url(\"morning1.jpg\");**/\n    background-image: url(" + __webpack_require__(252) + ");\n    /**background-image: url(\"morning1-min.jpg\");**/\n    background-size: cover;\n    color: #ffffff;\n    min-height: 540px;\n    height: 100vh;\n    text-shadow: 0.25px 0.25px 0.25px #000000;\n    opacity: 0.95;\n\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n}\n\n.jumbotron h2 {\n    font-family: 'Lato', serif;\n    text-align: center;\n    font-size: 55px;\n    font-weight: 100;\n    margin: 0;\n    color: #fff;\n}\n\n/** HeaderNavigation.js styling **/\n#Header-Nav {\n    opacity: 0.9;\n    background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));\n    text-shadow: 0.25px 0.25px 0.15px #000000;\n}\n\n/** Styling for header bar text **/\n.navbar-inverse .navbar-nav > li > a,\n.navbar-inverse .navbar-nav > li > a:link,\n.navbar-inverse .navbar-nav > li > a:visited {\n    color: #d9d9d9;\n}\n\n.navbar-inverse .navbar-nav > li > a:hover,\n.navbar-inverse .navbar-nav > li > a:active {\n    color: #ffffff;\n}\n\n/** Body.js styling **/\n#About {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Experiences {\n    font-size: 50px;\n    padding-top: 70px;\n    padding-bottom: 30px;\n}\n\n#Projects {\n    font-size: 50px;\n    padding-bottom: 30px;\n}\n\n#Language-Overview {\n    border-left-style: solid;\n    border-left-width: thin;\n    border-left-color: black;\n    padding-left: 25px;\n}\n\n#Company {\n    display: inline;\n}\n\n#Company-Position {\n    padding-left: 3.5px;\n    display: inline;\n}\n\n.HeaderTransition {\n    opacity: 0.01;\n    -moz-transition: all 700ms ease-out;\n    -webkit-transition: all 700ms ease-out;\n    transition: all 700ms ease-out;\n    -moz-transform: translate3d(-200px, 0px, 0px);\n    -webkit-transform: translate3d(-200px, 0px, 0px);\n    transform: translate3d(-200px, 0px, 0px);\n    -webkit-backface-visibility: hidden;\n    -moz-backface-visibility: hidden;\n    backface-visibility: hidden;\n}\n\n.HeaderTransition--inViewport {\n    opacity: 1;\n    -moz-transform: translate3d(0px, 0px, 0px);\n    -webkit-transform: translate3d(0px, 0px, 0px);\n    transform: translate3d(0px, 0px, 0px);\n}\n\n/** WorkExperience.js styling **/\n#Experiences-Row {\n    padding-bottom: 40px;\n}\n\n#Language-Row {\n    margin-left: 5px;\n    padding-top: 10px;\n    padding-bottom: 5px;\n}\n\n#Framework-Row {\n    margin-left: 5px;\n}\n\n#Language-Button {\n    cursor: default;\n    opacity: 1;\n    margin-right: 10px;\n    border-color: black;\n    color: black;\n}\n\n\n#Framework-Button {\n    cursor: default;\n    opacity: 1;\n    margin-right: 10px;\n}\n\n/**Style the ones that sre aligned-right but on the left side **/\n#Language-Row-Left {\n    margin-right: 5px;\n    padding-top: 10px;\n    padding-bottom: 5px;\n}\n\n#Framework-Row-Left {\n    margin-right: 5px;\n}\n\n#Language-Button-Left {\n    cursor: default;\n    opacity: 1;\n    margin-left: 10px;\n    border-color: black;\n    color: black;\n    float: right;\n}\n\n#Framework-Button-Left {\n    cursor: default;\n    opacity: 1;\n    margin-left: 10px;\n    float: right;\n}\n\n/** Footer.js styling **/\n#Footer {\n    width: 100%;\n    position: absolute;\n    margin-bottom: 0;\n    color: #333333;\n}\n\n#Social-Links {\n    padding: 0 0 3px;\n}", ""]);
 
 	// exports
 
 
 /***/ },
-/* 252 */,
+/* 252 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "38173e9a87504e25a1c110eb8735921f.jpg";
+
+/***/ },
 /* 253 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -26864,12 +26870,11 @@
 	  Collapse.prototype.handleExit = function handleExit(elem) {
 	    var dimension = this._dimension();
 	    elem.style[dimension] = this.props.getDimensionValue(dimension, elem) + 'px';
+	    triggerBrowserReflow(elem);
 	  };
 
 	  Collapse.prototype.handleExiting = function handleExiting(elem) {
 	    var dimension = this._dimension();
-
-	    triggerBrowserReflow(elem);
 	    elem.style[dimension] = '0';
 	  };
 
@@ -27192,7 +27197,7 @@
 	  function Transition(props, context) {
 	    _classCallCheck(this, Transition);
 
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Transition).call(this, props, context));
+	    var _this = _possibleConstructorReturn(this, (Transition.__proto__ || Object.getPrototypeOf(Transition)).call(this, props, context));
 
 	    var initialStatus = void 0;
 	    if (props.in) {
@@ -29624,12 +29629,6 @@
 
 	exports['default'] = Footer;
 	module.exports = exports['default'];
-
-/***/ },
-/* 404 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "38173e9a87504e25a1c110eb8735921f.jpg";
 
 /***/ }
 /******/ ]);
