@@ -1,5 +1,6 @@
 import React from 'react';
 import WorkExperience from './WorkExperience';
+import PersonalProjects from './PersonalProjects';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
 import Grid from 'react-bootstrap/lib/Grid';
@@ -50,7 +51,7 @@ export default class Body extends React.Component {
 
             {/* About me text */}
             <Row>
-              <Col xs={4}>
+              <Col xs={5}>
                 <h4>
                   big body of text big body of text
                   big body of text big body of text
@@ -66,8 +67,8 @@ export default class Body extends React.Component {
                 </h4>
               </Col>
 
-              {/* Doughnut chart */}
-              <Col xs={6} xsOffset={2}>
+              {/* Languages Overview */}
+              <Col xs={6} xsOffset={1} id="Language-Overview">
                 // Java
                 <br />
                 System.out.println("I definitely know this very well!")
@@ -106,7 +107,7 @@ export default class Body extends React.Component {
             {/* Work Experience component that holds all my information */}
             <WorkExperience />
 
-            {/* TODO: Project list will be a component of its own */}
+            {/* Header for Personal Projects */}
             <Row>
               <Appear className="HeaderTransition">
                 <h3 id="Projects">
@@ -114,6 +115,10 @@ export default class Body extends React.Component {
                 </h3>
               </Appear>
             </Row>
+
+            {/* Personal Project component will go here*/}
+            <PersonalProjects />
+
           </Grid>
         </div>
     );
