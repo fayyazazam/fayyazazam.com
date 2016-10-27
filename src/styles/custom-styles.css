@@ -16,8 +16,8 @@ body {
     display: flex;
     align-items: center;
     /**background-image: url("morning1.jpg");**/
-    background-image: url("morning1-supermin.jpg");
-    /**background-image: url("morning1-min.jpg");**/
+    /**background-image: url("morning1-supermin.jpg");**/
+    background-image: url("morning1-min.jpg");
     background-size: cover;
     color: #ffffff;
     min-height: 540px;
@@ -114,6 +114,52 @@ body {
 /** WorkExperience.js styling **/
 #Experiences-Row {
     padding-bottom: 40px;
+}
+
+#Mojio-Experience {
+    position: relative;
+    z-index: 1;
+}
+
+#Mojio-Experience:before {
+    content: " ";
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    opacity: 0.35;
+    z-index: -1;
+    background: url('./Logos/logo-mojio.png') no-repeat center;
+}
+
+#ABB-Experience {
+    position: relative;
+    z-index: 1;
+}
+
+#ABB-Experience:before {
+    content: " ";
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100px;
+    opacity: 0.2;
+    z-index: -1;
+    background: url('./Logos/ABB-logo.png') no-repeat center;
+}
+
+#GR-Experience {
+    position: relative;
+    z-index: 1;
+}
+
+#GR-Experience:before {
+    content: " ";
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    opacity: 0.35;
+    z-index: -1;
+    background: url('./Logos/global-relay-squarelogo.png') no-repeat center;
 }
 
 #Language-Row {
