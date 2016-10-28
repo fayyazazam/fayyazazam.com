@@ -9,7 +9,44 @@ import Appear from 'react-appear';
 
 
 export default class Body extends React.Component {
+  constructor(props) {
+    {/** We don't want to show anything in the beginning, so work with states **/}
+    super(props);
+    this.state = {
+      imageURL: null,
+      opacity: 0,
+      transition: null,
+      transform: null
+    };
+  }
+
+  handleImageLoaded() {
+    {/** Handle jumbotron image to load and the transition when it IS in fact loaded **/}
+    this.setState({
+      imageURL: './src/styles/morning.jpg',
+      opacity: 0.95,
+      transition: 'opacity 100ms ease-in',
+      transform: 'translate3d(0, 0, 0)'
+    });
+  }
+
+  jumbotronImageStyle() {
+    {/** Handle the styling of the jumbotron image **/}
+    return {
+      backgroundImage: 'url(' + this.state.imageURL + ')',
+      opacity: this.state.opacity,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      WebkitTransition: this.state.transition,
+      WebkitTransform: this.state.transform,
+      MozTransition: this.state.transition,
+      MozTransform: this.state.transform
+    }
+  }
+
   getTimeofDay() {
+    {/** Get the current time of the user to determine appropriate greeting **/}
     var now = new Date();
     var hour = now.getHours();
 
@@ -30,8 +67,13 @@ export default class Body extends React.Component {
         <div>
 
           {/* Jumbotron and text on it */}
-          <Jumbotron>
+          <Jumbotron style={this.jumbotronImageStyle()}>
             <Grid>
+              {/** We don't want to display this, just using as a loader for image
+               since we are using background image **/}
+              <img src='./src/styles/morning.jpg'
+                   style={{display: 'none'}}
+                   onLoad={this.handleImageLoaded.bind(this)} />
               <h2>
                 Good {this.getTimeofDay()}!
               </h2>
