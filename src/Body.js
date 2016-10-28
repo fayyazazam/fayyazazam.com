@@ -21,6 +21,7 @@ export default class Body extends React.Component {
   }
 
   handleImageLoaded() {
+    {/** This function sets the state for our image on our jumbotron **/}
     this.setState({
       imageURL: './src/styles/morning.jpg',
       opacity: 0.95,
@@ -30,6 +31,7 @@ export default class Body extends React.Component {
   }
 
   jumbotronImageStyle() {
+    {/** This function sets the styling for our image on our jumbotron **/}
     return style = {
       backgroundImage: 'url(' + this.state.imageURL + ')',
       opacity: this.state.opacity,
@@ -44,6 +46,8 @@ export default class Body extends React.Component {
   }
 
   getTimeofDay() {
+    {/** This function gets the current time of day for the user,
+     and returns the appropriate greeting **/}
     var now = new Date();
     var hour = now.getHours();
 

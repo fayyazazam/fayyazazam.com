@@ -28132,6 +28132,7 @@
 	  _createClass(Body, [{
 	    key: 'handleImageLoaded',
 	    value: function handleImageLoaded() {
+	      {/** This function sets the state for our image on our jumbotron **/}
 	      this.setState({
 	        imageURL: './src/styles/morning.jpg',
 	        opacity: 0.95,
@@ -28142,6 +28143,7 @@
 	  }, {
 	    key: 'jumbotronImageStyle',
 	    value: function jumbotronImageStyle() {
+	      {/** This function sets the styling for our image on our jumbotron **/}
 	      return style = {
 	        backgroundImage: 'url(' + this.state.imageURL + ')',
 	        opacity: this.state.opacity,
@@ -28157,6 +28159,8 @@
 	  }, {
 	    key: 'getTimeofDay',
 	    value: function getTimeofDay() {
+	      {/** This function gets the current time of day for the user,
+	        and returns the appropriate greeting **/}
 	      var now = new Date();
 	      var hour = now.getHours();
 
