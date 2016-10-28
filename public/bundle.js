@@ -28132,7 +28132,7 @@
 	  _createClass(Body, [{
 	    key: 'handleImageLoaded',
 	    value: function handleImageLoaded() {
-	      {/** This function sets the state for our image on our jumbotron **/}
+	      {/** Handle jumbotron image to load and the transition when it IS in fact loaded **/}
 	      this.setState({
 	        imageURL: './src/styles/morning.jpg',
 	        opacity: 0.95,
@@ -28143,8 +28143,8 @@
 	  }, {
 	    key: 'jumbotronImageStyle',
 	    value: function jumbotronImageStyle() {
-	      {/** This function sets the styling for our image on our jumbotron **/}
-	      return style = {
+	      {/** Handle the styling of the jumbotron image **/}
+	      return {
 	        backgroundImage: 'url(' + this.state.imageURL + ')',
 	        opacity: this.state.opacity,
 	        backgroundSize: 'cover',
@@ -28159,8 +28159,7 @@
 	  }, {
 	    key: 'getTimeofDay',
 	    value: function getTimeofDay() {
-	      {/** This function gets the current time of day for the user,
-	        and returns the appropriate greeting **/}
+	      {/** Get the current time of the user to determine appropriate greeting **/}
 	      var now = new Date();
 	      var hour = now.getHours();
 
@@ -28186,7 +28185,7 @@
 	          _react2['default'].createElement(
 	            _reactBootstrapLibGrid2['default'],
 	            null,
-	            _react2['default'].createElement('img', { src: './src/styles/morning1.jpg',
+	            _react2['default'].createElement('img', { src: './src/styles/morning.jpg',
 	              style: { display: 'none' },
 	              onLoad: this.handleImageLoaded.bind(this) }),
 	            _react2['default'].createElement(

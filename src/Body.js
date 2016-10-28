@@ -21,7 +21,7 @@ export default class Body extends React.Component {
   }
 
   handleImageLoaded() {
-    {/** This function sets the state for our image on our jumbotron **/}
+    {/** Handle jumbotron image to load and the transition when it IS in fact loaded **/}
     this.setState({
       imageURL: './src/styles/morning.jpg',
       opacity: 0.95,
@@ -31,8 +31,8 @@ export default class Body extends React.Component {
   }
 
   jumbotronImageStyle() {
-    {/** This function sets the styling for our image on our jumbotron **/}
-    return style = {
+    {/** Handle the styling of the jumbotron image **/}
+    return {
       backgroundImage: 'url(' + this.state.imageURL + ')',
       opacity: this.state.opacity,
       backgroundSize: 'cover',
@@ -46,8 +46,7 @@ export default class Body extends React.Component {
   }
 
   getTimeofDay() {
-    {/** This function gets the current time of day for the user,
-     and returns the appropriate greeting **/}
+    {/** Get the current time of the user to determine appropriate greeting **/}
     var now = new Date();
     var hour = now.getHours();
 
@@ -72,7 +71,7 @@ export default class Body extends React.Component {
             <Grid>
               {/** We don't want to display this, just using as a loader for image
                since we are using background image **/}
-              <img src='./src/styles/morning1.jpg'
+              <img src='./src/styles/morning.jpg'
                    style={{display: 'none'}}
                    onLoad={this.handleImageLoaded.bind(this)} />
               <h2>
