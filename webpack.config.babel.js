@@ -21,5 +21,11 @@ export default {
       // Used for Images
       { test: /\.(jpe?g|png|gif|svg|ico)$/i, loader: 'file'}
     ]
-  }
+  },
+
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      sourceMap: false
+    })
+  ]
 };
