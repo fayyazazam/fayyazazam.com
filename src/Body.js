@@ -44,6 +44,7 @@ export default class Body extends React.Component {
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
+      backgroundAttachment: 'fixed',
       filter: this.state.filter,
       WebkitTransition: this.state.webkitTransition,
       WebkitTransform: this.state.transform,
