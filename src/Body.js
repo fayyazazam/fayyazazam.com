@@ -27,7 +27,7 @@ export default class Body extends React.Component {
   handleImageLoaded() {
     {/** Handle jumbotron image to load and the transition when it IS in fact loaded **/}
     this.setState({
-      imageURL: './src/styles/morning.jpg',
+      imageURL: './src/styles/images/morning.jpg',
       opacity: 0.95,
       filter: 'blur(0px)',
       mozTransition: '1s -moz-filter',
@@ -79,7 +79,7 @@ export default class Body extends React.Component {
             <Grid>
               {/** We don't want to display this, just using as a loader for image
                since we are using background image **/}
-              <img src='./src/styles/morning.jpg'
+              <img src='./src/styles/images/morning.jpg'
                    style={{display: 'none'}}
                     onLoad={this.handleImageLoaded.bind(this)}
               />

@@ -14,11 +14,13 @@ export default {
       { test: /\.js/, loader: 'babel', exclude: /(node_modules)/},
       // Used for Bootstrap Less Source Files
       { test: /\.less/, loader: 'style!css!less' },
+      // Used for compiling scss files
+      { test: /\.scss$/, loaders: ["style", "css", "sass"]},
       // Used for Bootstrap Less Source Files
       { test: /\.css/, loader: 'style!css' },
       // Used for Bootstrap Glyphicon Fonts
       { test: /\.(woff2|woff|ttf|svg|eot)$/, loader: 'file' },
-      // Used for Images
+      // Used for images
       { test: /\.(jpe?g|png|gif|svg|ico)$/i, loader: 'file'}
     ]
   },

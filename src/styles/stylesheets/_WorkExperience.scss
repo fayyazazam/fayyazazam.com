@@ -1,0 +1,87 @@
+@import "Global";
+
+#Experiences-Row {
+  padding-bottom: 40px;
+}
+#Mojio-Experience {
+  position: relative;
+  z-index: 1;
+  &:before {
+    content: " ";
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    opacity: 0.35;
+    z-index: -1;
+    background: $url_MojioLogo no-repeat center;
+  }
+}
+#ABB-Experience {
+  position: relative;
+  z-index: 1;
+  &:before {
+    content: " ";
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100px;
+    opacity: 0.2;
+    z-index: -1;
+    background: $url_ABBLogo no-repeat center;
+  }
+}
+#GR-Experience {
+  position: relative;
+  z-index: 1;
+  &:before {
+    content: " ";
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    opacity: 0.35;
+    z-index: -1;
+    background: $url_GRLogo no-repeat center;
+  }
+}
+#Language-Row {
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#Framework-Row {
+  margin-left: 5px;
+}
+#Language-Button {
+  cursor: default;
+  opacity: 1;
+  margin-right: 10px;
+  border-color: $black;
+  color: $black;
+}
+#Framework-Button {
+  cursor: default;
+  opacity: 1;
+  margin-right: 10px;
+}
+#Language-Row-Left {
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#Framework-Row-Left {
+  margin-right: 5px;
+}
+#Language-Button-Left {
+  cursor: default;
+  opacity: 1;
+  margin-left: 10px;
+  border-color: $black;
+  color: $black;
+  float: right;
+}
+#Framework-Button-Left {
+  cursor: default;
+  opacity: 1;
+  margin-left: 10px;
+  float: right;
+}
