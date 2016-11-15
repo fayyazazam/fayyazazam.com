@@ -6,7 +6,7 @@ import HeaderNavigation from './HeaderNavigation';
 import Body from './Body';
 import Footer from './Footer';
 
-require('./styles/stylesheets/_All.scss');
+require('./styles/stylesheets/_all.scss');
 
 global.React = React;
 
