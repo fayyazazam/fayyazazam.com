@@ -21,7 +21,6 @@ body {
     text-align: center;
     font-size: 55px;
     font-weight: 100;
-    //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
     text-shadow: 1px 1px 1px $black;
     margin: 0;
     color: $white;
@@ -57,11 +56,11 @@ body {
 }
 .HeaderTransition {
   opacity: 0.01;
-  @include transition(all, 700ms, ease-out, 0);
-  @include translate3d(-200px, 0, 0);
-  @include backface-visibility(hidden);
+  transition: all 700ms ease-out;
+  transform: translate3d(-200px, 0px, 0px);
+  backface-visibility: hidden;
 }
 .HeaderTransition--inViewport {
   opacity: 1;
-  @include translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0px, 0px);
 }
