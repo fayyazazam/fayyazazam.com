@@ -1,4 +1,4 @@
-# fayyazazam.github.io
+# fayyazazam.ca
 Portfolio-ish website
 
 #### Some of the frameworks/libraries used:
