@@ -14,7 +14,7 @@ export default class WorkExperience extends React.Component {
                 {/* This div to properly fit the logo in the background */}
                 <div id="Mojio-Experience">
                     <Row>
-                        <Col xs={6}>
+                        <Col xs={5} xsOffset={1} id="Company-Title">
                             <h4 id="Company">
                                 Mojio
                             </h4>
@@ -26,7 +26,7 @@ export default class WorkExperience extends React.Component {
 
                     <Row id="Experiences-Row">
                         {/* Small overview about Experience 1 */}
-                        <Col xs={6}>
+                        <Col xs={5} xsOffset={1}>
                             <h5>
                                 big body of text big body of text
                                 big body of text big body of text
@@ -38,7 +38,7 @@ export default class WorkExperience extends React.Component {
                         </Col>
 
                         {/* Picture/Icon of company + Icons of tools/languages I learnt from here */}
-                        <Col xs={6}>
+                        <Col xs={5}>
                             <Row id="Language-Row">
                                 <Button id="Language-Button" disabled="false"
                                         bsSize="small">.coffee</Button>
@@ -58,7 +58,7 @@ export default class WorkExperience extends React.Component {
                 {/* Experience # 2 */}
                 <div id="ABB-Experience">
                     <Row>
-                        <Col xs={6} xsOffset={6}>
+                        <Col xs={5} xsOffset={6} id="Company-Title">
                             <h4 id="Company">
                                 ABB
                             </h4>
@@ -70,7 +70,7 @@ export default class WorkExperience extends React.Component {
 
                     <Row id="Experiences-Row">
                         {/* Picture/Icon of company + Icons of tools/languages I learnt from here */}
-                        <Col xs={6}>
+                        <Col xs={5} xsOffset={1}>
                             <Row id="Language-Row-Left">
                                 <Button id="Language-Button-Left" disabled="false"
                                         bsSize="small">.java</Button>
@@ -88,7 +88,7 @@ export default class WorkExperience extends React.Component {
                         </Col>
 
                         {/* Small overview about Experience 2 */}
-                        <Col xs={6}>
+                        <Col xs={5}>
                             <h5>
                                 big body of text big body of text
                                 big body of text big body of text
@@ -104,7 +104,7 @@ export default class WorkExperience extends React.Component {
                 {/* Experience # 3 */}
                 <div id="GR-Experience">
                     <Row>
-                        <Col xs={6}>
+                        <Col xs={5} xsOffset={1} id="Company-Title">
                             <h4 id="Company">
                                 Global Relay
                             </h4>
@@ -116,7 +116,7 @@ export default class WorkExperience extends React.Component {
 
                     <Row id="Experiences-Row">
                         {/* Small overview about Experience 3 */}
-                        <Col xs={6}>
+                        <Col xs={5} xsOffset={1}>
                             <h5>
                                 big body of text big body of text
                                 big body of text big body of text
@@ -128,7 +128,7 @@ export default class WorkExperience extends React.Component {
                         </Col>
 
                         {/* Picture/Icon of company + Icons of tools/languages I learnt from here */}
-                        <Col xs={6}>
+                        <Col xs={5}>
                             <Row id="Language-Row">
                                 <Button id="Language-Button" disabled="false"
                                         bsSize="small">.html</Button>

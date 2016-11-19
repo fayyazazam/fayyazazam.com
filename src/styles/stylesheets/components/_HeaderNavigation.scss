@@ -1,0 +1,23 @@
+@import "../global";
+
+#Header-Nav {
+  opacity: 0.9;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0));
+  text-shadow: 0.25px 0.25px 0.15px $black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: $grey;
+  &:link {
+    color: $grey;
+  }
+  &:visited {
+    color: $grey;
+  }
+  &:hover {
+    color: $white;
+  }
+  &:active {
+    color: $white;
+  }
+}
