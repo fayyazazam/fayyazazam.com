@@ -9,6 +9,23 @@ export default class PersonalProjects extends React.Component {
     render() {
         return (
             <div>
+                {/**
+                 Create a gallery of four images in a grid.
+                 Make it sort of dark / dim
+                 Have white space bwtween the pics (maybe)
+                 On hover, dim it then transition in text
+                 overlay.
+
+                 on the text describe what it is/ short blip about it
+                 Link it to your github code.
+                 at the buttom put down frameworks you used.
+                 **/}
+
+
+                {/** HOW TO BLUR EDGES :
+                 box-shadow: inset x-length v-length blur-radius spread-radius RGB(R, G, B, opacity)
+                 **/}
+
                 <Col xs={10} xsOffset={1}>
                     <div id="Website">
                         <Row id="Website-Row">
@@ -47,5 +64,4 @@ export default class PersonalProjects extends React.Component {
             </div>
         )
     }
-
 }

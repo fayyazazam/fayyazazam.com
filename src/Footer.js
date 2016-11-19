@@ -7,6 +7,11 @@ export default class Footer extends React.Component {
     render() {
         return (
             <Navbar inverse id="Footer">
+                <Nav pullLeft id="Creator">
+                    <NavItem disabled="false">
+                        Creator: Fayyaz Azam
+                    </NavItem>
+                </Nav>
                 <Nav pullRight id="Social-Links">
                     <NavItem href="mailto:fayyazazam@gmail.com">
                         <i id="Mail-Icon" className="fa fa-envelope"></i></NavItem>

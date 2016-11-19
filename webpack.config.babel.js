@@ -37,12 +37,11 @@ export default {
 
   plugins: [
     //Uncomment when building for production
-    /**
-     new webpack.DefinePlugin({
+    new webpack.DefinePlugin({
       'process.env':{
         'NODE_ENV': JSON.stringify('production')
       }
-    }),**/
+    }),
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: false
     })
