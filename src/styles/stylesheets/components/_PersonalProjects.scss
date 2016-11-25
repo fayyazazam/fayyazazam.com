@@ -8,6 +8,9 @@
 //For images on the left column
 #ThumbLeft {
   display: inline-block;
+  //Need to make sure the aspect ratio is correct
+  height: 100%;
+  width: 100%;
 
   &:hover {
     opacity: .5;
@@ -17,6 +20,9 @@
 //For images on right column
 #ThumbRight {
   display: inline-block;
+  //Need to make sure the aspect ratio is correct
+  height:100%;
+  width: 100%;
 
   &:hover {
     opacity: .5;
