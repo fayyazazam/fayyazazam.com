@@ -1,31 +1,59 @@
 @import "../global";
 
+#divForPadding {
+  //Need this so we get equal padding on all sides of the images
+  padding-bottom: 30px;
+}
 
-#Website {
-  padding-bottom: 40px;
+//For images on the left column
+#ThumbLeft {
+  display: inline-block;
+
+  &:hover {
+    opacity: .5;
+  }
+}
+
+//For images on right column
+#ThumbRight {
+  display: inline-block;
+
+  &:hover {
+    opacity: .5;
+  }
+}
+
+//The styling for overlaying the images with text
+#Img-Overlay {
+  position: relative;
+  overflow: hidden;
+
+  &:hover {
+    #WebsiteText {
+      opacity: 0.8;
+    }
+  }
+}
+
+#WebsiteText {
+  //Set the background color to 50% opacity so we can see a transparent black
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  padding: 5px;
+
+  //Cover the whole div
+  height: 100%;
+  width: 100%;
+
+  //Make sure it starts at edge
+  top: 0;
+  left: 0;
+
+  //Don't want to show in the beginning
+  opacity: 0;
+
+  //Tranasition after on hover of image overlay
+  transition: opacity 500ms;
   color: $white;
 }
-#Android-Game {
-  padding-bottom: 40px;
-  color: $white;
-}
-#Votefinder {
-  padding-bottom: 40px;
-  color: $white;
-}
-#Web-Game {
-  padding-bottom: 40px;
-  color: $white;
-}
-#Website-Row {
-  background-color: $dark_grey;
-}
-#Android-Game-Row {
-  background-color: $dark_grey;
-}
-#Votefinder-Row {
-  background-color: $dark_grey;
-}
-#Web-Game-Row {
-  background-color: $dark_grey;
-}
+

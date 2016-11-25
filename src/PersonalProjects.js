@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import Col from 'react-bootstrap/lib/Col';
-import Row from 'react-bootstrap/lib/Row';
+import Image from 'react-bootstrap/lib/Image';
 
 export default class PersonalProjects extends React.Component {
     render() {
@@ -26,39 +26,51 @@ export default class PersonalProjects extends React.Component {
                  box-shadow: inset x-length v-length blur-radius spread-radius RGB(R, G, B, opacity)
                  **/}
 
-                <Col xs={10} xsOffset={1}>
-                    <div id="Website">
-                        <Row id="Website-Row">
-                            web row
-                        </Row>
+                <Col xs={5} xsOffset={1}>
+                    <div id="divForPadding">
+                        <div id="Img-Overlay">
+                            <Image src="http://placehold.it/400x300" alt =""
+                                   id="ThumbLeft" responsive/>
+                            <div id="WebsiteText">
+                                <p>Image description</p>
+                            </div>
+                        </div>
                     </div>
                 </Col>
 
-
-                <Col xs={10} xsOffset={1}>
-                    <div id="Android-Game">
-                        <Row id="Android-Game-Row">
-                            android game row
-                        </Row>
+                <Col xs={5}>
+                    <div id="divForPadding">
+                        <div id="Img-Overlay">
+                            <Image src="http://placehold.it/400x300" alt =""
+                                   id="ThumbRight" responsive/>
+                            <div id="WebsiteText">
+                                <p>Image description</p>
+                            </div>
+                        </div>
                     </div>
                 </Col>
 
-
-
-                <Col xs={10} xsOffset={1}>
-                    <div id="Votefinder">
-                        <Row id="Votefinder-Row">
-                            votefinder row
-                        </Row>
+                <Col xs={5} xsOffset={1}>
+                    <div id="divForPadding">
+                        <div id="Img-Overlay">
+                            <Image src="http://placehold.it/400x300" alt =""
+                                   id="ThumbLeft" responsive/>
+                            <div id="WebsiteText">
+                                <p>Image description</p>
+                            </div>
+                        </div>
                     </div>
                 </Col>
 
-
-                <Col xs={10} xsOffset={1}>
-                    <div id="Web-Game">
-                        <Row id="Web-Game-Row">
-                            web game row
-                        </Row>
+                <Col xs={5}>
+                    <div id="divForPadding">
+                        <div id="Img-Overlay">
+                            <Image src="http://placehold.it/400x300" alt =""
+                                   id="ThumbRight" responsive/>
+                            <div id="WebsiteText">
+                                <p>Image description</p>
+                            </div>
+                        </div>
                     </div>
                 </Col>
             </div>
