@@ -3,6 +3,7 @@
 #divForPadding {
   //Need this so we get equal padding on all sides of the images
   padding-bottom: 30px;
+  cursor: pointer;
 }
 
 //For images on the left column
@@ -43,7 +44,7 @@
 
 #WebsiteText {
   //Set the background color to 50% opacity so we can see a transparent black
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.7);
   position: absolute;
   padding: 5px;
 
