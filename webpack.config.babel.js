@@ -34,7 +34,6 @@ export default {
   node: {
     fs: "empty"
   },
-
   plugins: [
     //Uncomment when building for production
     new webpack.DefinePlugin({
@@ -44,6 +43,8 @@ export default {
     }),
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: false
-    })
+    }),
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.AggressiveMergingPlugin()
   ]
 };

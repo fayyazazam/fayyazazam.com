@@ -1,4 +1,4 @@
-import React from 'react';
+import Component from 'react/lib/ReactComponent';
 import WorkExperience from './WorkExperience';
 import PersonalProjects from './PersonalProjects';
 import Col from 'react-bootstrap/lib/Col';
@@ -12,7 +12,7 @@ import AutoPrefixer from 'autoprefixer';
 // Need this prefixer so I can get inline styling to be prefixed as well
 var Prefixer = PostcssJS.sync([AutoPrefixer]);
 
-export default class Body extends React.Component {
+export default class Body extends Component {
   constructor(props) {
     {/** We want to show our blurred image in the beginning, so work with states **/}
     super(props);

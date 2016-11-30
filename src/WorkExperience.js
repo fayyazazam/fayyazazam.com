@@ -1,12 +1,12 @@
 /**
  * Created by Fay on 2016-09-22.
  */
-import React from 'react';
+import Component from 'react/lib/ReactComponent';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
 import Button from 'react-bootstrap/lib/Button';
 
-export default class WorkExperience extends React.Component {
+export default class WorkExperience extends Component {
     render() {
         return (
             <div>

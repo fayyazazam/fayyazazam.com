@@ -4,12 +4,6 @@
   padding-bottom: 40px;
 }
 
-#Company-Title {
-  border-bottom-color: black;
-  border-bottom-width: thin;
-  border-bottom-style: solid;
-}
-
 #Mojio-Experience {
   position: relative;
   z-index: 1;
@@ -29,7 +23,7 @@
   &:before {
     content: " ";
     position: absolute;
-    right: 0;
+    right: 2.5em;
     width: 50%;
     height: 100px;
     opacity: 0.2;

@@ -1,9 +1,9 @@
-import React from 'react';
+import Component from 'react/lib/ReactComponent';
 import Nav from 'react-bootstrap/lib/Nav';
 import Navbar from 'react-bootstrap/lib/Navbar';
 import NavItem from 'react-bootstrap/lib/NavItem';
 
-export default class Footer extends React.Component {
+export default class Footer extends Component {
     render() {
         return (
             <Navbar inverse id="Footer">
