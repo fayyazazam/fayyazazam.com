@@ -1,11 +1,11 @@
 /**
  * Created by Fay on 2016-10-04.
  */
-import React from 'react';
+import Component from 'react/lib/ReactComponent';
 import Col from 'react-bootstrap/lib/Col';
 import Image from 'react-bootstrap/lib/Image';
 
-export default class PersonalProjects extends React.Component {
+export default class PersonalProjects extends Component {
     render() {
         return (
             <div>
