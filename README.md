@@ -1,5 +1,5 @@
 # fayyazazam.ca
-Portfolio-ish website
+Portfolio-ish website made from scratch.
 
 #### Some of the frameworks/libraries used:
 - React
