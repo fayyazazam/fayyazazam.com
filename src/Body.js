@@ -170,6 +170,26 @@ export default class Body extends Component {
             {/* Personal Project component will go here*/}
             <PersonalProjects />
 
+            {/* Resume component will go here*/}
+            <Row>
+              <Appear className="HeaderTransition">
+                <Col xsOffset={1}>
+                  <h3 id="Resume">
+                    Thanks for looking!
+                  </h3>
+                </Col>
+              </Appear>
+            </Row>
+
+            <Row>
+              <Col xs={5} xsOffset={1}>
+                <h4 id="Resume-Text">
+                  Feel free to clone this project and use as your own React practise purposes.
+                  Want to get in touch? Find my social links in the footer.
+                </h4>
+              </Col>
+            </Row>
+
           </Grid>
         </div>
     );
