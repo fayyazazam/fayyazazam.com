@@ -6,47 +6,29 @@ html {
 }
 body {
   font-family: $font_Lato, $font_Sans-serif;
+  font-weight: 100;
 }
-.navbar {
-  border: 0;
-}
-.jumbotron {
-  display: flex;
-  align-items: center;
-  color: $white;
-  min-height: 540px;
-  height: 100vh;
-  h2 {
-    font-family: $font_Lato, $font_Serif;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 100;
-    text-shadow: 1px 1px 1px $black;
-    margin: 0;
-    color: $white;
-  }
-}
-
-
-#About {
-  font-size: 50px;
-  padding-bottom: 30px;
-}
-#Experiences {
-  font-size: 50px;
-  padding-top: 70px;
-  padding-bottom: 30px;
-}
-#Projects {
-  font-size: 50px;
-  padding-bottom: 30px;
-}
+//Overview of programming languages
 #Language-Overview {
   border-left-style: solid;
   border-left-width: thin;
   border-left-color: $black;
   padding-left: 25px;
 }
+
+//About header
+#About {
+  font-size: 45px;
+}
+
+//Experiences header
+#Experiences {
+  font-size: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+//Sub headers under work
 #Company {
   display: inline;
 }
@@ -54,6 +36,25 @@ body {
   padding-left: 3.5px;
   display: inline;
 }
+
+//Personal projects header
+#Projects {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+//Contact me header
+#Resume {
+  font-size: 45px;
+  padding-top: 20px;
+}
+
+//Contact me text
+#Resume-Text {
+  padding-bottom: 30px;
+}
+
+//Transitions for the main headers
 .HeaderTransition {
   opacity: 0.01;
   transition: all 700ms ease-out;

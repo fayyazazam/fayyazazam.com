@@ -9,7 +9,7 @@ export default class Footer extends Component {
             <Navbar inverse id="Footer">
                 <Nav pullLeft id="Creator">
                     <NavItem disabled="false">
-                        Creator: Fayyaz Azam
+                        © Fayyaz Azam
                     </NavItem>
                 </Nav>
                 <Nav pullRight id="Social-Links">
