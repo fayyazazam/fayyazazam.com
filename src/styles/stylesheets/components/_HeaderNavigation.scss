@@ -6,6 +6,10 @@
   text-shadow: 0.25px 0.25px 0.15px $black;
 }
 
+.navbar {
+  border: 0;
+}
+
 .navbar-inverse .navbar-nav > li > a {
   color: $grey;
   font-size: small;
