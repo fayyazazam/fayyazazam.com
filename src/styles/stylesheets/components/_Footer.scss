@@ -8,9 +8,30 @@
 }
 
 #Creator {
-  font-size: 10px;
+  font-size: small;
+  cursor: pointer;
+
+  &:hover {
+    li > a {
+      color: $white;
+    }
+  }
 }
 
 #Social-Links {
   padding: 0 0 3px;
+    li > a {
+      &:link {
+        color: $grey;
+      }
+      &:visited {
+        color: $grey;
+      }
+      &:hover {
+        color: $white;
+      }
+      &:active {
+        color: $white;
+      }
+  }
 }

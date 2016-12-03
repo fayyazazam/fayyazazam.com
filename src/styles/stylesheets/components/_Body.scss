@@ -6,6 +6,7 @@ html {
 }
 body {
   font-family: $font_Lato, $font_Sans-serif;
+  font-weight: 100;
 }
 .navbar {
   border: 0;
@@ -28,23 +29,23 @@ body {
 }
 
 #About {
-  font-size: 50px;
-  padding-bottom: 30px;
+  font-size: 45px;
+  padding-bottom: 20px;
 }
 #Experiences {
-  font-size: 50px;
-  padding-top: 70px;
-  padding-bottom: 30px;
+  font-size: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 #Projects {
-  font-size: 50px;
-  padding-bottom: 30px;
+  font-size: 45px;
+  padding-bottom: 20px;
 }
 
 #Resume {
-  font-size: 50px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  font-size: 45px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 #Resume-Text {

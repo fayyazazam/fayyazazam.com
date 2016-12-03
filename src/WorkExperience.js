@@ -27,7 +27,7 @@ export default class WorkExperience extends Component {
                     <Row id="Experiences-Row">
                         {/* Small overview about Experience 1 */}
                         <Col xs={5} xsOffset={1}>
-                            <h5>
+                            <h5 id="Experience-Body">
                                 big body of text big body of text
                                 big body of text big body of text
                                 big body of text big body of text
@@ -89,7 +89,7 @@ export default class WorkExperience extends Component {
 
                         {/* Small overview about Experience 2 */}
                         <Col xs={5}>
-                            <h5>
+                            <h5 id="Experience-Body">
                                 big body of text big body of text
                                 big body of text big body of text
                                 big body of text big body of text
@@ -117,7 +117,7 @@ export default class WorkExperience extends Component {
                     <Row id="Experiences-Row">
                         {/* Small overview about Experience 3 */}
                         <Col xs={5} xsOffset={1}>
-                            <h5>
+                            <h5 id="Experience-Body">
                                 big body of text big body of text
                                 big body of text big body of text
                                 big body of text big body of text

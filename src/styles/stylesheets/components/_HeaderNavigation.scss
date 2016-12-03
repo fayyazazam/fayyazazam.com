@@ -8,6 +8,7 @@
 
 .navbar-inverse .navbar-nav > li > a {
   color: $grey;
+  font-size: small;
   &:link {
     color: $grey;
   }
@@ -19,5 +20,15 @@
   }
   &:active {
     color: $white;
+  }
+}
+
+#Title {
+  color: $grey;
+  font-size: small;
+  cursor: pointer;
+
+  &:hover {
+    color:$white;
   }
 }

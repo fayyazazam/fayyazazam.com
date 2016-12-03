@@ -94,7 +94,7 @@ export default class Body extends Component {
               <Appear className="HeaderTransition">
                 <Col xsOffset={1}>
                   <h3 id="About">
-                    Who am I?
+                    ME:
                   </h3>
                 </Col>
               </Appear>
@@ -147,7 +147,7 @@ export default class Body extends Component {
               <Appear className="HeaderTransition">
                 <Col xsOffset={1}>
                   <h3 id="Experiences">
-                    Where have I worked?
+                    WORK:
                   </h3>
                 </Col>
               </Appear>
@@ -161,7 +161,7 @@ export default class Body extends Component {
               <Appear className="HeaderTransition">
                 <Col xsOffset={1}>
                   <h3 id="Projects">
-                    What have I done?
+                    PROJECTS:
                   </h3>
                 </Col>
               </Appear>
@@ -175,7 +175,7 @@ export default class Body extends Component {
               <Appear className="HeaderTransition">
                 <Col xsOffset={1}>
                   <h3 id="Resume">
-                    Thanks for looking!
+                    LETS TALK:
                   </h3>
                 </Col>
               </Appear>
