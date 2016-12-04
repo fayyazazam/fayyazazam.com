@@ -100,7 +100,7 @@ export default class JumboT extends Component {
                              style={Prefixer({display: 'none'})}
                              onLoad={this.handleImageLoaded.bind(this)}
                         />
-                        <h2>
+                        <h2 id="Jumbo-Text">
                             Good {this.getTimeofDay()}!
                         </h2>
                         {this.getTimeofDay() == 'Afternoon' ?
