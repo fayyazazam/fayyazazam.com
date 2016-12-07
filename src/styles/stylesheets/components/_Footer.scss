@@ -20,18 +20,24 @@
 
 #Social-Links {
   padding: 0 0 3px;
-    li > a {
-      &:link {
-        color: $grey;
-      }
-      &:visited {
-        color: $grey;
-      }
-      &:hover {
-        color: $white;
-      }
-      &:active {
-        color: $white;
-      }
+  white-space: nowrap;
+
+  li {
+    display: inline-block;
+  }
+
+  li > a {
+    &:link {
+      color: $grey;
+    }
+    &:visited {
+      color: $grey;
+    }
+    &:hover {
+      color: $white;
+    }
+    &:active {
+      color: $white;
+    }
   }
 }
