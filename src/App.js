@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/less/bootstrap.less';
 
 import HeaderNavigation from './HeaderNavigation';
 import Body from './Body';
