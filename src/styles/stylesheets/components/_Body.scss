@@ -6,6 +6,8 @@ html {
 }
 body {
   font-family: $font_Lato, $font_Sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-weight: 300;
 }
 //Overview of programming languages

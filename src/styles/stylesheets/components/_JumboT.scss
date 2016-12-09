@@ -18,7 +18,7 @@
   font-family: $font_Lato, $font_Serif;
   text-align: center;
   font-size: xx-large;
-  font-weight: 100;
+  font-weight: 300;
   text-shadow: 1px 1px 1px $black;
   opacity: 0.8;
   margin: 0;
@@ -31,6 +31,7 @@
   padding: 5px;
   bottom: 0;
   right: 0;
+  font-weight: 300;
 
   opacity: 0;
   transition: opacity 500ms;
