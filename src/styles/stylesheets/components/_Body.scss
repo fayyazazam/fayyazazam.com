@@ -6,7 +6,9 @@ html {
 }
 body {
   font-family: $font_Lato, $font_Sans-serif;
-  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
 }
 //Overview of programming languages
 #Language-Overview {
@@ -18,14 +20,20 @@ body {
 
 //About header
 #About {
-  font-size: 45px;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+#About-Me-Text {
+  font-size: larger;
 }
 
 //Experiences header
 #Experiences {
-  font-size: 45px;
+  font-size: xx-large;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: 400;
 }
 
 //Sub headers under work
@@ -39,19 +47,22 @@ body {
 
 //Personal projects header
 #Projects {
-  font-size: 45px;
+  font-size: xx-large;
   padding-bottom: 20px;
+  font-weight: 400;
 }
 
 //Contact me header
 #Resume {
-  font-size: 45px;
+  font-size: xx-large;
   padding-top: 20px;
+  font-weight: 400;
 }
 
 //Contact me text
 #Resume-Text {
   padding-bottom: 30px;
+  font-size: larger;
 }
 
 //Transitions for the main headers

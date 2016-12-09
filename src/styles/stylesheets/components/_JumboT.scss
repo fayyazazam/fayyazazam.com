@@ -5,15 +5,6 @@
   color: $white;
   min-height: 540px;
   height: 100vh;
-  h2 {
-    font-family: $font_Lato, $font_Serif;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 100;
-    text-shadow: 1px 1px 1px $black;
-    margin: 0;
-    color: $white;
-  }
 
   &:hover {
     #Imgsrc {
@@ -22,12 +13,25 @@
   }
 }
 
+//Greeting message on jumbotron
+#Jumbo-Text {
+  font-family: $font_Lato, $font_Serif;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px $black;
+  opacity: 0.8;
+  margin: 0;
+  color: $white;
+}
+
 //Image source want to show this so I don't get sued
 #Imgsrc {
   position: absolute;
   padding: 5px;
   bottom: 0;
   right: 0;
+  font-weight: 300;
 
   opacity: 0;
   transition: opacity 500ms;

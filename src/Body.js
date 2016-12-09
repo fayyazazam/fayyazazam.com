@@ -31,7 +31,7 @@ export default class Body extends Component {
                   {/* About me text */}
                 <Row>
                   <Col xs={4} xsOffset={1}>
-                    <h4>
+                    <h4 id="About-Me-Text">
                       big body of text big body of text
                       big body of text big body of text
                       big body of text big body of text
@@ -110,10 +110,11 @@ export default class Body extends Component {
                 </Row>
 
                 <Row>
-                  <Col xs={5} xsOffset={1}>
+                  <Col xs={6} xsOffset={1}>
                     <h4 id="Resume-Text">
-                      Feel free to clone this project and use as your own React practise purposes.
-                      Want to get in touch? Find my social links in the footer.
+                      <p>Want to get in touch? Find my social links in the footer.</p>
+                      <br />
+                      <p>Feel free to clone this project and use as your own React practise purposes.</p>
                     </h4>
                   </Col>
                 </Row>

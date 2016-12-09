@@ -13,6 +13,8 @@
 .navbar-inverse .navbar-nav > li > a {
   color: $grey;
   font-size: small;
+  font-weight: 400;
+
   &:link {
     color: $grey;
   }
@@ -29,6 +31,7 @@
 
 #Title {
   color: $grey;
+  font-weight: 400;
   font-size: small;
   cursor: pointer;
 
