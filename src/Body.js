@@ -32,13 +32,21 @@ export default class Body extends Component {
                 <Row>
                   <Col xs={4} xsOffset={1}>
                     <h4 id="About-Me-Text">
-                      big body of text big body of text
-                      big body of text big body of text
-                      big body of text big body of text
-                      big body of text big body of text
-                      big body of text big body of text
-                      big body of text big body of text
-                      big body of text big body of text
+                      Welcome to my site! I am an endeavouring software developer in my fourth year /
+                      final semester at UBC.
+
+                      <br />
+                      <br />
+
+                      My current expertise generally revolves around
+                      back-end systems designed using NoSQL databases, and front-end
+                      applications using a combination of HTML, Bootstrap and React.
+
+                      <br />
+                      <br />
+
+                      Scroll through some of my experiences, projects and don't be shy about
+                      contacting me about any site improvements, bugs or just to have a chat.
                     </h4>
                   </Col>
 
@@ -64,7 +72,7 @@ export default class Body extends Component {
 
                       {"<!-- HTML -->"}
                     <br />
-                    Still learning this, along with CSS and JSX.
+                    Still learning this, along with SCSS and JSX.
                     <br />
                     <br />
                   </Col>
@@ -112,9 +120,18 @@ export default class Body extends Component {
                 <Row>
                   <Col xs={6} xsOffset={1}>
                     <h4 id="Resume-Text">
-                      <p>Want to get in touch? Find my social links in the footer.</p>
+                      <p>
+                        Want to get in touch? Find my social links in the footer.
+                      </p>
+
                       <br />
-                      <p>Feel free to clone this project and use as your own React practise purposes.</p>
+
+                      <p>
+                        <i>
+                          My résumé has private information in regards to my phone number and address.
+                          Contact me directly if you would like a copy, sorry!
+                        </i>
+                      </p>
                     </h4>
                   </Col>
                 </Row>
