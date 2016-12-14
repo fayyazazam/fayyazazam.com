@@ -27,7 +27,7 @@ export default class PersonalProjects extends Component {
 
                                         <p>
                                             Template-less website made from scratch using
-                                            React, with a little help from react-boostrap,
+                                            React, with a little help from react-boostrap, webpack
                                             and a few notable others.
 
                                             <br />
@@ -49,15 +49,14 @@ export default class PersonalProjects extends Component {
                                 <div id="ProjectText">
                                     <div id="ProjectTextContainer">
                                         <h5 id="Project-Title">
-                                            VOTEFINDER ¬ WEB APPLICATION:
+                                            VOTEFINDER ¬ WEB APP:
                                         </h5>
 
                                         <br />
 
                                         <p>
                                            Web application created using Google's Web Toolkit (GWT) that showcased all the 2014
-                                            polling stations in the city of Vancouver. Credits to Font Awesome, jQuery and Bootstrap
-                                            for much of the front end design work.
+                                            polling stations in the city of Vancouver.
 
                                             <br />
                                             <br />
@@ -78,7 +77,7 @@ export default class PersonalProjects extends Component {
                                 <div id="ProjectText">
                                     <div id="ProjectTextContainer">
                                         <h5 id="Project-Title">
-                                            CAR DRIVER ¬ HTML5 BROWSER GAME:
+                                            CAR + DRIVER ¬ HTML5 GAME:
                                         </h5>
 
                                         <br />

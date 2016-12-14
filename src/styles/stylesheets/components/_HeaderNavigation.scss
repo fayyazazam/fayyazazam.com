@@ -29,6 +29,19 @@
   }
 }
 
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+  background-color: transparent;
+  &:focus, &:hover, &:link {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  &:visited {
+    border-color: transparent;
+    background-color: transparent;
+  }
+}
+
 #Title {
   color: $grey;
   font-weight: 400;

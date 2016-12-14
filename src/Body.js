@@ -32,20 +32,19 @@ export default class Body extends Component {
                 <Row>
                   <Col xs={4} xsOffset={1}>
                     <h4 id="About-Me-Text">
-                      Welcome to my site! I am an endeavouring software developer in my fourth year /
-                      final semester at UBC.
+                      Welcome! I'm Fayyaz and a senior at UBC.
 
                       <br />
                       <br />
 
-                      My current expertise generally revolves around
-                      back-end systems designed using NoSQL databases, and front-end
-                      applications using a combination of HTML, Bootstrap and React.
+                      My current back-end expertise involve NoSQL databases,
+                      while front-end revolve around a stack
+                      of HTML, Bootstrap and React.
 
                       <br />
                       <br />
 
-                      Scroll through some of my experiences, projects and don't be shy about
+                      Scroll through my experiences, projects and don't be shy about
                       contacting me about any site improvements, bugs or just to have a chat.
                     </h4>
                   </Col>

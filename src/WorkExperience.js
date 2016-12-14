@@ -28,12 +28,13 @@ export default class WorkExperience extends Component {
                         {/* Small overview about Experience 1 */}
                         <Col xs={5} xsOffset={1}>
                             <h5 id="Experience-Body">
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
+                                Improved the API automation (including vehicle and device simulation)
+                                project to almost 95% coverage, along with an automated report generator.
+                                This project was later incorporated into a load-test tool to better
+                                measure server capabilities.
+                                <br />
+                                <br />
+
                             </h5>
                         </Col>
 
@@ -90,12 +91,16 @@ export default class WorkExperience extends Component {
                         {/* Small overview about Experience 2 */}
                         <Col xs={5}>
                             <h5 id="Experience-Body">
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
+                                Re-designed the Cordova based mobile application and created a
+                                theming engine.
+                                <br />
+                                <br />
+                                Kick-started the automation team with the initial implementation of
+                                Appium for said mobile application.
+                                <br />
+                                <br />
+                                Engineered a prototype Elasticsearch client that synchronized app-specific
+                                data from their Oracle database to optimize user experience.
                             </h5>
                         </Col>
                     </Row>
@@ -118,12 +123,12 @@ export default class WorkExperience extends Component {
                         {/* Small overview about Experience 3 */}
                         <Col xs={5} xsOffset={1}>
                             <h5 id="Experience-Body">
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
-                                big body of text big body of text
+                                Followed OWASP standards to test security compliance and discovered
+                                critical cross-site scripting vulnerabilities.
+                                <br />
+                                <br />
+                                Created test plans and regression suites aligned with new features
+                                while addressing security standards to make sure they are covered in future releases.
                             </h5>
                         </Col>
 
