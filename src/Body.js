@@ -77,6 +77,20 @@ export default class Body extends Component {
                   </Col>
                 </Row>
 
+                {/* Header for Personal Projects */}
+                <Row>
+                  <Appear className="HeaderTransition">
+                    <Col xsOffset={1}>
+                      <h3 id="Projects">
+                        PROJECTS:
+                      </h3>
+                    </Col>
+                  </Appear>
+                </Row>
+
+                {/* Personal Project component will go here*/}
+                <PersonalProjects />
+
                   {/* Row for work experience header title */}
                 <Row>
                   <Appear className="HeaderTransition">
@@ -91,19 +105,7 @@ export default class Body extends Component {
                   {/* Work Experience component that holds all my information */}
                 <WorkExperience />
 
-                  {/* Header for Personal Projects */}
-                <Row>
-                  <Appear className="HeaderTransition">
-                    <Col xsOffset={1}>
-                      <h3 id="Projects">
-                        PROJECTS:
-                      </h3>
-                    </Col>
-                  </Appear>
-                </Row>
 
-                  {/* Personal Project component will go here*/}
-                <PersonalProjects />
 
                   {/* Resume component will go here*/}
                 <Row>

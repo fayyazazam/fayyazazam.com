@@ -34,7 +34,9 @@ export default class WorkExperience extends Component {
                                 measure server capabilities.
                                 <br />
                                 <br />
-
+                                Worked with ZTE and managed all device processes
+                                from change-logs, to server implementations, to over the air updates, to testing
+                                and even customer support.
                             </h5>
                         </Col>
 
@@ -100,7 +102,7 @@ export default class WorkExperience extends Component {
                                 <br />
                                 <br />
                                 Engineered a prototype Elasticsearch client that synchronized app-specific
-                                data from their Oracle database to optimize user experience.
+                                data from their Oracle database to optimize fetching speeds and user experience.
                             </h5>
                         </Col>
                     </Row>
