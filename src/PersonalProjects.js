@@ -27,7 +27,7 @@ export default class PersonalProjects extends Component {
 
                                         <p>
                                             Template-less website made from scratch using
-                                            React, with a little help from react-boostrap,
+                                            React, with a little help from react-boostrap, webpack
                                             and a few notable others.
 
                                             <br />
@@ -49,20 +49,19 @@ export default class PersonalProjects extends Component {
                                 <div id="ProjectText">
                                     <div id="ProjectTextContainer">
                                         <h5 id="Project-Title">
-                                            WEBSITE + PORTFOLIO ¬ REACT:
+                                            VOTEFINDER ¬ WEB APP:
                                         </h5>
 
                                         <br />
 
                                         <p>
-                                            Template-less website made from scratch using
-                                            React, with a little help from react-boostrap,
-                                            and a few notable others.
+                                           Web application created using Google's Web Toolkit (GWT) that showcased all the 2014
+                                            polling stations in the city of Vancouver.
 
                                             <br />
                                             <br />
 
-                                            <a href="https://github.com/fayyazazam/fayyazazam.github.io">GITHUB</a>
+                                            <a href="https://github.com/fayyazazam/votefinder">GITHUB</a>
                                         </p>
                                     </div>
                                 </div>
@@ -78,20 +77,19 @@ export default class PersonalProjects extends Component {
                                 <div id="ProjectText">
                                     <div id="ProjectTextContainer">
                                         <h5 id="Project-Title">
-                                            WEBSITE + PORTFOLIO ¬ REACT:
+                                            CAR + DRIVER ¬ HTML5 GAME:
                                         </h5>
 
                                         <br />
 
                                         <p>
-                                            Template-less website made from scratch using
-                                            React, with a little help from react-boostrap,
-                                            and a few notable others.
+                                            Browser based, vertical-scrolling car game
+                                            built using the Phaser HTML5 game framework
 
                                             <br />
                                             <br />
 
-                                            <a href="https://github.com/fayyazazam/fayyazazam.github.io">GITHUB</a>
+                                            <a href="https://github.com/fayyazazam/Car_Game">GITHUB</a>
                                         </p>
                                     </div>
                                 </div>
@@ -107,20 +105,20 @@ export default class PersonalProjects extends Component {
                                 <div id="ProjectText">
                                     <div id="ProjectTextContainer">
                                         <h5 id="Project-Title">
-                                            WEBSITE + PORTFOLIO ¬ REACT:
+                                            ROBOT ¬ ANDROID GAME:
                                         </h5>
 
                                         <br />
 
                                         <p>
-                                            Template-less website made from scratch using
-                                            React, with a little help from react-boostrap,
-                                            and a few notable others.
+                                            Native Android game created using a self-made
+                                            framework that included animations, file I/O handlers,
+                                            multi-touch handlers and more.
 
                                             <br />
                                             <br />
 
-                                            <a href="https://github.com/fayyazazam/fayyazazam.github.io">GITHUB</a>
+                                            <a href="https://github.com/fayyazazam/bot-game">GITHUB</a>
                                         </p>
                                     </div>
                                 </div>

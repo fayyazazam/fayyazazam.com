@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack --progress",
     "build-lib": "webpack --config vendor.webpack.config.js",
+    "build-prod": "webpack --config vendor.webpack.config.js && webpack --progress",
     "dev": "webpack-dev-server --hot --inline"
   },
   "author": "Fayyaz Azam <fayyazazam@gmail.com>",

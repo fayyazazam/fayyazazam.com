@@ -46,11 +46,12 @@
   }
 }
 
+//Sort of container for the div that contains text
 #ProjectText {
   //Set the background color to 80% opacity so we can see a transparent black
   background: rgba(0,0,0,0.8);
   position: absolute;
-  padding: 10px 15px 10px 10px;
+  padding: 10px 25px 10px 25px;
 
   //Cover the whole div
   height: 100%;
@@ -72,6 +73,7 @@
   text-align: center;
 }
 
+//Div that contains text
 #ProjectTextContainer {
   position:relative;
   top:50%;

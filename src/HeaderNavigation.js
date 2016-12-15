@@ -32,8 +32,8 @@ export default class HeaderNavigation extends Component {
                 <NavbarCollapse>
                     <Nav pullRight>
                         <NavItem onClick={()=>this.scrollTo('About')} href="#">ABOUT</NavItem>
-                        <NavItem onClick={()=>this.scrollTo('Experiences')} href="#">EXP</NavItem>
                         <NavItem onClick={()=>this.scrollTo('Projects')} href="#">PROJ</NavItem>
+                        <NavItem onClick={()=>this.scrollTo('Experiences')} href="#">EXP</NavItem>
                         <NavItem onClick={()=>this.scrollTo('Footer')} href="#">CONTACT</NavItem>
                     </Nav>
                 </NavbarCollapse>

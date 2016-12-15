@@ -32,13 +32,20 @@ export default class Body extends Component {
                 <Row>
                   <Col xs={4} xsOffset={1}>
                     <h4 id="About-Me-Text">
-                      big body of text big body of text
-                      big body of text big body of text
-                      big body of text big body of text
-                      big body of text big body of text
-                      big body of text big body of text
-                      big body of text big body of text
-                      big body of text big body of text
+                      Welcome! I'm Fayyaz and a senior at UBC.
+
+                      <br />
+                      <br />
+
+                      My current back-end expertise involve NoSQL databases,
+                      while front-end revolve around a stack
+                      of HTML, Bootstrap and React.
+
+                      <br />
+                      <br />
+
+                      Scroll through my experiences, projects and don't be shy about
+                      contacting me about any site improvements, bugs or just to have a chat.
                     </h4>
                   </Col>
 
@@ -64,11 +71,25 @@ export default class Body extends Component {
 
                       {"<!-- HTML -->"}
                     <br />
-                    Still learning this, along with CSS and JSX.
+                    Still learning this, along with SCSS and JSX.
                     <br />
                     <br />
                   </Col>
                 </Row>
+
+                {/* Header for Personal Projects */}
+                <Row>
+                  <Appear className="HeaderTransition">
+                    <Col xsOffset={1}>
+                      <h3 id="Projects">
+                        PROJECTS:
+                      </h3>
+                    </Col>
+                  </Appear>
+                </Row>
+
+                {/* Personal Project component will go here*/}
+                <PersonalProjects />
 
                   {/* Row for work experience header title */}
                 <Row>
@@ -84,19 +105,7 @@ export default class Body extends Component {
                   {/* Work Experience component that holds all my information */}
                 <WorkExperience />
 
-                  {/* Header for Personal Projects */}
-                <Row>
-                  <Appear className="HeaderTransition">
-                    <Col xsOffset={1}>
-                      <h3 id="Projects">
-                        PROJECTS:
-                      </h3>
-                    </Col>
-                  </Appear>
-                </Row>
 
-                  {/* Personal Project component will go here*/}
-                <PersonalProjects />
 
                   {/* Resume component will go here*/}
                 <Row>
@@ -112,9 +121,18 @@ export default class Body extends Component {
                 <Row>
                   <Col xs={6} xsOffset={1}>
                     <h4 id="Resume-Text">
-                      <p>Want to get in touch? Find my social links in the footer.</p>
+                      <p>
+                        Want to get in touch? Find my social links in the footer.
+                      </p>
+
                       <br />
-                      <p>Feel free to clone this project and use as your own React practise purposes.</p>
+
+                      <p>
+                        <i>
+                          My résumé has private information in regards to my phone number and address.
+                          Contact me directly if you would like a copy, sorry!
+                        </i>
+                      </p>
                     </h4>
                   </Col>
                 </Row>

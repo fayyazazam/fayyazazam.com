@@ -11,8 +11,10 @@
     content: " ";
     position: absolute;
     width: 50%;
+    top: 15%;
+    right: 2.5em;
     height: 100px;
-    opacity: 0.35;
+    opacity: 0.5;
     z-index: -1;
     background: $url_MojioLogo no-repeat center;
   }
@@ -23,10 +25,10 @@
   &:before {
     content: " ";
     position: absolute;
-    right: 2.5em;
-    width: 50%;
+    top: 15%;
+    width: 40%;
     height: 100px;
-    opacity: 0.2;
+    opacity: 0.25;
     z-index: -1;
     background: $url_ABBLogo no-repeat center;
   }
@@ -37,9 +39,11 @@
   &:before {
     content: " ";
     position: absolute;
+    top: 15%;
     width: 50%;
+    right: 2.5em;
     height: 100px;
-    opacity: 0.35;
+    opacity: 0.5;
     z-index: -1;
     background: $url_GRLogo no-repeat center;
   }
