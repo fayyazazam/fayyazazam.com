@@ -19,7 +19,7 @@ export default class WorkExperience extends Component {
                                 Mojio
                             </h4>
                             <h5 id="Company-Position">
-                                - Software Developer
+                                - Software Developer Intern
                             </h5>
                         </Col>
                     </Row>
@@ -66,7 +66,7 @@ export default class WorkExperience extends Component {
                                 ABB
                             </h4>
                             <h5 id="Company-Position">
-                                - Software Developer
+                                - Software Developer Intern
                             </h5>
                         </Col>
                     </Row>
@@ -116,7 +116,7 @@ export default class WorkExperience extends Component {
                                 Global Relay
                             </h4>
                             <h5 id="Company-Position">
-                                - QA Analyst
+                                - QA Analyst Intern
                             </h5>
                         </Col>
                     </Row>
