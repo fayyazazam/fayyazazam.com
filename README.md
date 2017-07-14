@@ -1,7 +1,7 @@
-# Deprecated as of 06.2017. See master branch for V2 of my site. 
+## Deprecated as of 06.2017. See master branch for V2 of my site. 
 Feel free to use this code as-is
 
-# fayyazazam.ca
+## fayyazazam.ca
 Portfolio-ish website made from scratch.
 
 ### Some of the frameworks/libraries used:
