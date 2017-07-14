@@ -1,3 +1,6 @@
+# Deprecated as of 06.2017. See master branch for V2 of my site. 
+Feel free to use this code as-is
+
 # fayyazazam.ca
 Portfolio-ish website made from scratch.
 
@@ -10,7 +13,7 @@ Portfolio-ish website made from scratch.
 
 ### Also:
 - Font Awesome icons
-- Google fonts fonts..
+- Google fonts
 
 ### To run locally:
 - Clone
@@ -18,15 +21,3 @@ Portfolio-ish website made from scratch.
 - npm run build-lib
 - npm run build
 - open index.html
-
-### Compatibility (Assume latest stable builds): 
-#### Mac
-- Safari
-- Chrome
-- Opera
-- Firefox
-
-#### Windows
-- Chrome
-- Opera
-- Firefox (partial; font-weights don't show correctly)
