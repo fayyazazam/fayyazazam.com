@@ -1,5 +1,9 @@
-$color: #262828;
+$text-color: #262828;
+$highlight-color: #9E19D7;
+$bg-grey: lightgray;
 
+//Set fonts and positioning
+//for farthest background
 html, body {
   // Use system fonts because
   // they are quite nice
@@ -21,10 +25,16 @@ html, body {
     // Old everything else
     sans-serif;
 
-  color: $color;
+  color: $text-color;
   margin: 0;
   overflow: hidden;
-  background-color: lightgray;
+  background-color: $bg-grey;
+}
+
+//Highlight text colours
+::selection {
+  color: white;
+  background: $highlight-color;
 }
 
 #wrapper {
@@ -39,6 +49,10 @@ html, body {
 
 #heading {
   margin: 0 auto;
-  border-bottom: 1px solid black;
-  font-size: 5vh;
+  border-bottom: 1px solid $text-color;
+  font-size: calc(12px + 2vh);
+}
+
+#intro {
+  font-size: calc(5px + 2vh);
 }
