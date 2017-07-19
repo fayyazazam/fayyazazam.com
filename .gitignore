@@ -1,0 +1,4 @@
+/node_modules/
+.vscode/*
+# Build folder is for dev use
+/build/

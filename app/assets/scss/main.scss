@@ -1,0 +1,44 @@
+$color: #262828;
+
+html, body {
+  // Use system fonts because
+  // they are quite nice
+  font-family: 
+    // For Mac: San Francisco
+    -apple-system, BlinkMacSystemFont, 
+    // Windows
+    "Segoe UI", 
+    // Android / Chrome OS
+    "Roboto", 
+    // KDE -> Ubuntu -> GNOME
+    "Oxygen", "Ubuntu", "Cantarell", 
+    // Firefox OS
+    "Fira Sans", 
+    // Older Android
+    "Droid Sans", 
+    // Older Mac
+    "Helvetica Neue", 
+    // Old everything else
+    sans-serif;
+
+  color: $color;
+  margin: 0;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+#header {
+  padding: 2%;
+}
+
+#heading {
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  font-size: 5vh;
+}
