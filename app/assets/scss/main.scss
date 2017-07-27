@@ -1,5 +1,5 @@
 $text-color: #262828;
-$highlight-color: #9E19D7;
+$highlight-color: #FF3D73;
 $bg-grey: lightgray;
 
 //Set fonts and positioning
@@ -29,6 +29,15 @@ html, body {
   margin: 0;
   overflow: hidden;
   background-color: $bg-grey;
+}
+
+// I don't like the default link color
+// Change it to  align with highlight color
+a {
+  color: black;
+  &:hover, &:active, &:focus {
+    color: $highlight-color;
+  }
 }
 
 //Highlight text colours

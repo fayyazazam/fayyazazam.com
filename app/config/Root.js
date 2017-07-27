@@ -6,7 +6,7 @@ import App from '../components/App';
 
 const Root = () => {
   return (
-    <Tilt options={{ reverse: true, scale: 0.98, max: 5 }}>
+    <Tilt options={{ reverse: true, scale: 0.99, max: 4 }}>
       <div id="wrapper">
         <Router>
           {/* Configure paths and static components
