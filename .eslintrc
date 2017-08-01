@@ -10,6 +10,7 @@
         "global-require":"off",
         "semi":"error",
         "space-in-parens":"warn",
+        "react/jsx-curly-spacing": "off",
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
     },
     "parserOptions": {

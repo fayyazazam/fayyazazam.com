@@ -2,8 +2,12 @@ $text-color: #262828;
 $highlight-color: #FF3D73;
 $bg-grey: lightgray;
 
-//Set fonts and positioning
-//for farthest background
+/*************************/
+/** TO-DO: Autoprefixer **/
+/*************************/
+
+// Set fonts and positioning
+// for farthest background
 html, body {
   // Use system fonts because
   // they are quite nice
@@ -29,39 +33,77 @@ html, body {
   margin: 0;
   overflow: hidden;
   background-color: $bg-grey;
+
+  // I don't like the text-selection
+  // cursor so just default (may change later)
+  cursor: default;
 }
 
 // I don't like the default link color
 // Change it to  align with highlight color
 a {
-  color: black;
+  color: $text-color;
   &:hover, &:active, &:focus {
     color: $highlight-color;
   }
 }
 
-//Highlight text colours
+// Highlight text colours
 ::selection {
   color: white;
   background: $highlight-color;
 }
 
+// Wrapper for the block that moves
 #wrapper {
   height: 100vh;
   width: 100vw;
   background-color: white;
 }
 
-#header {
+// Padding the edges of wrapper
+#padding {
   padding: 2%;
 }
 
-#heading {
-  margin: 0 auto;
+// Container for header
+#header {
   border-bottom: 1px solid $text-color;
+}
+
+// The header at the top
+#heading {
+  display: inline;
+  margin: 0 auto;
   font-size: calc(12px + 2vh);
 }
 
+// The intro text body
 #intro {
+  // Take up left half
+  float: left;
+  width: 50%;
   font-size: calc(5px + 2vh);
+}
+
+.breadcrumb {
+  float: right;
+  // Keep it properly in-line above 
+  // horizontal line
+  margin: 6px 0 0 15px;
+
+  font-size: calc(6px + 2vh);
+  text-decoration: none;
+}
+
+// Right half
+.pull-right {
+  float: right;
+  width: 50%;
+}
+
+// Styling for active breadcrumb
+.active {
+  text-decoration: none;
+  color: $highlight-color;
 }
