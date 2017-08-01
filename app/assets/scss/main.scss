@@ -39,6 +39,12 @@ html, body {
   cursor: default;
 }
 
+// Default text-sizing
+// Re-size appropriately
+p {
+  font-size: calc(5px + 2vh);
+}
+
 // I don't like the default link color
 // Change it to  align with highlight color
 a {
@@ -78,14 +84,7 @@ a {
   font-size: calc(12px + 2vh);
 }
 
-// The intro text body
-#intro {
-  // Take up left half
-  float: left;
-  width: 50%;
-  font-size: calc(5px + 2vh);
-}
-
+// Nav buttons
 .breadcrumb {
   float: right;
   // Keep it properly in-line above 
@@ -94,6 +93,13 @@ a {
 
   font-size: calc(6px + 2vh);
   text-decoration: none;
+}
+
+// Left Half
+.pull-left {
+  // Take up left half
+  float: left;
+  width: 50%;
 }
 
 // Right half
