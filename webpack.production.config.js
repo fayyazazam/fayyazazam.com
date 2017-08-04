@@ -1,18 +1,19 @@
 const { resolve } = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
 const config = {
   devtool: 'cheap-module-source-map',
 
   entry: [
-    './main.js'
+    './app/main.js'
   ],
 
-  context: resolve(__dirname, 'app'),
-
   output: {
-    filename: 'bundle.js',
-    path: resolve(__dirname, 'dist'),
+    filename: 'dist/bundle.[hash].js',
+    path: resolve(__dirname, './'),
     publicPath: ''
   },
 
@@ -26,7 +27,14 @@ const config = {
     new webpack.optimize.UglifyJsPlugin({
       beautify: false
     }),
-    new webpack.DefinePlugin({ 'process.env': { NODE_ENV: JSON.stringify('production') } })
+    new ExtractTextPlugin({
+      filename: 'dist/main.[hash].css'
+    }),
+    new webpack.DefinePlugin({ 'process.env': { NODE_ENV: JSON.stringify('production') } }),
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: 'app/template/index.template.html'
+    })
   ],
 
   module: {
@@ -39,7 +47,28 @@ const config = {
       {
         test: /\.scss$/,
         exclude: /node_modules/,
-        use: ['style-loader', 'css-loader', 'sass-loader']
+        use: ExtractTextPlugin.extract({
+          use: [{
+            loader: 'css-loader'
+          }, {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: () => [
+                autoprefixer({
+                  browsers: [
+                    '>1%',
+                    'last 4 versions',
+                    'Firefox ESR',
+                    'not ie < 9', // React doesn't support IE8 anyway
+                  ],
+                })
+              ]
+            }
+          }, {
+            loader: 'sass-loader'
+          }]
+        })
       },
       { test: /\.(png|jpg)$/, use: 'url-loader?limit=15000' },
       { test: /\.eot(\?v=\d+.\d+.\d+)?$/, use: 'file-loader' },

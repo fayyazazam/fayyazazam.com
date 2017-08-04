@@ -1,6 +1,6 @@
 import React from 'react';
 import Tilt from 'react-tilt';
-import { BrowserRouter as Router, Route, browserHistory } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 // Import local components
 import Header from '../components/Header';
@@ -13,7 +13,7 @@ const Root = () => {
     <Tilt options={{ reverse: true, scale: 0.99, max: 4 }}>
       <div id="wrapper">
         <div id="padding">
-          <Router history={ browserHistory } className="pull-right">
+          <Router className="pull-right">
             {/* Configure paths and static components
                 here (ie: Header, Footer etc) */}
             <div>

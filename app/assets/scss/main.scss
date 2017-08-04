@@ -2,17 +2,13 @@ $text-color: #262828;
 $highlight-color: #FF3D73;
 $bg-grey: lightgray;
 
-/*************************/
-/** TO-DO: Autoprefixer **/
-/*************************/
-
-// Set fonts and positioning
+// Set fonts and positioning 
 // for farthest background
 html, body {
   // Use system fonts because
   // they are quite nice
   font-family: 
-    // For Mac: San Francisco
+    // For Mac San Francisco
     -apple-system, BlinkMacSystemFont, 
     // Windows
     "Segoe UI", 
