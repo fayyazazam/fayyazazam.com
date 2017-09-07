@@ -8,6 +8,8 @@
         "comma-dangle": "off",
         "linebreak-style":"off",
         "global-require":"off",
+        "import/no-unresolved":"off",
+        "import/extensions":"off",
         "semi":"error",
         "space-in-parens":"warn",
         "react/jsx-curly-spacing": "off",
