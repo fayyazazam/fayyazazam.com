@@ -20,6 +20,9 @@ const Work = () => {
               <div className="company">Rise People, Vancouver</div>
               <div>2017.06</div>
               <div>Software Developer</div>
+              <div className="action-buttons">
+                .html .ts .php .rb
+              </div>
             </div>
           </div>
         </div>
@@ -35,6 +38,9 @@ const Work = () => {
               <div className="company">Mojio, Vancouver</div>
               <div>2016.05 - 2016.12</div>
               <div>Software Developer Co-op</div>
+              <div className="action-buttons">
+                .coffee .cs
+              </div>
             </div>
           </div>
         </div>
@@ -50,6 +56,9 @@ const Work = () => {
               <div className="company">ABB, Richmond</div>
               <div>2015.05 - 2015.12</div>
               <div>Software Developer Co-op</div>
+              <div className="action-buttons">
+                .js .java
+              </div>
             </div>
           </div>
         </div>
@@ -68,6 +77,7 @@ const Work = () => {
             </div>
           </div>
         </div>
+
       </section>
     </div>
   );

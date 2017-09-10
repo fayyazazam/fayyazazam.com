@@ -1,7 +1,7 @@
 // Parent container
 .timeline-container {
     position: relative;
-    padding: 0 0 10px 0;
+    padding: 0 0 5px 0;
     width: 95%;
     font-size: 80%;
     font-weight: 300;
@@ -35,6 +35,11 @@
     border-radius: 50%;
     background: white;
     border: 2px solid;
+    transition: 150ms ease-in-out;
+    
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 .now {
@@ -63,4 +68,10 @@
 
 .company {
     font-weight: 500;
+}
+
+.action-buttons {
+    float: right;
+    text-align: right;
+    margin-top: -20px;
 }
