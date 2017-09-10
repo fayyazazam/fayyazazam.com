@@ -1,0 +1,66 @@
+// Parent container
+.timeline-container {
+    position: relative;
+    padding: 0 0 10px 0;
+    width: 95%;
+    font-size: 80%;
+    font-weight: 300;
+}
+
+// Straight line that intersects
+// All of our events
+.timeline-container-before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 2px;
+    background: lighten(black, 55%);
+}
+
+.event {
+    position: relative;
+    margin: 10px 0 40px;
+    padding-left: 45px;
+}
+
+.event-type {
+    position: absolute;
+    margin-left: 2px;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid;
+}
+
+.now {
+    border: 2px solid $highlight-color;
+}
+
+.material-icons {
+    margin-top: -8px;
+    margin-left: -8px;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.event-container {
+    // Not sure
+}
+
+.event-container-before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: white;
+}
+
+.company {
+    font-weight: 500;
+}

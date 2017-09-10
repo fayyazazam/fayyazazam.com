@@ -13,7 +13,8 @@
         "semi":"error",
         "space-in-parens":"warn",
         "react/jsx-curly-spacing": "off",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/no-unused-prop-types": "off"
     },
     "parserOptions": {
         "ecmaVersion": 6,
