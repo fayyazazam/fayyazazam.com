@@ -55,7 +55,8 @@ $text-grey: #8C8C8C;
 
     // Center the font awesome icon
     .fa {
-        transform: translateY(50%);
+        transform: translateY(60%);
+        font-size: calc(10px + 1.5vh);
     }
 }
 
