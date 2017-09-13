@@ -1,9 +1,11 @@
+$text-grey: #8C8C8C;
+
 // Parent container
 .timeline-container {
     position: relative;
-    padding: 0 0 5px 0;
+    padding: 0 0 1vh 0;
     width: 95%;
-    font-size: 80%;
+    font-size: calc(7.5px + 0.5vw);
     font-weight: 300;
 }
 
@@ -13,65 +15,68 @@
     content: '';
     position: absolute;
     top: 0;
-    left: 18px;
+    left: 4.25vh;
     height: 100%;
     width: 2px;
-    background: lighten(black, 55%);
+    background: $text-grey;
 }
 
-.event {
-    position: relative;
-    margin: 10px 0 40px;
-    padding-left: 45px;
-}
-
-.event-type {
-    position: absolute;
-    margin-left: 2px;
-    top: 0;
-    left: 0;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background: white;
-    border: 2px solid;
-    transition: 150ms ease-in-out;
-    
-    &:hover {
-        transform: scale(1.1);
-    }
-}
-
-.now {
-    border: 2px solid $highlight-color;
-}
-
-.material-icons {
-    margin-top: -8px;
-    margin-left: -8px;
-    top: 50%;
-    left: 50%;
-    width: 32px;
-    height: 32px;
-}
-
-.event-container {
-    // Not sure
-}
-
-.event-container-before {
-    top: 24px;
-    left: 100%;
-    border-color: transparent;
-    border-left-color: white;
+.action {
+    float: right;
+    text-align: right;
+    margin-top: -20px;
 }
 
 .company {
     font-weight: 500;
 }
 
-.action-buttons {
-    float: right;
-    text-align: right;
-    margin-top: -20px;
+.event {
+    position: relative;
+    margin: 0 0 7vh;
+    padding-left: 10vh;
+}
+
+.event-type {
+    position: absolute;
+    border: 2px solid;
+    border-radius: 50%;
+    top: 0;
+    left: 1vh;
+    height: calc(10px + 4vh);
+    width: calc(10px + 4vh);
+    background: white;
+    text-align: center;
+    transition: 150ms ease-in-out;
+    
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    // Center the font awesome icon
+    .fa {
+        transform: translateY(50%);
+    }
+}
+
+.event-type-school {
+    position: absolute;
+    margin-left: 3.5vh;
+    top: 1.25vh;
+    left: 0;
+    width: 2vh;
+    height: 2px;
+    background: $text-grey;
+}
+
+.now {
+    border: 2px solid $highlight-color;
+}
+
+.now-text {
+    color: $highlight-color;
+}
+
+.school {
+    color: $text-grey;
 }
