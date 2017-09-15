@@ -19,24 +19,36 @@ $text-grey: #8C8C8C;
     height: 100%;
     width: 2px;
     background: $text-grey;
+
+    // Responsive websites are hard
+    @media (min-height: 472px) {
+     left: 3.9vh;   
+    }
 }
 
+// The languages that I learnt / used
+// In each experience
 .action {
     float: right;
     text-align: right;
     margin-top: -20px;
 }
 
+// Styling for company name
 .company {
     font-weight: 500;
 }
 
+// Each important aspect / experience
+// Should rename this
 .event {
     position: relative;
     margin: 0 0 7vh;
     padding-left: 10vh;
 }
 
+// Each important experience's circle
+// In which I put a font-awesome icon
 .event-type {
     position: absolute;
     border: 2px solid;
@@ -60,6 +72,7 @@ $text-grey: #8C8C8C;
     }
 }
 
+// Line indicating a time (for school only)
 .event-type-school {
     position: absolute;
     margin-left: 3.5vh;
@@ -68,16 +81,24 @@ $text-grey: #8C8C8C;
     width: 2vh;
     height: 2px;
     background: $text-grey;
+
+    // Responsive websites are hard
+    @media (min-height: 472px) {
+     margin-left: 3.15vh;   
+    }
 }
 
+// Current experience circle styling
 .now {
     border: 2px solid $highlight-color;
 }
 
+// Current experience text styling
 .now-text {
     color: $highlight-color;
 }
 
+// School text styling
 .school {
     color: $text-grey;
 }

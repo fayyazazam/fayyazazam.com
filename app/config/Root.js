@@ -10,7 +10,7 @@ import Skills from '../components/Skills';
 
 const Root = () => {
   return (
-    <Tilt options={{ reverse: true, scale: 0.99, max: 4 }}>
+    <Tilt options={{ reverse: true, scale: 0.99, max: 2 }}>
       <div id="wrapper">
         <div id="padding">
           <Router className="pull-right">
