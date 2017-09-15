@@ -64,6 +64,12 @@ a {
   height: 100vh;
   width: 100vw;
   background-color: white;
+
+  // Animate everything for now
+  // Primarily when windows are resized
+  -webkit-transition: all ease 0.6s;
+  -moz-transition: all ease 0.6s;
+  transition: all ease 0.6s;
 }
 
 // Padding the edges of wrapper
@@ -113,19 +119,12 @@ a {
   color: $highlight-color;
 }
 
-
+/********************/
+/*   Work styling   */
+/********************/
+@import './work.scss';
 
 /********************/
-/* Timeline styling */
+/*   Work styling   */
 /********************/
-@import './timeline.scss';
-
-.fade-enter {
-  opacity: 0;
-  z-index: 1;
-}
-
-.fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 250ms ease-in;
-}
+@import './skills.scss';
