@@ -1,13 +1,88 @@
-.circle-border {
+// Buttons for language
+.button {
     display: inline-block;
-    border-radius: 50%;
-    width: 120px; 
-    font-size: 32px;
-    border: 2px solid #666;
+    width: auto;
+    margin-right: 1vw;
+    padding: 1vh 2vw;
+    border: 1px solid $highlight-color;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: calc(5px + 0.5vw);
 }
 
-.circle-border span {
+// Front end / Back end type styling
+.type {
+    padding: 1vh 0;
+    border: none;
+    float: right;
+    font-size: calc(7px + 0.5vw);
+    font-weight: 600;
+}
+
+// Container that holds the icon
+// Made this so it's easier to deal
+// with hover effects being twitchy
+.skill-container {
+    transition: all .5s ease-out;
+    
+    // Move to left when hovered
+    &:hover {
+        -webkit-transform: translateX(-10vw);
+        -moz-transform: translateX(-10vw);
+        -o-transform: translateX(-10vw);
+        -ms-transform: translateX(-10vw);
+        transform: translateX(-10vw);
+
+        // Set colour and turn off animation
+        .circle-border {
+            animation: none;
+            border-color: $highlight-color;
+        }
+    }
+}
+
+// Circular border styling
+.circle-border {
     display: block;
-    text-align: center;
-    line-height: 120px;
+    margin: 0 auto;
+    width: 12vw; 
+    border: 1vw solid;
+    border-radius: 50%;
+    font-size: calc(10px + 2.5vw);
+
+    // Make the border breathe (to show it is hoverable)
+    animation: breathe 7s ease-out infinite;
+
+    // Icon inside circle
+    span {
+        display: block;
+        text-align: center;
+        line-height: 12vw;
+    }
+}
+
+// Animation for breathe effect
+@keyframes breathe {
+    0% {
+        transform: scale(0.9);
+    }
+
+    25% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+// Horizontal line dividing front and back end
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #666;
 }
