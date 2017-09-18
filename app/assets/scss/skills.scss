@@ -19,28 +19,6 @@
     font-weight: 600;
 }
 
-// Container that holds the icon
-// Made this so it's easier to deal
-// with hover effects being twitchy
-.skill-container {
-    transition: all .5s ease-out;
-    
-    // Move to left when hovered
-    &:hover {
-        -webkit-transform: translateX(-10vw);
-        -moz-transform: translateX(-10vw);
-        -o-transform: translateX(-10vw);
-        -ms-transform: translateX(-10vw);
-        transform: translateX(-10vw);
-
-        // Set colour and turn off animation
-        .circle-border {
-            animation: none;
-            border-color: $highlight-color;
-        }
-    }
-}
-
 // Circular border styling
 .circle-border {
     display: block;
@@ -61,6 +39,62 @@
     }
 }
 
+// Container that holds the icon
+// Made this so it's easier to deal
+// with hover effects being twitchy
+.skill-container {
+    // Default text size
+    font-size: calc(7px + 0.5vw);
+    transition: all .5s ease-out;
+    
+    // Move to left when hovered
+    &:hover {
+        -webkit-transform: translateX(-10vw);
+        -moz-transform: translateX(-10vw);
+        -o-transform: translateX(-10vw);
+        -ms-transform: translateX(-10vw);
+        transform: translateX(-10vw);
+
+        // Set colour and turn off animation
+        .circle-border {
+            animation: none;
+            border-color: $highlight-color;
+        }
+
+        .skill-text {
+            position: absolute;
+            top: 8vh;
+            right: -1vw;
+            text-align: right;
+            width: 18vw;
+
+            visibility: visible;
+            opacity: 1;
+            transition: visibility 0.5s, opacity 0.5s linear;
+        }
+    }
+}
+
+// Text outlining frameworks that I know
+.skill-text {
+    position: absolute;
+    right: -1vw;
+    top: 8vh;
+    text-align: right;
+    width: 18vw;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+// Horizontal line dividing front and back end
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #666;
+}
+
 // Animation for breathe effect
 @keyframes breathe {
     0% {
@@ -78,11 +112,4 @@
     100% {
         transform: scale(0.9);
     }
-}
-
-// Horizontal line dividing front and back end
-.line {
-    height: 1px;
-    width: 100%;
-    background-color: #666;
 }
