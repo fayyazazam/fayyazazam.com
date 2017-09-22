@@ -21,8 +21,8 @@ const Skills = () => {
       <div style={{ margin: '5vh 0 1vh' }}>
         <div className="button">HTML</div>
         <div className="button">JS</div>
-        <div className="button">TS</div>
         <div className="button">JSX</div>
+        <div className="button">TS</div>
         <div className="button type">Front-End</div>
       </div>
 

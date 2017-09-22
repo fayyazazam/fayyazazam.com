@@ -1,6 +1,7 @@
 $text-color: #262828;
 $highlight-color: #FF3D73;
 $bg-grey: lightgray;
+$bg-wrapper-grey: #F7F7F7;
 
 // Import Font Awesome 
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
@@ -63,7 +64,7 @@ a {
 #wrapper {
   height: 100vh;
   width: 100vw;
-  background-color: white;
+  background-color: $bg-wrapper-grey;
 
   // Animate everything for now
   // Primarily when windows are resized
@@ -117,6 +118,13 @@ a {
 .active {
   text-decoration: none;
   color: $highlight-color;
+}
+
+// Styling for intro links
+.links {
+  a {
+    margin-right: 1vw;
+  }
 }
 
 /********************/
