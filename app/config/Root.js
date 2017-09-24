@@ -29,7 +29,7 @@ const Root = () => {
         </div>
       </div>
       <div id="small-phone">
-        <img src={ RotatePhone } alt="" width="150px" />
+        <img src={ RotatePhone } alt="" />
         <p>For optimal viewing please either expand your browser window
         or turn your phone to landscape mode :)</p>
       </div>
