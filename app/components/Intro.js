@@ -29,9 +29,10 @@ const Intro = () => {
       currently residing in Vancouver, BC <br />
       and working at Rise People.
       <br /><br />
-      Unique products and experiences <br />
-      are what drives me and gets me back <br />
-      on my computer ever day.
+      Motivation and drive comes <br />
+      from building || producing <br />
+      unique products and experiences <br />
+      that consumers will love to enjoy.
       <br /><br />
       <span className="links">
         <a href={''}>Resume</a>

@@ -8,6 +8,9 @@ import Intro from '../components/Intro';
 import Work from '../components/Work';
 import Skills from '../components/Skills';
 
+// import rotate-phone jpg
+import RotatePhone from '../assets/images/rotate-phone.jpg';
+
 const Root = () => {
   return (
     <Tilt options={{ reverse: true, scale: 0.99, max: 2 }}>
@@ -24,6 +27,11 @@ const Root = () => {
             </div>
           </Router>
         </div>
+      </div>
+      <div id="small-phone">
+        <img src={ RotatePhone } alt="" width="150px" />
+        <p>For optimal viewing please either expand your browser window
+        or turn your phone to landscape mode :)</p>
       </div>
     </Tilt>
   );

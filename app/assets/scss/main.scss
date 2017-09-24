@@ -60,6 +60,33 @@ a {
   background: $highlight-color;
 }
 
+// Hide small phone div until screen is actually small
+#small-phone {
+  display: none;
+
+  // Show message if screen too small
+  @media (max-width:480px) {
+    display: block;
+    height: 100vh;
+    background-color: white;
+
+    img, p {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    img {
+      top: 30%;
+    }
+
+    p {
+      text-align: center;
+      top: 50%;
+    }
+  }
+}
+
 // Wrapper for the block that moves
 #wrapper {
   height: 100vh;
@@ -71,6 +98,11 @@ a {
   -webkit-transition: all ease 0.6s;
   -moz-transition: all ease 0.6s;
   transition: all ease 0.6s;
+
+  // Hide if display too small
+  @media (max-width:480px) {
+    display: none;
+  }
 }
 
 // Padding the edges of wrapper
