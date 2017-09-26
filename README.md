@@ -5,6 +5,10 @@ Find my old site @ https://github.com/fayyazazam/fayyazazam.github.io/tree/v1-re
 
 ## Project Info
 
+### Development
+- `npm run build` to build for deployment
+- `npm run start` to start dev environment on `localhost:8080`
+
 ### Webpack
 - `webpack.production.config.js` is for production build: `npm run build`
 - `webpack.config.js` is for development: `npm run start`
