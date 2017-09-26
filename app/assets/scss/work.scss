@@ -58,7 +58,7 @@ $text-grey: #666;
     left: 1vh;
     height: calc(10px + 4vh);
     width: calc(10px + 4vh);
-    background: white;
+    background: $bg-wrapper-grey;
     text-align: center;
     transition: 150ms ease-in-out;
     
