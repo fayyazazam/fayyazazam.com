@@ -65,7 +65,9 @@ a {
   display: none;
 
   // Show message if screen too small
-  @media all and (max-width: 480px) {
+  @media only screen 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
     display: block;
     height: 100vh;
     background-color: white;
@@ -101,7 +103,9 @@ a {
   transition: all ease 0.6s;
 
   // Hide if display too small
-  @media all and (max-width: 480px) {
+  @media only screen 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
     display: none;
   }
 }
