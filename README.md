@@ -21,3 +21,6 @@ Find my old site @ https://github.com/fayyazazam/fayyazazam.github.io/tree/v1-re
 - `/main.js` our initial entry point; includes HMR / .scss / initial render 
 - `/config/Root.js` is the primary component (should be moved), handles routing and component loading.
 - `/components/*.js` self-explanatory
+
+### TO-DO
+- Add service-workers => look at create-react-app for guidance
