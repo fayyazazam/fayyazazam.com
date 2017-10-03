@@ -24,3 +24,4 @@ Find my old site @ https://github.com/fayyazazam/fayyazazam.github.io/tree/v1-re
 
 ### TO-DO
 - Add service-workers => look at create-react-app for guidance
+- Optimize font awesome library (possibly use icomoon or strip down .woff)
