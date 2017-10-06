@@ -4,6 +4,7 @@ const Intro = () => {
   const linkedIn = 'https://www.linkedin.com/in/7ayyaz/';
   const github = 'https://github.com/fayyazazam/fayyazazam.github.io';
   const email = 'mailto:FayyazAzam@gmail.com';
+  const resume = 'https://drive.google.com/uc?authuser=0&id=0ByuQxy0LS6eBS2JZc3p4VG0wVU0&export=download';
 
   // Get the current time of the user to determine appropriate greeting
   function getTimeofDay() {
@@ -35,9 +36,9 @@ const Intro = () => {
       that consumers will love to enjoy.
       <br /><br />
       <span className="links">
-        <a href={''}>Resume</a>
-        <a href={github}>GitHub</a>
-        <a href={linkedIn}>LinkedIn</a>
+        <a href={resume} target="_blank">Resume</a>
+        <a href={github} target="_blank">GitHub</a>
+        <a href={linkedIn} target="_blank">LinkedIn</a>
         <a href={email}>Email</a>
       </span>
     </p>
