@@ -14,7 +14,6 @@ const config = {
   output: {
     filename: 'bundle.[hash].js',
     path: resolve(__dirname, './dist'),
-    // publicPath: 'dist/'
   },
 
   plugins: [
@@ -32,8 +31,8 @@ const config = {
     }),
     new webpack.DefinePlugin({ 'process.env': { NODE_ENV: JSON.stringify('production') } }),
     new HtmlWebpackPlugin({
-      // filename: 'dist/index.html',
-      template: 'app/template/index.template.html'
+      template: 'app/template/index.template.html',
+      favicon: 'app/assets/favicon.ico'
     })
   ],
 
@@ -70,7 +69,8 @@ const config = {
           }]
         })
       },
-      { test: /\.(png|jpg)$/,
+      {
+        test: /\.(png|jpg)$/,
         use: [
           {
             loader: 'url-loader?limit=15000',
