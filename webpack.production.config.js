@@ -12,9 +12,9 @@ const config = {
   ],
 
   output: {
-    filename: 'dist/bundle.[hash].js',
-    path: resolve(__dirname, './'),
-    publicPath: ''
+    filename: 'bundle.[hash].js',
+    path: resolve(__dirname, './dist'),
+    // publicPath: 'dist/'
   },
 
   plugins: [
@@ -28,11 +28,11 @@ const config = {
       beautify: false
     }),
     new ExtractTextPlugin({
-      filename: 'dist/main.[hash].css'
+      filename: 'main.[hash].css'
     }),
     new webpack.DefinePlugin({ 'process.env': { NODE_ENV: JSON.stringify('production') } }),
     new HtmlWebpackPlugin({
-      filename: 'index.html',
+      // filename: 'dist/index.html',
       template: 'app/template/index.template.html'
     })
   ],
