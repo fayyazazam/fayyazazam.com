@@ -1,4 +1,9 @@
-/node_modules/
-.vscode/*
-# Build folder is for dev use
-/build/
+# Parcel
+.cache
+
+#IDE
+.idea
+
+# Packages
+node_modules
+package-lock.json

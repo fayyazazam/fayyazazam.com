@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"noImplicitThis": true,
+		"noImplicitAny": false,
+		"strictNullChecks": true,
+		"alwaysStrict": true,
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+		"lib": [
+			"dom",
+			"es2018"
+		],
+		"jsx": "react"
+	},
+	"exclude": [
+		"./node_modules"
+	]
+}
