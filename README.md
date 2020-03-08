@@ -1,7 +1,7 @@
 # React Site V2
 
 ## React Site V1
-Find my old site @ https://github.com/fayyazazam/fayyazazam.github.io/tree/v1-react-site
+Find my old site @ https://github.com/fayyazazam/fayyazazam.com/tree/v1
 
 ## Project Info
 
