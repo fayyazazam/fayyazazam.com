@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #161616;
+  color: white;
+
+  // So the Tilt doesn't overflow off screen and show scrollbars
+  overflow: hidden;
+}
+
+.app__body {
+  height: 100%;
+  width: 100%;
+}

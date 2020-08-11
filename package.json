@@ -4,8 +4,8 @@
   "description": "My Personal Playground",
   "main": "index.html",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html -d dist/",
+    "start": "parcel index.html",
+    "build": "rimraf dist && parcel build index.html -d dist/ --no-source-maps",
     "type-check": "tsc --noEmit"
   },
   "repository": {
@@ -33,7 +33,9 @@
     "parcel-bundler": "1.12.4",
     "prettier": "1.19.1",
     "react": "17.0.0-rc.0",
-    "react-dom": "17.0.0-rc.0"
+    "react-dom": "17.0.0-rc.0",
+    "rimraf": "3.0.2",
+    "sass": "1.26.10"
   },
   "importSort": {
     ".ts, .tsx": {
