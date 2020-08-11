@@ -1,9 +1,7 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
-
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 2018,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -11,10 +9,18 @@
     "project": "./tsconfig.json"
   },
 
+  "plugins": ["prettier", "react", "import", "react-hooks"],
+
   "extends": [
     "eslint:recommended",
+    "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "prettier",
     "prettier/@typescript-eslint"
-  ]
+  ],
+
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error"
+  }
 }

@@ -1,9 +1,11 @@
 # Parcel
 .cache
 
+# Parcel V2
+.parcel-cache
+
 #IDE
 .idea
 
 # Packages
 node_modules
-package-lock.json
