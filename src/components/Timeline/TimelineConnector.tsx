@@ -9,7 +9,7 @@ const { block, element } = bemBuilder('timeline-connector');
 const TimelineConnector = () => {
   return (
     <div className={block()}>
-      <span className={element('line')} />
+      <hr className={element('line')} />
     </div>
   );
 };

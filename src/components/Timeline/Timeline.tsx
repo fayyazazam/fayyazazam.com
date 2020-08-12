@@ -1,3 +1,5 @@
+import './css/Timeline.scss';
+
 import React from 'react';
 
 import bemBuilder from '../../utils/bemBuilder';
@@ -14,7 +16,7 @@ const Timeline = ({ children }: TimelineProps) => {
   return <div className={block()}>{children}</div>;
 };
 
-Timeline.TimelineConnector = TimelineConnector;
-Timeline.TimelinePoint = TimelinePoint;
+Timeline.Connector = TimelineConnector;
+Timeline.Point = TimelinePoint;
 
 export default Timeline;
