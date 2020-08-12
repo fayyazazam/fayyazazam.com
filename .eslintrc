@@ -9,7 +9,13 @@
     "project": "./tsconfig.json"
   },
 
-  "plugins": ["prettier", "react", "import", "react-hooks"],
+  "plugins": [
+    "prettier",
+    "react",
+    "import",
+    "react-hooks",
+    "@typescript-eslint"
+  ],
 
   "extends": [
     "eslint:recommended",
@@ -20,7 +26,9 @@
   ],
 
   "rules": {
+    "no-unused-vars": "off",
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "error"
+    "react-hooks/exhaustive-deps": "error",
+    "@typescript-eslint/no-unused-vars-experimental": "error"
   }
 }

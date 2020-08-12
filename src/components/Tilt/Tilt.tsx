@@ -12,7 +12,7 @@ const DEFAULT_SETTINGS = {
   easing: 'cubic-bezier(.03,.98,.52,.99)',
   max: 2,
   perspective: 1000,
-  scale: 0.99,
+  scale: 0.999,
   speed: 1000
 };
 

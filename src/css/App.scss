@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+
+  font-family:  /* For Mac San Francisco */ -apple-system, BlinkMacSystemFont,
+    /* Windows */ 'Helvetica Neue', /* Android / Chrome OS */ 'Roboto',
+    /* KDE -> Ubuntu -> GNOME */ 'Oxygen', /* Old everything else */ sans-serif;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #161616;
+  color: white;
+
+  // So the Tilt doesn't overflow off screen and show scrollbars
+  overflow: hidden;
+}
+
+.app__tilt {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  height: 100%;
+  width: 100%;
+}
