@@ -22,7 +22,6 @@ const App = () => {
   return (
     <div className={block()}>
       <Tilt className={element('tilt')}>
-        <div className={element('header')}>Fayyaz Azam</div>
         <div className={element('body')}>Hi, thanks for dropping by</div>
         <Timeline>
           {points.map((p, index) => {
@@ -39,7 +38,15 @@ const App = () => {
             );
           })}
         </Timeline>
-        <div className={element('footer')}>LINKS HERE</div>
+        <div className={element('footer')}>
+          <div className={element('footer-name')}>Fayyaz Azam</div>
+          <div className={element('footer-links')}>
+            <div>RESUME</div>
+            <div>EMAIL</div>
+            <div>GITHUB</div>
+            <div>LINKEDIN</div>
+          </div>
+        </div>
       </Tilt>
     </div>
   );
