@@ -3,6 +3,10 @@
   margin-top: 40px;
   margin-bottom: -40px;
   width: 350px;
+
+  @media all and (max-device-width: 500px) and (orientation: portrait) {
+    margin-top: 80px;
+  }
 }
 
 .active-point__helper-text {

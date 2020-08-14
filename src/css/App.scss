@@ -61,20 +61,3 @@ body {
     color: $pink;
   }
 }
-
-.app__active-point {
-  position: absolute;
-  margin-top: 40px;
-  margin-bottom: -40px;
-  width: 350px;
-}
-
-.app__active-point-text {
-  font-size: 0.9rem;
-}
-
-.app__active-point-skills {
-  margin-top: 10px;
-  font-size: 0.7rem;
-  opacity: 0.7;
-}
