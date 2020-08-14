@@ -8,5 +8,6 @@
   // Make timeline vertical on your phone
   @media all and (max-device-width: 500px) and (orientation: portrait) {
     transform: rotate(270deg);
+    margin-left: -190px;
   }
 }
