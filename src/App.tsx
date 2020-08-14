@@ -4,7 +4,7 @@ import React from 'react';
 
 import Tilt from './components/Tilt';
 import Timeline from './components/Timeline';
-import { POINTS } from './constants';
+import { LINKS, POINTS } from './constants';
 import bemBuilder from './utils/bemBuilder';
 
 const { block, element } = bemBuilder('app');
@@ -24,15 +24,15 @@ const App = () => {
       <Tilt className={element('tilt')}>
         <div className={element('body')}>Hi, thanks for dropping by</div>
         <Timeline>
-          {points.map((p, index) => {
+          {points.map(({ content, label, onClick }, index) => {
             return (
               <>
                 <Timeline.Connector />
                 <Timeline.Point
                   active={activeTimeline === index}
-                  content={p.content}
-                  label={p.label}
-                  onClick={p.onClick}
+                  content={content}
+                  label={label}
+                  onClick={onClick}
                 />
               </>
             );
@@ -41,10 +41,17 @@ const App = () => {
         <div className={element('footer')}>
           <div className={element('footer-name')}>Fayyaz Azam</div>
           <div className={element('footer-links')}>
-            <div>RESUME</div>
-            <div>EMAIL</div>
-            <div>GITHUB</div>
-            <div>LINKEDIN</div>
+            {LINKS.map(({ label, link }) => (
+              <a
+                className={element('link')}
+                key={label}
+                href={link}
+                rel="noreferrer"
+                target="_blank"
+              >
+                {label}
+              </a>
+            ))}
           </div>
         </div>
       </Tilt>

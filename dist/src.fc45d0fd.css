@@ -1,9 +1,6 @@
 body {
   margin: 0;
-
-  font-family:  /* For Mac San Francisco */ -apple-system, BlinkMacSystemFont,
-    /* Windows */ 'Helvetica Neue', /* Android / Chrome OS */ 'Roboto',
-    /* KDE -> Ubuntu -> GNOME */ 'Oxygen', /* Old everything else */ sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Roboto", "Oxygen", sans-serif;
 }
 
 .app {
@@ -12,8 +9,6 @@ body {
   height: 100vh;
   background-color: #161616;
   color: white;
-
-  // So the Tilt doesn't overflow off screen and show scrollbars
   overflow: hidden;
 }
 
@@ -43,12 +38,27 @@ body {
   display: block;
   color: white;
   text-decoration: none;
-
-  &:visited {
-    color: unset;
-  }
-
-  &:hover {
-    color: red;
-  }
 }
+.app__link:visited {
+  color: unset;
+}
+.app__link:hover {
+  color: red;
+}
+.timeline {
+  display: flex;
+  width: 100%;
+  margin-top: auto;
+}
+.timeline-connector {
+  flex: 1 1 auto;
+}
+
+.timeline-connector__line {
+  color: white;
+}
+.timeline-point__content--active {
+  color: red;
+}
+
+/*# sourceMappingURL=/src.fc45d0fd.css.map */
