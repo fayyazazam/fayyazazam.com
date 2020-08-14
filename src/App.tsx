@@ -22,17 +22,18 @@ const App = () => {
   return (
     <div className={block()}>
       <Tilt className={element('tilt')}>
-        <div className={element('body')}>Hi, thanks for dropping by</div>
+        <div className={element('body')}>Hi,</div>
         <Timeline>
-          {points.map(({ content, label, onClick }, index) => {
+          {points.map(({ date, onClick, title }, index) => {
             return (
               <>
                 <Timeline.Connector />
                 <Timeline.Point
                   active={activeTimeline === index}
-                  content={content}
-                  label={label}
+                  current={index === points.length - 1}
+                  date={date}
                   onClick={onClick}
+                  title={title}
                 />
               </>
             );

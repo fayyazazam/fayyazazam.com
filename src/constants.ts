@@ -1,9 +1,9 @@
 export const POINTS = [
-  { content: 'Global Relay', label: '01.2015 - 04.2015' },
-  { content: 'ABB', label: '05.2015 - 12.2015' },
-  { content: 'Mojio', label: '05.2016 - 12.2016' },
-  { content: 'Rise People', label: '06.2017 - 02.2018' },
-  { content: 'Confirmit', label: '03.2018 - Present' }
+  { title: 'Global Relay', date: '01.2015 - 04.2015' },
+  { title: 'ABB', date: '05.2015 - 12.2015' },
+  { title: 'Mojio', date: '05.2016 - 12.2016' },
+  { title: 'Rise People', date: '06.2017 - 02.2018' },
+  { title: 'Confirmit', date: '03.2018 - Present' }
 ];
 
 export const LINKS = [
