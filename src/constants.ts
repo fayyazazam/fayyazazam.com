@@ -24,14 +24,14 @@ export const POINTS = [
     date: '06.2017 - 02.2018',
     skills: ['JS', 'TS', 'RB', 'HTML', 'CSS'],
     text:
-      'I was a full-stack engineer at Rise; contributed to multiple applications written in Angular with a side-dose of Rails',
+      'I was a full-stack engineer at Rise, architecting both design and feature sets in multiple applications written in Angular with a side-dose of Rails',
     title: 'Rise People'
   },
   {
     date: '03.2018 - Present',
     skills: ['JS', 'TS', 'HTML', 'CSS'],
     text:
-      "I'm currently working as a front-end engineer at Confirmit, working primarily with React and Node",
+      "I'm currently a front-end engineer at Confirmit, working primarily with React and Node on a suite of reporting applications and our design system",
     title: 'Confirmit'
   }
 ];
