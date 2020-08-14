@@ -29,7 +29,7 @@ const App = () => {
           {points.map(({ date, onClick, title }, index) => {
             return (
               <React.Fragment key={title}>
-                <Timeline.Connector />
+                {index !== 0 && <Timeline.Connector />}
                 <Timeline.Point
                   active={activeTimeline === index}
                   current={index === points.length - 1}

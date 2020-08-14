@@ -4,4 +4,9 @@
   align-items: center;
   padding: 0 100px;
   min-width: 600px;
+
+  // Make timeline vertical on your phone
+  @media all and (max-device-width: 500px) and (orientation: portrait) {
+    transform: rotate(270deg);
+  }
 }

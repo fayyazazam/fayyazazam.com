@@ -9,6 +9,12 @@
 .timeline-point__content {
   position: absolute;
   margin-top: 5px;
+
+  // Make it a little whacky for mobile
+  @media all and (max-device-width: 500px) and (orientation: portrait) {
+    transform: rotate(55deg);
+    margin-top: 45px;
+  }
 }
 
 .timeline-point__dot {

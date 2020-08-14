@@ -1,11 +1,17 @@
 $pink: #f92672;
 
-body {
-  margin: 0;
-
+html {
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto',
     'Oxygen', sans-serif;
+
+  @media all and (max-device-width: 500px) and (orientation: portrait) {
+    font-size: 30px;
+  }
+}
+
+body {
+  margin: 0;
 }
 
 .app {
