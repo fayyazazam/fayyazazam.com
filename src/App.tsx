@@ -2,6 +2,7 @@ import './css/App.scss';
 
 import React from 'react';
 
+import ActivePoint from './components/ActivePoint';
 import Tilt from './components/Tilt';
 import Timeline from './components/Timeline';
 import { LINKS, POINTS } from './constants';
@@ -23,10 +24,11 @@ const App = () => {
     <div className={block()}>
       <Tilt className={element('tilt')}>
         <div className={element('body')}>Hi,</div>
+        <ActivePoint activeTimeline={activeTimeline} />
         <Timeline>
           {points.map(({ date, onClick, title }, index) => {
             return (
-              <>
+              <React.Fragment key={title}>
                 <Timeline.Connector />
                 <Timeline.Point
                   active={activeTimeline === index}
@@ -35,7 +37,7 @@ const App = () => {
                   onClick={onClick}
                   title={title}
                 />
-              </>
+              </React.Fragment>
             );
           })}
         </Timeline>
