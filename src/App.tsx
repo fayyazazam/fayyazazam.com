@@ -49,8 +49,8 @@ const App = () => {
                 className={element('link')}
                 key={label}
                 href={link}
-                rel="noreferrer"
                 target="_blank"
+                rel="noreferrer"
               >
                 {label}
               </a>

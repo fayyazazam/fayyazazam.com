@@ -9,3 +9,6 @@
 
 # Packages
 node_modules
+
+# Dist; not really worth committing since this goes straight to S3
+dist
