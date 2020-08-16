@@ -28,7 +28,7 @@ export const POINTS = [
     title: 'Rise People'
   },
   {
-    date: '03.2018 - Present',
+    date: '02.2018 - Present',
     skills: ['JS', 'TS', 'HTML', 'CSS'],
     text:
       "I'm currently a front-end engineer at Confirmit, working primarily with React and Node on a suite of reporting applications and our design system",
