@@ -1,4 +1,4 @@
-import './css/TimelineConnector.scss';
+import './css/TimelineConnector.css';
 
 import React from 'react';
 

@@ -1,4 +1,6 @@
-$pink: #f92672;
+:root {
+  --pink: #f92672;
+}
 
 html {
   font-size: 16px;
@@ -21,7 +23,7 @@ body {
   background-color: #161616;
   color: white;
 
-  // So the Tilt doesn't overflow off screen and show scrollbars
+  /* So the Tilt doesn't overflow off screen and show scrollbars */
   overflow: hidden;
 }
 
@@ -52,12 +54,12 @@ body {
   display: block;
   color: white;
   text-decoration: none;
+}
 
-  &:visited {
-    color: unset;
-  }
+.app_link:visited {
+  color: unset;
+}
 
-  &:hover {
-    color: $pink;
-  }
+.app_link:hover {
+  color: var(--pink);
 }

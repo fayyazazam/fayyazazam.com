@@ -1,4 +1,4 @@
-import './css/ActivePoint.scss';
+import './css/ActivePoint.css';
 
 import React from 'react';
 
@@ -32,7 +32,7 @@ const ActivePoint = ({ activeTimeline }: ActivePointProps) => {
   }, [activeTimeline]);
 
   return (
-    <div className={block()}>
+    <article className={block()}>
       <div className={element('text')}>{activePoint.text}</div>
       {Boolean(activePoint.skills?.length) && (
         <div className={element('skills')}>
@@ -44,7 +44,7 @@ const ActivePoint = ({ activeTimeline }: ActivePointProps) => {
           *Click around to find out more
         </div>
       )}
-    </div>
+    </article>
   );
 };
 

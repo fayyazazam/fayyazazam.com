@@ -1,6 +1,5 @@
-import './css/App.scss';
-
 import React from 'react';
+import { render } from 'react-dom';
 
 import ActivePoint from './components/ActivePoint';
 import Tilt from './components/Tilt';
@@ -23,7 +22,7 @@ const App = () => {
   return (
     <div className={block()}>
       <Tilt className={element('tilt')}>
-        <div className={element('body')}>Hi,</div>
+        <header className={element('body')}>Hi,</header>
         <ActivePoint activeTimeline={activeTimeline} />
         <Timeline>
           {points.map(({ date, onClick, title }, index) => {
@@ -41,7 +40,7 @@ const App = () => {
             );
           })}
         </Timeline>
-        <div className={element('footer')}>
+        <footer className={element('footer')}>
           <div className={element('footer-name')}>Fayyaz Azam</div>
           <div className={element('footer-links')}>
             {LINKS.map(({ label, link }) => (
@@ -56,10 +55,10 @@ const App = () => {
               </a>
             ))}
           </div>
-        </div>
+        </footer>
       </Tilt>
     </div>
   );
 };
 
-export default App;
+render(<App />, document.getElementById('root'));

@@ -1,4 +1,4 @@
-import './css/TimelinePoint.scss';
+import './css/TimelinePoint.css';
 
 import cn from 'classnames';
 import React from 'react';
@@ -23,7 +23,7 @@ const TimelinePoint = ({
   title
 }: TimelinePoint) => {
   return (
-    <div className={block()} onClick={onClick}>
+    <button className={block()} onClick={onClick}>
       <div
         className={cn(element('dot'), {
           [element('dot', 'active')]: active,
@@ -40,7 +40,7 @@ const TimelinePoint = ({
         </div>
         <div className={element('date')}>{date}</div>
       </div>
-    </div>
+    </button>
   );
 };
 

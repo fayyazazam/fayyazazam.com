@@ -1,4 +1,4 @@
-import './css/Timeline.scss';
+import './css/Timeline.css';
 
 import React from 'react';
 
@@ -13,7 +13,7 @@ type TimelineProps = {
 };
 
 const Timeline = ({ children }: TimelineProps) => {
-  return <div className={block()}>{children}</div>;
+  return <section className={block()}>{children}</section>;
 };
 
 Timeline.Connector = TimelineConnector;
