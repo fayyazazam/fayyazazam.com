@@ -32,7 +32,7 @@ export const POINTS = [
   {
     date: '01.2021 - Present',
     skills: ['TS', 'HTML', 'CSS'],
-    text: "I'm currently a senior front-end engineer at Couchbase, working on many exciting things that the world cannot yet know about :)",
+    text: "I'm currently a senior front-end engineer at Couchbase, introducing the world to our hosted DBaaS offering, Couchbase Capella",
     title: 'Couchbase'
   }
 ];
