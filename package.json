@@ -4,7 +4,7 @@
   "description": "My Personal Playground",
   "scripts": {
     "start": "parcel index.html",
-    "build": "rimraf dist && parcel build index.html -d dist/ --no-source-maps",
+    "build": "rimraf dist && parcel build index.html --dist-dir dist/ --no-source-maps",
     "type-check": "tsc --noEmit"
   },
   "repository": {
