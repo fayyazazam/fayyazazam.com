@@ -40,7 +40,7 @@ export const POINTS = [
 export const LINKS = [
   {
     label: 'RESUME',
-    link: 'https://drive.google.com/uc?export=download&id=1_mmIv75XIIjn6UEOuQUHvkcjId2kNfG1'
+    link: 'https://drive.google.com/uc?export=download&id=1oWt2dL6-uufFs0-l3nhQelBdmprZ84Ap'
   },
   { label: 'EMAIL', link: 'mailto:fayyazazam@gmail.com' },
   { label: 'GITHUB', link: 'https://github.com/fayyazazam' },
